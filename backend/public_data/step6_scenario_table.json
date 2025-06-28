@@ -1,0 +1,5042 @@
+[
+  {
+    "Scenario_ID": "AIM/CGE 2.1 - CD-LINKS_NPi2020_400",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.697,
+    "Gas_2030": 2.7765,
+    "Total_2030": 52.4567,
+    "Pct_Drop": -2.9477196885428216,
+    "Gas_Share_2030": 5.292936841242396
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.1 - CD-LINKS_NPi2020_400",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.5241,
+    "Gas_2030": 1.8888,
+    "Total_2030": 9.0179,
+    "Pct_Drop": -23.928876058001443,
+    "Gas_Share_2030": 20.9450093702525
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.1 - CD-LINKS_NPi2020_400",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.0621,
+    "Gas_2030": 2.7994,
+    "Total_2030": 8.5678,
+    "Pct_Drop": 8.57907971653441,
+    "Gas_Share_2030": 32.67349844767618
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.1 - CD-LINKS_NPi2020_400",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.4634,
+    "Gas_2030": 13.8312,
+    "Total_2030": 50.3938,
+    "Pct_Drop": -20.65530296421656,
+    "Gas_Share_2030": 27.44623346522787
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.1 - CD-LINKS_NPi2020_400",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.0533,
+    "Gas_2030": 2.8302,
+    "Total_2030": 12.3963,
+    "Pct_Drop": 7.306848328038519,
+    "Gas_Share_2030": 22.831006025991623
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.1 - CD-LINKS_NPi2020_400",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.7999,
+    "Gas_2030": 24.126,
+    "Total_2030": 132.8325,
+    "Pct_Drop": -10.670232432258864,
+    "Gas_Share_2030": 18.162723731014623
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.2 - EN_NPi2020_300f",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.925,
+    "Gas_2030": 4.0564,
+    "Total_2030": 72.6942,
+    "Pct_Drop": -3.347770700636948,
+    "Gas_Share_2030": 5.580087544811003
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.2 - EN_NPi2020_300f",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.7422,
+    "Gas_2030": 1.3603,
+    "Total_2030": 10.5717,
+    "Pct_Drop": 21.92056021122718,
+    "Gas_Share_2030": 12.867372324224108
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.2 - EN_NPi2020_300f",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.4591,
+    "Gas_2030": 3.8748,
+    "Total_2030": 11.7241,
+    "Pct_Drop": 13.103541073310764,
+    "Gas_Share_2030": 33.049871631937634
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.2 - EN_NPi2020_300f",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 10.1175,
+    "Gas_2030": 8.769,
+    "Total_2030": 48.9492,
+    "Pct_Drop": 13.328391401037802,
+    "Gas_Share_2030": 17.914490941629282
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.2 - EN_NPi2020_300f",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.99299999999999,
+    "Gas_2030": 1.8658,
+    "Total_2030": 8.2155,
+    "Pct_Drop": 6.38233818364228,
+    "Gas_Share_2030": 22.710729718215564
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.2 - EN_NPi2020_300f",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 22.2368,
+    "Gas_2030": 19.9261,
+    "Total_2030": 152.0958,
+    "Pct_Drop": 10.391333285364787,
+    "Gas_Share_2030": 13.101019226040432
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.2 - EN_NPi2020_600",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.925,
+    "Gas_2030": 4.0564,
+    "Total_2030": 72.6942,
+    "Pct_Drop": -3.347770700636948,
+    "Gas_Share_2030": 5.580087544811003
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.2 - EN_NPi2020_600",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.7422,
+    "Gas_2030": 1.3603,
+    "Total_2030": 10.5717,
+    "Pct_Drop": 21.92056021122718,
+    "Gas_Share_2030": 12.867372324224108
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.2 - EN_NPi2020_600",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.4591,
+    "Gas_2030": 3.8748,
+    "Total_2030": 11.7241,
+    "Pct_Drop": 13.103541073310764,
+    "Gas_Share_2030": 33.049871631937634
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.2 - EN_NPi2020_600",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 10.1175,
+    "Gas_2030": 8.769,
+    "Total_2030": 48.9492,
+    "Pct_Drop": 13.328391401037802,
+    "Gas_Share_2030": 17.914490941629282
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.2 - EN_NPi2020_600",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.99299999999999,
+    "Gas_2030": 1.8658,
+    "Total_2030": 8.2155,
+    "Pct_Drop": 6.38233818364228,
+    "Gas_Share_2030": 22.710729718215564
+  },
+  {
+    "Scenario_ID": "AIM/CGE 2.2 - EN_NPi2020_600",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 22.2368,
+    "Gas_2030": 19.9261,
+    "Total_2030": 152.0958,
+    "Pct_Drop": 10.391333285364787,
+    "Gas_Share_2030": 13.101019226040432
+  },
+  {
+    "Scenario_ID": "AIM/Hub-Global 2.0 - 1.5C",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 0.7244,
+    "Gas_2030": 0.609,
+    "Total_2030": 37.9034,
+    "Pct_Drop": 15.93042517945887,
+    "Gas_Share_2030": 1.6067160201987158
+  },
+  {
+    "Scenario_ID": "AIM/Hub-Global 2.0 - 1.5C",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.0528,
+    "Gas_2030": 15.1071,
+    "Total_2030": 121.1831,
+    "Pct_Drop": 28.24184906520748,
+    "Gas_Share_2030": 12.466342253994164
+  },
+  {
+    "Scenario_ID": "COFFEE 1.1 - EN_NPi2020_400",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.96246085493392,
+    "Gas_2030": 0.0,
+    "Total_2030": 47.9326357425556,
+    "Pct_Drop": 100.0,
+    "Gas_Share_2030": 0.0
+  },
+  {
+    "Scenario_ID": "COFFEE 1.1 - EN_NPi2020_400",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.57658350296326,
+    "Gas_2030": 0.0,
+    "Total_2030": 10.2525581874663,
+    "Pct_Drop": 100.0,
+    "Gas_Share_2030": 0.0
+  },
+  {
+    "Scenario_ID": "COFFEE 1.1 - EN_NPi2020_400",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.8511453847608,
+    "Gas_2030": 0.0,
+    "Total_2030": 14.1579579885563,
+    "Pct_Drop": 100.0,
+    "Gas_Share_2030": 0.0
+  },
+  {
+    "Scenario_ID": "COFFEE 1.1 - EN_NPi2020_400",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 8.92777813134019,
+    "Gas_2030": 0.0,
+    "Total_2030": 56.9554656141451,
+    "Pct_Drop": 100.0,
+    "Gas_Share_2030": 0.0
+  },
+  {
+    "Scenario_ID": "COFFEE 1.1 - EN_NPi2020_400",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.49206951658528,
+    "Gas_2030": 0.0,
+    "Total_2030": 11.4950439418406,
+    "Pct_Drop": 100.0,
+    "Gas_Share_2030": 0.0
+  },
+  {
+    "Scenario_ID": "COFFEE 1.1 - EN_NPi2020_400",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 19.8100373905834,
+    "Gas_2030": 0.0,
+    "Total_2030": 140.793661474564,
+    "Pct_Drop": 100.0,
+    "Gas_Share_2030": 0.0
+  },
+  {
+    "Scenario_ID": "GCAM 4.2 - SSP1-19",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 25.538012663,
+    "Gas_2030": 27.609308335,
+    "Total_2030": 124.98704814962,
+    "Pct_Drop": -8.110637657412308,
+    "Gas_Share_2030": 22.08973549159217
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_30_n0",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.47710041999999,
+    "Gas_2030": 0.3261732183,
+    "Total_2030": 97.6726023158747,
+    "Pct_Drop": 92.71463251431824,
+    "Gas_Share_2030": 0.333945457135616
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_30_n0",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.7229063,
+    "Gas_2030": 0.08385324133,
+    "Total_2030": 13.049571597149,
+    "Pct_Drop": 95.13303530609878,
+    "Gas_Share_2030": 0.6425746677256423
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_30_n0",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.3775471114,
+    "Gas_2030": 0.185925648225,
+    "Total_2030": 20.8824944423942,
+    "Pct_Drop": 95.75274363716582,
+    "Gas_Share_2030": 0.890342141538161
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_30_n0",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.031030132,
+    "Gas_2030": 0.410219724179999,
+    "Total_2030": 61.6572656992036,
+    "Pct_Drop": 95.45766409607636,
+    "Gas_Share_2030": 0.6653226015264211
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_30_n0",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.8929941,
+    "Gas_2030": 0.011639366,
+    "Total_2030": 16.116419913888,
+    "Pct_Drop": 99.38513458652618,
+    "Gas_Share_2030": 0.072220543161512
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_30_n0",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.5015780634,
+    "Gas_2030": 1.017811198035,
+    "Total_2030": 209.37835396851,
+    "Pct_Drop": 95.26634187019266,
+    "Gas_Share_2030": 0.4861109941613526
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_35_n8",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.47710041999999,
+    "Gas_2030": 1.447169943,
+    "Total_2030": 85.1831777168017,
+    "Pct_Drop": 67.67617861472934,
+    "Gas_Share_2030": 1.6988917081858963
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_35_n8",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.7229063,
+    "Gas_2030": 0.45863154658,
+    "Total_2030": 11.7317784234757,
+    "Pct_Drop": 73.38035466119081,
+    "Gas_Share_2030": 3.909309654726024
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_35_n8",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.3775471114,
+    "Gas_2030": 0.937605722169999,
+    "Total_2030": 17.55379626568,
+    "Pct_Drop": 78.58148185936624,
+    "Gas_Share_2030": 5.34132735722325
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_35_n8",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.031030132,
+    "Gas_2030": 2.4988626267,
+    "Total_2030": 55.138790440938,
+    "Pct_Drop": 72.3302592265119,
+    "Gas_Share_2030": 4.531950386863601
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_35_n8",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.8929941,
+    "Gas_2030": 0.0865952,
+    "Total_2030": 13.7455269116,
+    "Pct_Drop": 95.42549023264256,
+    "Gas_Share_2030": 0.6299882176718985
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_35_n8",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.5015780634,
+    "Gas_2030": 5.42886503845,
+    "Total_2030": 183.353069758495,
+    "Pct_Drop": 74.75131814770835,
+    "Gas_Share_2030": 2.9608803635525023
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_40_n8",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.47710041999999,
+    "Gas_2030": 2.78490733,
+    "Total_2030": 74.2667706953717,
+    "Pct_Drop": 37.79663021273028,
+    "Gas_Share_2030": 3.749869967314406
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_40_n8",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.7229063,
+    "Gas_2030": 0.9489708641,
+    "Total_2030": 10.2801537447924,
+    "Pct_Drop": 44.92034395021947,
+    "Gas_Share_2030": 9.231096028896635
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_40_n8",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.3775471114,
+    "Gas_2030": 2.0531148986,
+    "Total_2030": 15.30589611802,
+    "Pct_Drop": 53.09896509729657,
+    "Gas_Share_2030": 13.413882354675192
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_40_n8",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.031030132,
+    "Gas_2030": 5.49785675,
+    "Total_2030": 49.2771070444,
+    "Pct_Drop": 39.122595433280296,
+    "Gas_Share_2030": 11.15702012507813
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_40_n8",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.8929941,
+    "Gas_2030": 0.2690026,
+    "Total_2030": 11.9280578642,
+    "Pct_Drop": 85.7895700784276,
+    "Gas_Share_2030": 2.2552087109450123
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_40_n8",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.5015780634,
+    "Gas_2030": 11.5538524427,
+    "Total_2030": 161.057985466784,
+    "Pct_Drop": 46.265095479819806,
+    "Gas_Share_2030": 7.1737221903119
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_45_n8",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.47710041999999,
+    "Gas_2030": 3.35548063,
+    "Total_2030": 69.4014221678377,
+    "Pct_Drop": 25.052370614461054,
+    "Gas_Share_2030": 4.834887420441092
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_45_n8",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.7229063,
+    "Gas_2030": 1.1707477,
+    "Total_2030": 9.63289698862,
+    "Pct_Drop": 32.04809222648963,
+    "Gas_Share_2030": 12.15364081421284
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_45_n8",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.3775471114,
+    "Gas_2030": 2.5859066583,
+    "Total_2030": 14.460691368917,
+    "Pct_Drop": 40.92795365775079,
+    "Gas_Share_2030": 17.882316912304486
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_45_n8",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.031030132,
+    "Gas_2030": 6.720873314,
+    "Total_2030": 46.67020548645,
+    "Pct_Drop": 25.580213820949737,
+    "Gas_Share_2030": 14.400779349367353
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_45_n8",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.8929941,
+    "Gas_2030": 0.401704299999999,
+    "Total_2030": 11.1467383939,
+    "Pct_Drop": 78.7794214466913,
+    "Gas_Share_2030": 3.603783329299536
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_45_n8",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.5015780634,
+    "Gas_2030": 14.2347126023,
+    "Total_2030": 151.311954405725,
+    "Pct_Drop": 33.796893603217256,
+    "Gas_Share_2030": 9.407526760332043
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_50_n8",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.47710041999999,
+    "Gas_2030": 3.6573393,
+    "Total_2030": 66.6039426844267,
+    "Pct_Drop": 18.31009008281285,
+    "Gas_Share_2030": 5.491175375801224
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_50_n8",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.7229063,
+    "Gas_2030": 1.2931118,
+    "Total_2030": 9.25083169763,
+    "Pct_Drop": 24.94590100459904,
+    "Gas_Share_2030": 13.97833018982808
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_50_n8",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.3775471114,
+    "Gas_2030": 2.8756422245,
+    "Total_2030": 14.003540723996,
+    "Pct_Drop": 34.309279801666605,
+    "Gas_Share_2030": 20.535108092858223
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_50_n8",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.031030132,
+    "Gas_2030": 7.32539999299999,
+    "Total_2030": 45.15270544502,
+    "Pct_Drop": 18.88632984355112,
+    "Gas_Share_2030": 16.223612562750493
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_50_n8",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.8929941,
+    "Gas_2030": 0.5005099,
+    "Total_2030": 10.6938539828,
+    "Pct_Drop": 73.55988061452489,
+    "Gas_Share_2030": 4.680350982957317
+  },
+  {
+    "Scenario_ID": "GCAM 5.3 - R_MAC_50_n8",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.5015780634,
+    "Gas_2030": 15.6520032175,
+    "Total_2030": 145.704874533873,
+    "Pct_Drop": 27.20532803988536,
+    "Gas_Share_2030": 10.742264641160835
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_D_LB",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.57434930490039,
+    "Gas_2030": 1.4482556568081,
+    "Total_2030": 54.827911808,
+    "Pct_Drop": 59.48197746586886,
+    "Gas_Share_2030": 2.6414568949474075
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_D_LB",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.72293319733197,
+    "Gas_2030": 0.214164263409118,
+    "Total_2030": 6.904133312,
+    "Pct_Drop": 87.56978716639972,
+    "Gas_Share_2030": 3.1019717281078774
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_D_LB",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.09808892801757,
+    "Gas_2030": 1.41418726314468,
+    "Total_2030": 9.37491551999999,
+    "Pct_Drop": 65.4915428145971,
+    "Gas_Share_2030": 15.084800072360348
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_D_LB",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.89964707256604,
+    "Gas_2030": 3.71106155000017,
+    "Total_2030": 35.388108288,
+    "Pct_Drop": 62.51319342197274,
+    "Gas_Share_2030": 10.48674746838214
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_D_LB",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.2584876039375,
+    "Gas_2030": 1.6481514775,
+    "Total_2030": 5.028541632,
+    "Pct_Drop": 27.02410787526245,
+    "Gas_Share_2030": 32.77593382168104
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_D_LB",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.553500864,
+    "Gas_2030": 8.435820224,
+    "Total_2030": 111.523602432,
+    "Pct_Drop": 60.86102078159361,
+    "Gas_Share_2030": 7.564156860108269
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_LIRE_LB",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.57591515291015,
+    "Gas_2030": 1.52612603932861,
+    "Total_2030": 53.461202688,
+    "Pct_Drop": 57.32208472321782,
+    "Gas_Share_2030": 2.8546421752520112
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_LIRE_LB",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.74666554661669,
+    "Gas_2030": 0.308641137811767,
+    "Total_2030": 7.011816704,
+    "Pct_Drop": 82.3296945193882,
+    "Gas_Share_2030": 4.401728551114261
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_LIRE_LB",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.12978810222594,
+    "Gas_2030": 1.46505155053663,
+    "Total_2030": 9.191953472,
+    "Pct_Drop": 64.52477671319329,
+    "Gas_Share_2030": 15.93841347216765
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_LIRE_LB",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.8582043498092,
+    "Gas_2030": 4.962081424,
+    "Total_2030": 35.962404352,
+    "Pct_Drop": 49.66546393313465,
+    "Gas_Share_2030": 13.797969055214296
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_LIRE_LB",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.24753302875,
+    "Gas_2030": 1.73379678290625,
+    "Total_2030": 5.203442048,
+    "Pct_Drop": 22.857784035746626,
+    "Gas_Share_2030": 33.320190114784765
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_LIRE_LB",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.558104512,
+    "Gas_2030": 9.995696576,
+    "Total_2030": 110.8307968,
+    "Pct_Drop": 53.6336946022502,
+    "Gas_Share_2030": 9.018880008629514
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_RE_LB",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.58138130014843,
+    "Gas_2030": 1.54070147929296,
+    "Total_2030": 56.571999744,
+    "Pct_Drop": 56.98024448753597,
+    "Gas_Share_2030": 2.72343471375407
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_RE_LB",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.74787434502417,
+    "Gas_2030": 0.314841776335083,
+    "Total_2030": 7.248932416,
+    "Pct_Drop": 81.98716187857718,
+    "Gas_Share_2030": 4.343284752388606
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_RE_LB",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.09264916025142,
+    "Gas_2030": 1.47154762452777,
+    "Total_2030": 9.987257024,
+    "Pct_Drop": 64.0441296845154,
+    "Gas_Share_2030": 14.73425206732489
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_RE_LB",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.89890940498303,
+    "Gas_2030": 4.89690533820329,
+    "Total_2030": 37.213551616,
+    "Pct_Drop": 50.53086013962076,
+    "Gas_Share_2030": 13.15893035078614
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_RE_LB",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.2575009261875,
+    "Gas_2030": 1.7017888305,
+    "Total_2030": 5.246437504,
+    "Pct_Drop": 24.616251060680383,
+    "Gas_Share_2030": 32.43703616411171
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP1_SPA1_19I_RE_LB",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.578310144,
+    "Gas_2030": 9.925785408,
+    "Total_2030": 116.268204032,
+    "Pct_Drop": 54.00109952187366,
+    "Gas_Share_2030": 8.536973191112653
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_D_LB",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.58430371999218,
+    "Gas_2030": 1.68410251833829,
+    "Total_2030": 52.530155008,
+    "Pct_Drop": 53.014514117627165,
+    "Gas_Share_2030": 3.2059728704052217
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_D_LB",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.74817135504614,
+    "Gas_2030": 0.119343336300903,
+    "Total_2030": 6.590141312,
+    "Pct_Drop": 93.17324723595227,
+    "Gas_Share_2030": 1.8109374389831443
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_D_LB",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.12962806037817,
+    "Gas_2030": 1.57581868447299,
+    "Total_2030": 8.595939392,
+    "Pct_Drop": 61.84114740036213,
+    "Gas_Share_2030": 18.33212884143367
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_D_LB",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.86457165979772,
+    "Gas_2030": 3.91746348381279,
+    "Total_2030": 34.344567808,
+    "Pct_Drop": 60.28754598866059,
+    "Gas_Share_2030": 11.40635545543328
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_D_LB",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.2596896379375,
+    "Gas_2030": 1.69272882890625,
+    "Total_2030": 4.93289952,
+    "Pct_Drop": 25.090207058201827,
+    "Gas_Share_2030": 34.31508835813972
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_D_LB",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.586358928,
+    "Gas_2030": 8.989456096,
+    "Total_2030": 106.993696768,
+    "Pct_Drop": 58.35584812619957,
+    "Gas_Share_2030": 8.40185577987113
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_LIRE_LB",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.57591470291015,
+    "Gas_2030": 0.810754008211425,
+    "Total_2030": 53.340415744,
+    "Pct_Drop": 77.32736724531999,
+    "Gas_Share_2030": 1.5199619217490308
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_LIRE_LB",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.74666533455419,
+    "Gas_2030": 0.287127460821044,
+    "Total_2030": 7.042144448,
+    "Pct_Drop": 83.56139237776027,
+    "Gas_Share_2030": 4.077273094030178
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_LIRE_LB",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.12978602410094,
+    "Gas_2030": 1.46363261456414,
+    "Total_2030": 9.198054464,
+    "Pct_Drop": 64.55911744524887,
+    "Gas_Share_2030": 15.912415177498778
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_LIRE_LB",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.85820420569983,
+    "Gas_2030": 4.653418034,
+    "Total_2030": 36.0284154879999,
+    "Pct_Drop": 52.79649379438213,
+    "Gas_Share_2030": 12.9159663864483
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_LIRE_LB",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.2475308783125,
+    "Gas_2030": 1.7010264776875,
+    "Total_2030": 5.20250688,
+    "Pct_Drop": 24.315768290370656,
+    "Gas_Share_2030": 32.69628502033812
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_LIRE_LB",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.558102464,
+    "Gas_2030": 8.9159584,
+    "Total_2030": 110.811496448,
+    "Pct_Drop": 58.64219304603079,
+    "Gas_Share_2030": 8.04605901535131
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_RE_LB",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.56358153652539,
+    "Gas_2030": 1.58378150642083,
+    "Total_2030": 54.179751296,
+    "Pct_Drop": 55.55646783474276,
+    "Gas_Share_2030": 2.9231981848129265
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_RE_LB",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.74810928937719,
+    "Gas_2030": 0.114653380404541,
+    "Total_2030": 6.98859756799999,
+    "Pct_Drop": 93.44129219487247,
+    "Gas_Share_2030": 1.640577802469641
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_RE_LB",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.12944243807055,
+    "Gas_2030": 1.52603811833284,
+    "Total_2030": 9.338260544,
+    "Pct_Drop": 63.0449354551151,
+    "Gas_Share_2030": 16.341781332213383
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_RE_LB",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.867258239604,
+    "Gas_2030": 4.97432267200032,
+    "Total_2030": 36.453129216,
+    "Pct_Drop": 49.58759007608629,
+    "Gas_Share_2030": 13.64580429440058
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_RE_LB",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.2596745506875,
+    "Gas_2030": 1.7707987326875,
+    "Total_2030": 5.267867968,
+    "Pct_Drop": 21.634788861575696,
+    "Gas_Share_2030": 33.61509330614074
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA1_19I_RE_LB",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.568058816,
+    "Gas_2030": 9.9695952,
+    "Total_2030": 112.227598336,
+    "Pct_Drop": 53.7761126995621,
+    "Gas_Share_2030": 8.883372136461364
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA2_19I_LI",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.57591486191015,
+    "Gas_2030": 6.8396510000288,
+    "Total_2030": 53.151488256,
+    "Pct_Drop": -91.26996206993746,
+    "Gas_Share_2030": 12.868221049777862
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA2_19I_LI",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.74666533455419,
+    "Gas_2030": 1.66489476323657,
+    "Total_2030": 7.277067648,
+    "Pct_Drop": 4.681524829053226,
+    "Gas_Share_2030": 22.878648980185627
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA2_19I_LI",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.12978602410094,
+    "Gas_2030": 5.42233721113549,
+    "Total_2030": 10.165214016,
+    "Pct_Drop": -31.298260478663423,
+    "Gas_Share_2030": 53.34208608496345
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA2_19I_LI",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.85820420569983,
+    "Gas_2030": 9.18975223254101,
+    "Total_2030": 35.825614528,
+    "Pct_Drop": 6.780666734133303,
+    "Gas_Share_2030": 25.651345702272977
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA2_19I_LI",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.2475308783125,
+    "Gas_2030": 2.8239782885,
+    "Total_2030": 5.675560768,
+    "Pct_Drop": -25.648030723400375,
+    "Gas_Share_2030": 49.7568152987134
+  },
+  {
+    "Scenario_ID": "IMAGE 3.2 - SSP2_SPA2_19I_LI",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 21.558102464,
+    "Gas_2030": 25.9406112,
+    "Total_2030": 112.094896128,
+    "Pct_Drop": -20.32882413152259,
+    "Gas_Share_2030": 23.14165238208409
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - ADVANCE_2020_1.5C-2100",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.69669,
+    "Gas_2030": 5.01258,
+    "Total_2030": 45.03084,
+    "Pct_Drop": -6.72580051057233,
+    "Gas_Share_2030": 11.13143792121133
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - ADVANCE_2020_1.5C-2100",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.37833,
+    "Gas_2030": 0.03704,
+    "Total_2030": 7.56425,
+    "Pct_Drop": 98.44260468479985,
+    "Gas_Share_2030": 0.4896718114816406
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - ADVANCE_2020_1.5C-2100",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.43474,
+    "Gas_2030": 4.8044,
+    "Total_2030": 10.88686,
+    "Pct_Drop": 11.59834693103993,
+    "Gas_Share_2030": 44.13026345521114
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - ADVANCE_2020_1.5C-2100",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 11.21128,
+    "Gas_2030": 8.14185,
+    "Total_2030": 39.79139,
+    "Pct_Drop": 27.378051391098968,
+    "Gas_Share_2030": 20.46133598248264
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - ADVANCE_2020_1.5C-2100",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 3.66555999999999,
+    "Gas_2030": 1.2075,
+    "Total_2030": 6.79435,
+    "Pct_Drop": 67.05823939589031,
+    "Gas_Share_2030": 17.772119481628117
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - ADVANCE_2020_1.5C-2100",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 27.534,
+    "Gas_2030": 18.971,
+    "Total_2030": 110.066,
+    "Pct_Drop": 31.099731241374297,
+    "Gas_Share_2030": 17.236022023149744
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - EMF33_1.5C_cost100",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.52741517437795,
+    "Gas_2030": 6.42693050385924,
+    "Total_2030": 47.84542026116,
+    "Pct_Drop": -16.27370662603648,
+    "Gas_Share_2030": 13.43269735907514
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - EMF33_1.5C_cost100",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.61833559819758,
+    "Gas_2030": 0.097784642832267,
+    "Total_2030": 8.41335297200878,
+    "Pct_Drop": 96.26538924576435,
+    "Gas_Share_2030": 1.1622553238595414
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - EMF33_1.5C_cost100",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.27366385850083,
+    "Gas_2030": 4.51257735914823,
+    "Total_2030": 12.4064720813034,
+    "Pct_Drop": 14.431835622700428,
+    "Gas_Share_2030": 36.37276841938572
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - EMF33_1.5C_cost100",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 7.39436189425187,
+    "Gas_2030": 9.94694874015751,
+    "Total_2030": 44.1006738740824,
+    "Pct_Drop": -34.52071838531375,
+    "Gas_Share_2030": 22.55509466489864
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - EMF33_1.5C_cost100",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.83246030253982,
+    "Gas_2030": 0.408784793219234,
+    "Total_2030": 7.24091305943992,
+    "Pct_Drop": 89.33361963466842,
+    "Gas_Share_2030": 5.645486831060685
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - EMF33_1.5C_cost100",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 24.646236827868,
+    "Gas_2030": 21.3930260392165,
+    "Total_2030": 120.006832247995,
+    "Pct_Drop": 13.199624800217082,
+    "Gas_Share_2030": 17.82650674005598
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - EMF33_1.5C_full",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.52741517437795,
+    "Gas_2030": 6.57844613979743,
+    "Total_2030": 47.8945475173351,
+    "Pct_Drop": -19.01487281598604,
+    "Gas_Share_2030": 13.73527150959388
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - EMF33_1.5C_full",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.61833559819758,
+    "Gas_2030": 0.092956134996421,
+    "Total_2030": 8.50066890749755,
+    "Pct_Drop": 96.44980058857196,
+    "Gas_Share_2030": 1.093515533988556
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - EMF33_1.5C_full",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.27366385850083,
+    "Gas_2030": 4.38945186152139,
+    "Total_2030": 12.3550784256527,
+    "Pct_Drop": 16.766559657649456,
+    "Gas_Share_2030": 35.527511119699774
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - EMF33_1.5C_full",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 7.39436189425187,
+    "Gas_2030": 10.6355648783303,
+    "Total_2030": 44.1394542132304,
+    "Pct_Drop": -43.83343729224334,
+    "Gas_Share_2030": 24.095370157844823
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - EMF33_1.5C_full",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.83246030253982,
+    "Gas_2030": 0.541049851657647,
+    "Total_2030": 7.37721298496105,
+    "Pct_Drop": 85.88244080965205,
+    "Gas_Share_2030": 7.334068472207782
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - EMF33_1.5C_full",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 24.646236827868,
+    "Gas_2030": 22.2374688663032,
+    "Total_2030": 120.266962048677,
+    "Pct_Drop": 9.773370183804934,
+    "Gas_Share_2030": 18.490089453912358
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - SSP2-19",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 3.74286,
+    "Gas_2030": 6.98602,
+    "Total_2030": 47.41768,
+    "Pct_Drop": -86.64924683263602,
+    "Gas_Share_2030": 14.732943492806903
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - SSP2-19",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.63753,
+    "Gas_2030": 1.93166,
+    "Total_2030": 8.0884,
+    "Pct_Drop": 26.762539193866992,
+    "Gas_Share_2030": 23.881855496760792
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - SSP2-19",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.4078,
+    "Gas_2030": 5.9164,
+    "Total_2030": 11.33677,
+    "Pct_Drop": -9.404933614408824,
+    "Gas_Share_2030": 52.18770425791473
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - SSP2-19",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 10.75077,
+    "Gas_2030": 12.44237,
+    "Total_2030": 40.43733,
+    "Pct_Drop": -15.734686910798027,
+    "Gas_Share_2030": 30.76951420877689
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - SSP2-19",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.49399,
+    "Gas_2030": 2.98304,
+    "Total_2030": 6.60213,
+    "Pct_Drop": -19.60914037345778,
+    "Gas_Share_2030": 45.182993973157146
+  },
+  {
+    "Scenario_ID": "MESSAGE-GLOBIOM 1.0 - SSP2-19",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 25.05,
+    "Gas_2030": 30.069,
+    "Total_2030": 113.883,
+    "Pct_Drop": -20.035928143712567,
+    "Gas_Share_2030": 26.40341403018888
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM 1.0 - CD-LINKS_NPi2020_400",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 7.38061943080448,
+    "Gas_2030": 8.38586357033039,
+    "Total_2030": 57.5851009377308,
+    "Pct_Drop": -13.620051121052567,
+    "Gas_Share_2030": 14.562557734158316
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM 1.0 - CD-LINKS_NPi2020_400",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.55886387657549,
+    "Gas_2030": 0.574418850702729,
+    "Total_2030": 9.70760962408111,
+    "Pct_Drop": 77.55180117390731,
+    "Gas_Share_2030": 5.917201792682322
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM 1.0 - CD-LINKS_NPi2020_400",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.98053806380478,
+    "Gas_2030": 4.69697715107992,
+    "Total_2030": 14.374036237364,
+    "Pct_Drop": 5.693379090616568,
+    "Gas_Share_2030": 32.67681445570976
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM 1.0 - CD-LINKS_NPi2020_400",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 13.771253669883,
+    "Gas_2030": 15.1214365785788,
+    "Total_2030": 51.3474472242667,
+    "Pct_Drop": -9.804357257963945,
+    "Gas_Share_2030": 29.449247033711227
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM 1.0 - CD-LINKS_NPi2020_400",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.43133143113877,
+    "Gas_2030": 2.05899655362055,
+    "Total_2030": 8.57783030294041,
+    "Pct_Drop": 39.99423853564556,
+    "Gas_Share_2030": 24.003698848119477
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM 1.0 - CD-LINKS_NPi2020_400",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 32.1226064722066,
+    "Gas_2030": 30.8376927043124,
+    "Total_2030": 141.592024326383,
+    "Pct_Drop": 4.000029602224039,
+    "Gas_Share_2030": 21.77925829581234
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_450",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 6.65663450174967,
+    "Gas_2030": 1.71773983537135,
+    "Total_2030": 60.5964590911698,
+    "Pct_Drop": 74.1950705732777,
+    "Gas_Share_2030": 2.834719818837833
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_450",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.85511796865279,
+    "Gas_2030": 0.013656559920353,
+    "Total_2030": 10.2200611040843,
+    "Pct_Drop": 99.26384412468008,
+    "Gas_Share_2030": 0.1336250319960939
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_450",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.98216237374256,
+    "Gas_2030": 0.04031356437791,
+    "Total_2030": 10.7023966855895,
+    "Pct_Drop": 99.19084202091898,
+    "Gas_Share_2030": 0.3766779120810497
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_450",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 10.7204614734945,
+    "Gas_2030": 0.301297016220044,
+    "Total_2030": 45.9960862606914,
+    "Pct_Drop": 97.1895144909109,
+    "Gas_Share_2030": 0.6550492459562471
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_450",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.69993930666757,
+    "Gas_2030": 0.013427661346427,
+    "Total_2030": 8.2697766172927,
+    "Pct_Drop": 99.50266802986026,
+    "Gas_Share_2030": 0.1623703029456538
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_450",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 26.9143156243071,
+    "Gas_2030": 2.08643463723609,
+    "Total_2030": 135.784779758827,
+    "Pct_Drop": 92.2478629352486,
+    "Gas_Share_2030": 1.5365747478781446
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_500",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 6.65663450174967,
+    "Gas_2030": 2.51947427917901,
+    "Total_2030": 60.5876302584713,
+    "Pct_Drop": 62.15092959487597,
+    "Gas_Share_2030": 4.1583971322706414
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_500",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.85511796865279,
+    "Gas_2030": 0.014050448181704,
+    "Total_2030": 9.3089989223034,
+    "Pct_Drop": 99.24261160642482,
+    "Gas_Share_2030": 0.1509340402654959
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_500",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.98216237374256,
+    "Gas_2030": 1.09969282761162,
+    "Total_2030": 11.3770162743488,
+    "Pct_Drop": 77.92739888592712,
+    "Gas_Share_2030": 9.665915922886068
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_500",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 10.7204614734945,
+    "Gas_2030": 1.32673824823207,
+    "Total_2030": 45.4964918819076,
+    "Pct_Drop": 87.62424312132153,
+    "Gas_Share_2030": 2.916133076096947
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_500",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.69993930666757,
+    "Gas_2030": 0.35383496786713,
+    "Total_2030": 8.41473425042866,
+    "Pct_Drop": 86.89470659605846,
+    "Gas_Share_2030": 4.204945246477689
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_500",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 26.9143156243071,
+    "Gas_2030": 5.31379077107155,
+    "Total_2030": 135.184871587459,
+    "Pct_Drop": 80.2566379719776,
+    "Gas_Share_2030": 3.930758455936948
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_COV",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.63708285323746,
+    "Gas_2030": 5.09769825353015,
+    "Total_2030": 50.3981528221864,
+    "Pct_Drop": 9.568505799015057,
+    "Gas_Share_2030": 10.11485137464409
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_COV",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.44989243919983,
+    "Gas_2030": 0.151972019084963,
+    "Total_2030": 6.96333387186816,
+    "Pct_Drop": 89.51839357346854,
+    "Gas_Share_2030": 2.182460612709227
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_COV",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.70493713759766,
+    "Gas_2030": 3.40801160693418,
+    "Total_2030": 10.2633684150625,
+    "Pct_Drop": 27.565204225569943,
+    "Gas_Share_2030": 33.20558581851733
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_COV",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 8.74785489128729,
+    "Gas_2030": 7.57959440637046,
+    "Total_2030": 37.5982858439576,
+    "Pct_Drop": 13.354822404294753,
+    "Gas_Share_2030": 20.159414814355355
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_COV",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.7126619838476,
+    "Gas_2030": 0.94653476578872,
+    "Total_2030": 6.79750498717484,
+    "Pct_Drop": 44.733124532707166,
+    "Gas_Share_2030": 13.924738085144329
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_COV",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 22.2524293051698,
+    "Gas_2030": 17.1838110517084,
+    "Total_2030": 112.020645940249,
+    "Pct_Drop": 22.77781982340164,
+    "Gas_Share_2030": 15.33986070824312
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR1p",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.25090791588425,
+    "Gas_2030": 1.72992427942102,
+    "Total_2030": 61.9815906907524,
+    "Pct_Drop": 67.05475877442231,
+    "Gas_Share_2030": 2.791029175182371
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR1p",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.75769664893409,
+    "Gas_2030": 0.014068665415797,
+    "Total_2030": 9.73054781034695,
+    "Pct_Drop": 99.19959650464553,
+    "Gas_Share_2030": 0.1445824602067842
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR1p",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.67989267668971,
+    "Gas_2030": 1.67119579038244,
+    "Total_2030": 11.5462593172746,
+    "Pct_Drop": 64.28986932314548,
+    "Gas_Share_2030": 14.473915269529144
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR1p",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 10.3290543337065,
+    "Gas_2030": 1.28305339739676,
+    "Total_2030": 46.7781900352803,
+    "Pct_Drop": 87.57821039618497,
+    "Gas_Share_2030": 2.74284532263663
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR1p",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.85600288709462,
+    "Gas_2030": 0.407061941110254,
+    "Total_2030": 8.79855713817439,
+    "Pct_Drop": 78.06781746188621,
+    "Gas_Share_2030": 4.62646243830287
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR1p",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 23.8735544623092,
+    "Gas_2030": 5.10530407372628,
+    "Total_2030": 138.835144991828,
+    "Pct_Drop": 78.61523267602917,
+    "Gas_Share_2030": 3.67724186410205
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR2p",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.44495152302081,
+    "Gas_2030": 1.69046447966769,
+    "Total_2030": 61.619880864703,
+    "Pct_Drop": 68.9535439843579,
+    "Gas_Share_2030": 2.7433751184611896
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR2p",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.95768098618096,
+    "Gas_2030": 0.014096725874847,
+    "Total_2030": 9.24602733735104,
+    "Pct_Drop": 99.27992732348352,
+    "Gas_Share_2030": 0.1524625156352357
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR2p",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.78800071606311,
+    "Gas_2030": 2.04775172970535,
+    "Total_2030": 11.687423584233,
+    "Pct_Drop": 57.23159098879386,
+    "Gas_Share_2030": 17.520984971126428
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR2p",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 10.4428609264247,
+    "Gas_2030": 1.78317158014217,
+    "Total_2030": 45.3757239712826,
+    "Pct_Drop": 82.92449173932769,
+    "Gas_Share_2030": 3.9297920211051705
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR2p",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.17118153713131,
+    "Gas_2030": 0.40504890648807,
+    "Total_2030": 8.52626955745395,
+    "Pct_Drop": 81.34430955859897,
+    "Gas_Share_2030": 4.750599353664144
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR2p",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 24.8046756888209,
+    "Gas_2030": 5.94053342187813,
+    "Total_2030": 136.455325315023,
+    "Pct_Drop": 76.0507514937781,
+    "Gas_Share_2030": 4.353463969371453
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR3p",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.51722014956573,
+    "Gas_2030": 2.37810765274184,
+    "Total_2030": 60.3115943471978,
+    "Pct_Drop": 56.89663293698683,
+    "Gas_Share_2030": 3.943035627696571
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR3p",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.96231574792399,
+    "Gas_2030": 0.090834084419397,
+    "Total_2030": 8.7463418270467,
+    "Pct_Drop": 95.37107702899016,
+    "Gas_Share_2030": 1.0385380106973034
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR3p",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.98212877052689,
+    "Gas_2030": 2.74009849040493,
+    "Total_2030": 12.3034390920602,
+    "Pct_Drop": 45.00145185699108,
+    "Gas_Share_2030": 22.270996506766977
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR3p",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 10.8610146394515,
+    "Gas_2030": 2.82009286268716,
+    "Total_2030": 43.807550924181,
+    "Pct_Drop": 74.03471999343904,
+    "Gas_Share_2030": 6.4374583906048
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR3p",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.61443717451079,
+    "Gas_2030": 0.475644733475368,
+    "Total_2030": 8.69590268204094,
+    "Pct_Drop": 81.80699317954083,
+    "Gas_Share_2030": 5.469756859833368
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR3p",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 25.937116481979,
+    "Gas_2030": 8.50477782372871,
+    "Total_2030": 133.864828872526,
+    "Pct_Drop": 67.21001029687399,
+    "Gas_Share_2030": 6.353257906023592
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR4p",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 6.1242089519855,
+    "Gas_2030": 3.44991739017048,
+    "Total_2030": 58.9040033107676,
+    "Pct_Drop": 43.66754274358978,
+    "Gas_Share_2030": 5.856847066861139
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR4p",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.8770978112088,
+    "Gas_2030": 0.090896509047465,
+    "Total_2030": 8.7220495367609,
+    "Pct_Drop": 95.15760401484194,
+    "Gas_Share_2030": 1.0421462141938391
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR4p",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.97969577363218,
+    "Gas_2030": 2.93966504752455,
+    "Total_2030": 12.3863643432588,
+    "Pct_Drop": 40.96697506923472,
+    "Gas_Share_2030": 23.73307425858536
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR4p",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 10.8666794692775,
+    "Gas_2030": 3.30488163126297,
+    "Total_2030": 43.4812610533212,
+    "Pct_Drop": 69.58701468459985,
+    "Gas_Share_2030": 7.600703271255596
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR4p",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.62088998486094,
+    "Gas_2030": 0.424888214396097,
+    "Total_2030": 8.61639609954659,
+    "Pct_Drop": 83.78839948069621,
+    "Gas_Share_2030": 4.931159262959781
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - EN_NPi2020_600_DR4p",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 26.4685719909649,
+    "Gas_2030": 10.2102487924015,
+    "Total_2030": 132.110074343655,
+    "Pct_Drop": 61.42501077924872,
+    "Gas_Share_2030": 7.72859211769256
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - NGFS2_Divergent Net Zero Policies",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.63708285,
+    "Gas_2030": 5.369809916,
+    "Total_2030": 51.378421516,
+    "Pct_Drop": 4.741334145904903,
+    "Gas_Share_2030": 10.451488694193849
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - NGFS2_Divergent Net Zero Policies",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.449892438,
+    "Gas_2030": 0.015564491,
+    "Total_2030": 7.447897726,
+    "Pct_Drop": 98.9265071951496,
+    "Gas_Share_2030": 0.2089783127078348
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - NGFS2_Divergent Net Zero Policies",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.704937138,
+    "Gas_2030": 3.075629979,
+    "Total_2030": 10.399155436,
+    "Pct_Drop": 34.62973279367968,
+    "Gas_Share_2030": 29.575766973851778
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - NGFS2_Divergent Net Zero Policies",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 8.747854891,
+    "Gas_2030": 6.846277019,
+    "Total_2030": 38.616121772,
+    "Pct_Drop": 21.737647636981123,
+    "Gas_Share_2030": 17.729064196094747
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - NGFS2_Divergent Net Zero Policies",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.712661981,
+    "Gas_2030": 0.817490496,
+    "Total_2030": 6.844993902,
+    "Pct_Drop": 52.26784356346379,
+    "Gas_Share_2030": 11.942895898872052
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - NGFS2_Divergent Net Zero Policies",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 22.2524293,
+    "Gas_2030": 16.1247719,
+    "Total_2030": 114.6865904,
+    "Pct_Drop": 27.53702671015789,
+    "Gas_Share_2030": 14.059858126185953
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - NGFS2_Net-Zero 2050",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.63708285,
+    "Gas_2030": 4.965996133,
+    "Total_2030": 50.708284592,
+    "Pct_Drop": 11.90485814839496,
+    "Gas_Share_2030": 9.793263907380258
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - NGFS2_Net-Zero 2050",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.449892438,
+    "Gas_2030": 0.167462068,
+    "Total_2030": 7.18283841,
+    "Pct_Drop": 88.45003507770552,
+    "Gas_Share_2030": 2.3314191193116374
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - NGFS2_Net-Zero 2050",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.704937138,
+    "Gas_2030": 3.412132745,
+    "Total_2030": 10.078115473,
+    "Pct_Drop": 27.47761245434093,
+    "Gas_Share_2030": 33.85685304104076
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - NGFS2_Net-Zero 2050",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 8.747854891,
+    "Gas_2030": 2.932468913,
+    "Total_2030": 37.976030743,
+    "Pct_Drop": 66.47785143284678,
+    "Gas_Share_2030": 7.721894193854192
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - NGFS2_Net-Zero 2050",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.712661981,
+    "Gas_2030": 1.001355003,
+    "Total_2030": 7.083468614,
+    "Pct_Drop": 41.5322454688156,
+    "Gas_Share_2030": 14.136506527619662
+  },
+  {
+    "Scenario_ID": "MESSAGEix-GLOBIOM_1.1 - NGFS2_Net-Zero 2050",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 22.2524293,
+    "Gas_2030": 12.47941486,
+    "Total_2030": 113.0287378,
+    "Pct_Drop": 43.91886525396128,
+    "Gas_Share_2030": 11.040922072474917
+  },
+  {
+    "Scenario_ID": "POLES ADVANCE - ADVANCE_2020_1.5C-2100",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.8090707019405,
+    "Gas_2030": 5.91894288223737,
+    "Total_2030": 55.5330149812507,
+    "Pct_Drop": -23.078724541292924,
+    "Gas_Share_2030": 10.65842163303352
+  },
+  {
+    "Scenario_ID": "POLES ADVANCE - ADVANCE_2020_1.5C-2100",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.70503296320024,
+    "Gas_2030": 1.58497459134813,
+    "Total_2030": 8.83541065645237,
+    "Pct_Drop": 7.041410602805471,
+    "Gas_Share_2030": 17.93888991668595
+  },
+  {
+    "Scenario_ID": "POLES ADVANCE - ADVANCE_2020_1.5C-2100",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.17554148251616,
+    "Gas_2030": 3.41074533070252,
+    "Total_2030": 8.8978959080235,
+    "Pct_Drop": 18.316095170314966,
+    "Gas_Share_2030": 38.33204350735266
+  },
+  {
+    "Scenario_ID": "POLES ADVANCE - ADVANCE_2020_1.5C-2100",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.92231719000492,
+    "Gas_2030": 7.43508783254913,
+    "Total_2030": 43.283584071122,
+    "Pct_Drop": 25.067021239365925,
+    "Gas_Share_2030": 17.17761593016897
+  },
+  {
+    "Scenario_ID": "POLES ADVANCE - ADVANCE_2020_1.5C-2100",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.25904756788225,
+    "Gas_2030": 1.41528428970018,
+    "Total_2030": 6.026968059012,
+    "Pct_Drop": 37.35039891050448,
+    "Gas_Share_2030": 23.48252514104393
+  },
+  {
+    "Scenario_ID": "POLES ADVANCE - ADVANCE_2020_1.5C-2100",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 22.8710100409199,
+    "Gas_2030": 19.7650341408735,
+    "Total_2030": 122.576874266592,
+    "Pct_Drop": 13.580405476143428,
+    "Gas_Share_2030": 16.12460283322823
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_cost100",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4883793592453,
+    "Gas_2030": 3.34105348587036,
+    "Total_2030": 37.9921245574951,
+    "Pct_Drop": -124.4759351919849,
+    "Gas_Share_2030": 8.794068572854359
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_cost100",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 0.220107555389404,
+    "Gas_2030": 0.220907509326935,
+    "Total_2030": 3.15256190299988,
+    "Pct_Drop": -0.3634377457492434,
+    "Gas_Share_2030": 7.007237799731268
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_cost100",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 8.37649440765381,
+    "Gas_2030": 7.84564781188965,
+    "Total_2030": 24.2785363197326,
+    "Pct_Drop": 6.337336001551108,
+    "Gas_Share_2030": 32.31515981263265
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_cost100",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.87407529354095,
+    "Gas_2030": 0.951406717300415,
+    "Total_2030": 3.91979241371154,
+    "Pct_Drop": 49.2332714390151,
+    "Gas_Share_2030": 24.271864856219647
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_cost100",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 24.6999473571777,
+    "Gas_2030": 24.0072402954102,
+    "Total_2030": 115.05980682373,
+    "Pct_Drop": 2.804488008619995,
+    "Gas_Share_2030": 20.86501008313785
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_full",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.48838049173355,
+    "Gas_2030": 3.41753923892975,
+    "Total_2030": 38.6569232940674,
+    "Pct_Drop": -129.614621927036,
+    "Gas_Share_2030": 8.840691259705691
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_full",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 0.22010663151741,
+    "Gas_2030": 0.22859388589859,
+    "Total_2030": 3.14594459533691,
+    "Pct_Drop": -3.855973953473855,
+    "Gas_Share_2030": 7.266303616326375
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_full",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 8.37622463703156,
+    "Gas_2030": 7.97693622112274,
+    "Total_2030": 24.3096671104431,
+    "Pct_Drop": 4.766925831281477,
+    "Gas_Share_2030": 32.813843911897735
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_full",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.87407457828522,
+    "Gas_2030": 1.0027369260788,
+    "Total_2030": 3.9565896987915,
+    "Pct_Drop": 46.49428909086931,
+    "Gas_Share_2030": 25.343465014456157
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_full",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 24.699686050415,
+    "Gas_2030": 24.6681213378906,
+    "Total_2030": 116.108390808105,
+    "Pct_Drop": 0.1277939827250132,
+    "Gas_Share_2030": 21.245769721036076
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_nofuel",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4883753657341,
+    "Gas_2030": 3.36617541313171,
+    "Total_2030": 38.2552289962769,
+    "Pct_Drop": -126.164413267579,
+    "Gas_Share_2030": 8.799255687266479
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_nofuel",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 0.220109120011329,
+    "Gas_2030": 0.220771968364716,
+    "Total_2030": 3.15921330451964,
+    "Pct_Drop": -0.3011453379818443,
+    "Gas_Share_2030": 6.9881944359019625
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_nofuel",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 8.37727040052414,
+    "Gas_2030": 7.85911667346954,
+    "Total_2030": 24.300666809082,
+    "Pct_Drop": 6.185233402782131,
+    "Gas_Share_2030": 32.34115645967508
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_nofuel",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.87407541275024,
+    "Gas_2030": 0.964846074581145,
+    "Total_2030": 3.92686104774474,
+    "Pct_Drop": 48.5161553256165,
+    "Gas_Share_2030": 24.570415475619438
+  },
+  {
+    "Scenario_ID": "POLES EMF33 - EMF33_WB2C_nofuel",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 24.7006587982178,
+    "Gas_2030": 24.1796627044678,
+    "Total_2030": 115.531593322754,
+    "Pct_Drop": 2.109239668488481,
+    "Gas_Share_2030": 20.929048071654694
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - ADVANCE_2020_1.5C-2100",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.9826,
+    "Gas_2030": 8.0699,
+    "Total_2030": 56.9324,
+    "Pct_Drop": -15.571563600950949,
+    "Gas_Share_2030": 14.17452979322846
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - ADVANCE_2020_1.5C-2100",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.0635,
+    "Gas_2030": 0.3534,
+    "Total_2030": 10.0157,
+    "Pct_Drop": 66.77009873060649,
+    "Gas_Share_2030": 3.5284603173018354
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - ADVANCE_2020_1.5C-2100",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.556,
+    "Gas_2030": 3.9908,
+    "Total_2030": 11.1931,
+    "Pct_Drop": 39.127516778523486,
+    "Gas_Share_2030": 35.654108334599
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - ADVANCE_2020_1.5C-2100",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 10.2917,
+    "Gas_2030": 7.6864,
+    "Total_2030": 45.7206,
+    "Pct_Drop": 25.314573879922666,
+    "Gas_Share_2030": 16.81167788699186
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - ADVANCE_2020_1.5C-2100",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.0573,
+    "Gas_2030": 0.7819,
+    "Total_2030": 3.8253,
+    "Pct_Drop": 61.9938754678462,
+    "Gas_Share_2030": 20.44022691030769
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - ADVANCE_2020_1.5C-2100",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 26.9513,
+    "Gas_2030": 20.8825,
+    "Total_2030": 127.687,
+    "Pct_Drop": 22.517652209726432,
+    "Gas_Share_2030": 16.354444853430653
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR12",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.8993,
+    "Gas_2030": 4.6369,
+    "Total_2030": 56.7265,
+    "Pct_Drop": 32.79173249460091,
+    "Gas_Share_2030": 8.174133782271072
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR12",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.3424,
+    "Gas_2030": 0.4512,
+    "Total_2030": 10.3629,
+    "Pct_Drop": 66.388557806913,
+    "Gas_Share_2030": 4.353993573227571
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR12",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.829,
+    "Gas_2030": 2.9053,
+    "Total_2030": 10.4446,
+    "Pct_Drop": 57.45643578854883,
+    "Gas_Share_2030": 27.816287842521493
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR12",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 12.0259,
+    "Gas_2030": 6.5212,
+    "Total_2030": 44.8213,
+    "Pct_Drop": 45.7737050865216,
+    "Gas_Share_2030": 14.549332571790645
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR12",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.1931,
+    "Gas_2030": 0.8411,
+    "Total_2030": 3.9157,
+    "Pct_Drop": 61.64789567279194,
+    "Gas_Share_2030": 21.480195111985086
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR12",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 29.2896,
+    "Gas_2030": 15.3557,
+    "Total_2030": 126.2709,
+    "Pct_Drop": 47.57285862558724,
+    "Gas_Share_2030": 12.16091751939679
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR20",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.8993,
+    "Gas_2030": 8.5756,
+    "Total_2030": 57.2143,
+    "Pct_Drop": -24.2966677778905,
+    "Gas_Share_2030": 14.988560552169648
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR20",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.3424,
+    "Gas_2030": 0.4512,
+    "Total_2030": 9.7605,
+    "Pct_Drop": 66.388557806913,
+    "Gas_Share_2030": 4.622714000307361
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR20",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.829,
+    "Gas_2030": 4.9377,
+    "Total_2030": 11.4666,
+    "Pct_Drop": 27.695123737003943,
+    "Gas_Share_2030": 43.06158756736959
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR20",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 12.0259,
+    "Gas_2030": 9.8524,
+    "Total_2030": 44.7218,
+    "Pct_Drop": 18.07349138110246,
+    "Gas_Share_2030": 22.030419169174763
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR20",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.1931,
+    "Gas_2030": 1.1917,
+    "Total_2030": 4.0243,
+    "Pct_Drop": 45.66139254935935,
+    "Gas_Share_2030": 29.61260343413761
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR20",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 29.2896,
+    "Gas_2030": 25.0087,
+    "Total_2030": 127.1876,
+    "Pct_Drop": 14.61576805418988,
+    "Gas_Share_2030": 19.66284449112964
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR8",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.8993,
+    "Gas_2030": 3.6383,
+    "Total_2030": 58.1445,
+    "Pct_Drop": 47.26566463264389,
+    "Gas_Share_2030": 6.257341623025393
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR8",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.3424,
+    "Gas_2030": 0.4511,
+    "Total_2030": 11.2076,
+    "Pct_Drop": 66.39600715137067,
+    "Gas_Share_2030": 4.024947357150505
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR8",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.829,
+    "Gas_2030": 2.9051,
+    "Total_2030": 10.9053,
+    "Pct_Drop": 57.45936447503295,
+    "Gas_Share_2030": 26.639340504158525
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR8",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 12.0259,
+    "Gas_2030": 4.6244,
+    "Total_2030": 46.7884,
+    "Pct_Drop": 61.54632917286857,
+    "Gas_Share_2030": 9.883646373887544
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR8",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.1931,
+    "Gas_2030": 0.8321,
+    "Total_2030": 4.1208,
+    "Pct_Drop": 62.05827367653093,
+    "Gas_Share_2030": 20.19268103280916
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-1.5-CDR8",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 29.2896,
+    "Gas_2030": 12.4511,
+    "Total_2030": 131.1666,
+    "Pct_Drop": 57.48968917294876,
+    "Gas_Share_2030": 9.492584240195296
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-2.0-CDR8",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 6.8993,
+    "Gas_2030": 8.5762,
+    "Total_2030": 57.0981,
+    "Pct_Drop": -24.30536431232154,
+    "Gas_Share_2030": 15.020114504685797
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-2.0-CDR8",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.3424,
+    "Gas_2030": 0.4512,
+    "Total_2030": 9.816,
+    "Pct_Drop": 66.388557806913,
+    "Gas_Share_2030": 4.596577017114914
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-2.0-CDR8",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 6.829,
+    "Gas_2030": 4.92399999999999,
+    "Total_2030": 11.426,
+    "Pct_Drop": 27.895738761165763,
+    "Gas_Share_2030": 43.09469630666891
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-2.0-CDR8",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 12.0259,
+    "Gas_2030": 9.9004,
+    "Total_2030": 44.7103,
+    "Pct_Drop": 17.674352855087776,
+    "Gas_Share_2030": 22.14344345710049
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-2.0-CDR8",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.1931,
+    "Gas_2030": 1.27119999999999,
+    "Total_2030": 3.9991,
+    "Pct_Drop": 42.03638684966531,
+    "Gas_Share_2030": 31.787152109224326
+  },
+  {
+    "Scenario_ID": "REMIND 1.7 - CEMICS-2.0-CDR8",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 29.2896,
+    "Gas_2030": 25.123,
+    "Total_2030": 127.0495,
+    "Pct_Drop": 14.225527149568444,
+    "Gas_Share_2030": 19.77418250366983
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_GDPgrowth_1p5",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.996,
+    "Gas_2030": 14.3509,
+    "Total_2030": 57.0659,
+    "Pct_Drop": -139.34122748498996,
+    "Gas_Share_2030": 25.147942992224777
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_GDPgrowth_1p5",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.3353,
+    "Gas_2030": 0.5037,
+    "Total_2030": 9.5572,
+    "Pct_Drop": 62.27813974387778,
+    "Gas_Share_2030": 5.270372075503286
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_GDPgrowth_1p5",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.1154,
+    "Gas_2030": 3.507,
+    "Total_2030": 11.9157,
+    "Pct_Drop": 31.44231145169488,
+    "Gas_Share_2030": 29.43175810065712
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_GDPgrowth_1p5",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.4766,
+    "Gas_2030": 6.5612,
+    "Total_2030": 40.3115,
+    "Pct_Drop": 42.829757942247696,
+    "Gas_Share_2030": 16.276248713146373
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_GDPgrowth_1p5",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.0134,
+    "Gas_2030": 2.1362,
+    "Total_2030": 5.6999,
+    "Pct_Drop": -6.099135790205635,
+    "Gas_Share_2030": 37.47785048860506
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_GDPgrowth_1p5",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.9368,
+    "Gas_2030": 27.059,
+    "Total_2030": 124.5502,
+    "Pct_Drop": -4.326670984855492,
+    "Gas_Share_2030": 21.725376595139952
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_HotellingConst_1p5",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.996,
+    "Gas_2030": 16.6588,
+    "Total_2030": 58.4248,
+    "Pct_Drop": -177.8318879252835,
+    "Gas_Share_2030": 28.513234106064548
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_HotellingConst_1p5",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.3353,
+    "Gas_2030": 0.5263,
+    "Total_2030": 9.5021,
+    "Pct_Drop": 60.585636186624725,
+    "Gas_Share_2030": 5.538775639069257
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_HotellingConst_1p5",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.1154,
+    "Gas_2030": 4.85,
+    "Total_2030": 12.2319,
+    "Pct_Drop": 5.188255072917084,
+    "Gas_Share_2030": 39.65042225655867
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_HotellingConst_1p5",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.4766,
+    "Gas_2030": 7.338,
+    "Total_2030": 40.8585,
+    "Pct_Drop": 36.06120279525295,
+    "Gas_Share_2030": 17.95954330188333
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_HotellingConst_1p5",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.0134,
+    "Gas_2030": 2.5825,
+    "Total_2030": 5.9626,
+    "Pct_Drop": -28.26562034369724,
+    "Gas_Share_2030": 43.31164257203233
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_HotellingConst_1p5",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.9368,
+    "Gas_2030": 31.9557,
+    "Total_2030": 126.9799,
+    "Pct_Drop": -23.20602387341537,
+    "Gas_Share_2030": 25.16595146160928
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_Linear_1p5",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.996,
+    "Gas_2030": 15.4353999999999,
+    "Total_2030": 58.1275,
+    "Pct_Drop": -157.42828552368076,
+    "Gas_Share_2030": 26.554384757644662
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_Linear_1p5",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.3353,
+    "Gas_2030": 0.526,
+    "Total_2030": 9.5783,
+    "Pct_Drop": 60.60810304800419,
+    "Gas_Share_2030": 5.4915799254565005
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_Linear_1p5",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.1154,
+    "Gas_2030": 4.0618,
+    "Total_2030": 11.908,
+    "Pct_Drop": 20.59662978457208,
+    "Gas_Share_2030": 34.10984212294256
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_Linear_1p5",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.4766,
+    "Gas_2030": 6.1243,
+    "Total_2030": 40.547,
+    "Pct_Drop": 46.63663454333165,
+    "Gas_Share_2030": 15.104200064123116
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_Linear_1p5",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.0134,
+    "Gas_2030": 2.2731,
+    "Total_2030": 5.802,
+    "Pct_Drop": -12.898579517234532,
+    "Gas_Share_2030": 39.177869700103415
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_Linear_1p5",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.9368,
+    "Gas_2030": 28.4205,
+    "Total_2030": 125.9628,
+    "Pct_Drop": -9.575969279170902,
+    "Gas_Share_2030": 22.562613724051864
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_opt_1p5",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.996,
+    "Gas_2030": 17.0892,
+    "Total_2030": 58.2558,
+    "Pct_Drop": -185.0100066711141,
+    "Gas_Share_2030": 29.33476151730815
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_opt_1p5",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.3353,
+    "Gas_2030": 0.5503,
+    "Total_2030": 9.8569,
+    "Pct_Drop": 58.788287276267496,
+    "Gas_Share_2030": 5.582891172681067
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_opt_1p5",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.1154,
+    "Gas_2030": 5.6617,
+    "Total_2030": 12.3167,
+    "Pct_Drop": -10.679516753333065,
+    "Gas_Share_2030": 45.96766991158346
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_opt_1p5",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.4766,
+    "Gas_2030": 7.4224,
+    "Total_2030": 41.4951,
+    "Pct_Drop": 35.3257933534322,
+    "Gas_Share_2030": 17.887413212644386
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_opt_1p5",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.0134,
+    "Gas_2030": 2.5345,
+    "Total_2030": 5.8054,
+    "Pct_Drop": -25.88159332472436,
+    "Gas_Share_2030": 43.65762910393772
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - CEMICS_opt_1p5",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.9368,
+    "Gas_2030": 33.2582,
+    "Total_2030": 127.73,
+    "Pct_Drop": -28.22784614910089,
+    "Gas_Share_2030": 26.037892429343145
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - LeastTotalCost_LTC_brkLR15_SSP1_P50",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 6.0023,
+    "Gas_2030": 19.4041,
+    "Total_2030": 57.6232,
+    "Pct_Drop": -223.27774353164625,
+    "Gas_Share_2030": 33.67411042774438
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - LeastTotalCost_LTC_brkLR15_SSP1_P50",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.3353,
+    "Gas_2030": 0.5175,
+    "Total_2030": 8.9315,
+    "Pct_Drop": 61.24466412042238,
+    "Gas_Share_2030": 5.794099535352403
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - LeastTotalCost_LTC_brkLR15_SSP1_P50",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.12259999999999,
+    "Gas_2030": 5.40649999999999,
+    "Total_2030": 11.8139,
+    "Pct_Drop": -5.542107523523223,
+    "Gas_Share_2030": 45.76388830106899
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - LeastTotalCost_LTC_brkLR15_SSP1_P50",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 11.5121,
+    "Gas_2030": 6.9423,
+    "Total_2030": 37.493,
+    "Pct_Drop": 39.69562460367786,
+    "Gas_Share_2030": 18.51625636785533
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - LeastTotalCost_LTC_brkLR15_SSP1_P50",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.0125,
+    "Gas_2030": 2.4272,
+    "Total_2030": 5.4845,
+    "Pct_Drop": -20.60621118012421,
+    "Gas_Share_2030": 44.25562950132191
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - LeastTotalCost_LTC_brkLR15_SSP1_P50",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 25.9848,
+    "Gas_2030": 34.6977,
+    "Total_2030": 121.3461,
+    "Pct_Drop": -33.530756442227755,
+    "Gas_Share_2030": 28.593996840442333
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP1-PkBudg900",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.7862,
+    "Gas_2030": 16.4733,
+    "Total_2030": 61.4612,
+    "Pct_Drop": -184.6998029795029,
+    "Gas_Share_2030": 26.802763369410293
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP1-PkBudg900",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4196,
+    "Gas_2030": 0.1551,
+    "Total_2030": 9.4537,
+    "Pct_Drop": 89.07438715131022,
+    "Gas_Share_2030": 1.6406274791880426
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP1-PkBudg900",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.4379,
+    "Gas_2030": 4.8902,
+    "Total_2030": 12.8262,
+    "Pct_Drop": 10.071902756578822,
+    "Gas_Share_2030": 38.1266470193822
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP1-PkBudg900",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.9866,
+    "Gas_2030": 4.166,
+    "Total_2030": 41.6965,
+    "Pct_Drop": 65.24452305073999,
+    "Gas_Share_2030": 9.991246267672349
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP1-PkBudg900",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.39,
+    "Gas_2030": 2.1232,
+    "Total_2030": 5.7472,
+    "Pct_Drop": 11.163179916317988,
+    "Gas_Share_2030": 36.94320712694878
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP1-PkBudg900",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 27.0203,
+    "Gas_2030": 27.808,
+    "Total_2030": 131.1849,
+    "Pct_Drop": -2.9152155971621374,
+    "Gas_Share_2030": 21.197561609605984
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP2-PkBudg900",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.7862,
+    "Gas_2030": 16.2020999999999,
+    "Total_2030": 61.4201,
+    "Pct_Drop": -180.01278904980637,
+    "Gas_Share_2030": 26.37914949666298
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP2-PkBudg900",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4196,
+    "Gas_2030": 0.3843,
+    "Total_2030": 10.0183,
+    "Pct_Drop": 72.92899408284023,
+    "Gas_Share_2030": 3.8359801563139455
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP2-PkBudg900",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.4379,
+    "Gas_2030": 5.0416,
+    "Total_2030": 13.2319,
+    "Pct_Drop": 7.287739752477981,
+    "Gas_Share_2030": 38.10185989918303
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP2-PkBudg900",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.9866,
+    "Gas_2030": 5.0641,
+    "Total_2030": 44.2815,
+    "Pct_Drop": 57.75198972185608,
+    "Gas_Share_2030": 11.436152795185349
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP2-PkBudg900",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.39,
+    "Gas_2030": 2.2639,
+    "Total_2030": 6.0224,
+    "Pct_Drop": 5.276150627615067,
+    "Gas_Share_2030": 37.591325717322
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP2-PkBudg900",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 27.0203,
+    "Gas_2030": 28.956,
+    "Total_2030": 134.9742,
+    "Pct_Drop": -7.163873088011608,
+    "Gas_Share_2030": 21.45298879341385
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP5-PkBudg900",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.7862,
+    "Gas_2030": 22.9314,
+    "Total_2030": 71.4734,
+    "Pct_Drop": -296.31191455532127,
+    "Gas_Share_2030": 32.08382419193714
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP5-PkBudg900",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4196,
+    "Gas_2030": 0.1267,
+    "Total_2030": 10.0323,
+    "Pct_Drop": 91.0749506903353,
+    "Gas_Share_2030": 1.2629207659260588
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP5-PkBudg900",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.4379,
+    "Gas_2030": 5.6075,
+    "Total_2030": 13.3545,
+    "Pct_Drop": -3.118851027050883,
+    "Gas_Share_2030": 41.98959152345651
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP5-PkBudg900",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.9866,
+    "Gas_2030": 4.5822,
+    "Total_2030": 43.8001,
+    "Pct_Drop": 61.77231241553068,
+    "Gas_Share_2030": 10.461619950639385
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP5-PkBudg900",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.39,
+    "Gas_2030": 1.8625,
+    "Total_2030": 6.0634,
+    "Pct_Drop": 22.071129707112974,
+    "Gas_Share_2030": 30.717089421776564
+  },
+  {
+    "Scenario_ID": "REMIND 2.1 - R2p1_SSP5-PkBudg900",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 27.0203,
+    "Gas_2030": 35.1102,
+    "Total_2030": 144.724,
+    "Pct_Drop": -29.940082086431318,
+    "Gas_Share_2030": 24.260108896934856
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.5 - SSP2-19",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 7.431,
+    "Gas_2030": 5.601,
+    "Total_2030": 54.286,
+    "Pct_Drop": 24.62656439241017,
+    "Gas_Share_2030": 10.317577275909075
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.5 - SSP2-19",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.722,
+    "Gas_2030": 0.9425,
+    "Total_2030": 9.96,
+    "Pct_Drop": 45.267131242741,
+    "Gas_Share_2030": 9.462851405622487
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.5 - SSP2-19",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.5927,
+    "Gas_2030": 3.4856,
+    "Total_2030": 8.625,
+    "Pct_Drop": 37.67589893968924,
+    "Gas_Share_2030": 40.41275362318841
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.5 - SSP2-19",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 9.832,
+    "Gas_2030": 5.5208,
+    "Total_2030": 45.3589999999999,
+    "Pct_Drop": 43.8486574450773,
+    "Gas_Share_2030": 12.171344165435771
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.5 - SSP2-19",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.264,
+    "Gas_2030": 1.454,
+    "Total_2030": 3.806,
+    "Pct_Drop": 35.7773851590106,
+    "Gas_Share_2030": 38.20283762480295
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.5 - SSP2-19",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 26.84,
+    "Gas_2030": 17.0,
+    "Total_2030": 122.0,
+    "Pct_Drop": 36.66169895678093,
+    "Gas_Share_2030": 13.934426229508198
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - CD-LINKS_NPi2020_400",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 7.3701,
+    "Gas_2030": 8.958,
+    "Total_2030": 55.8887,
+    "Pct_Drop": -21.54516220946799,
+    "Gas_Share_2030": 16.028284787443617
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - CD-LINKS_NPi2020_400",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.1915,
+    "Gas_2030": 0.4105,
+    "Total_2030": 9.8617,
+    "Pct_Drop": 65.54762903902645,
+    "Gas_Share_2030": 4.162568319863714
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - CD-LINKS_NPi2020_400",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.4983,
+    "Gas_2030": 4.4854,
+    "Total_2030": 10.846,
+    "Pct_Drop": 30.97579366911346,
+    "Gas_Share_2030": 41.35533837359395
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - CD-LINKS_NPi2020_400",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 12.2141,
+    "Gas_2030": 9.9365,
+    "Total_2030": 44.7345,
+    "Pct_Drop": 18.647301070074747,
+    "Gas_Share_2030": 22.212162872056247
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - CD-LINKS_NPi2020_400",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.2481,
+    "Gas_2030": 1.0574,
+    "Total_2030": 3.9271,
+    "Pct_Drop": 52.96472576842668,
+    "Gas_Share_2030": 26.92572127014845
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - CD-LINKS_NPi2020_400",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 29.522,
+    "Gas_2030": 24.8479,
+    "Total_2030": 125.2581,
+    "Pct_Drop": 15.832599417383644,
+    "Gas_Share_2030": 19.83735981944481
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - EMF33_1.5C_nofuel",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.9529,
+    "Gas_2030": 3.3595,
+    "Total_2030": 53.1971,
+    "Pct_Drop": -13.76951471434861,
+    "Gas_Share_2030": 6.315193873350239
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - EMF33_1.5C_nofuel",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.0165,
+    "Gas_2030": 0.5809,
+    "Total_2030": 9.3267,
+    "Pct_Drop": 42.85292670929661,
+    "Gas_Share_2030": 6.228355152411892
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - EMF33_1.5C_nofuel",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 7.5872,
+    "Gas_2030": 5.2158,
+    "Total_2030": 9.9078,
+    "Pct_Drop": 31.255272037115148,
+    "Gas_Share_2030": 52.64337188881487
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - EMF33_1.5C_nofuel",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.1101,
+    "Gas_2030": 5.9989,
+    "Total_2030": 40.2292,
+    "Pct_Drop": 1.8199374805649693,
+    "Gas_Share_2030": 14.911805355314051
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - EMF33_1.5C_nofuel",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.3528,
+    "Gas_2030": 1.3521,
+    "Total_2030": 3.0741,
+    "Pct_Drop": 42.53230193811628,
+    "Gas_Share_2030": 43.98360495754855
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - EMF33_1.5C_nofuel",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 20.0195,
+    "Gas_2030": 16.5072,
+    "Total_2030": 115.7349,
+    "Pct_Drop": 17.54439421563975,
+    "Gas_Share_2030": 14.262940565032675
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_1p5C_full_eff",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 7.6895,
+    "Gas_2030": 10.6258,
+    "Total_2030": 57.5994,
+    "Pct_Drop": -38.18583783080825,
+    "Gas_Share_2030": 18.447761608627864
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_1p5C_full_eff",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.1697,
+    "Gas_2030": 0.3673,
+    "Total_2030": 9.8919,
+    "Pct_Drop": 68.59878601350773,
+    "Gas_Share_2030": 3.713139032946149
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_1p5C_full_eff",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.3039,
+    "Gas_2030": 3.9363,
+    "Total_2030": 11.3863,
+    "Pct_Drop": 37.5577023747204,
+    "Gas_Share_2030": 34.570492609539535
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_1p5C_full_eff",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 12.7293,
+    "Gas_2030": 11.0701,
+    "Total_2030": 46.089,
+    "Pct_Drop": 13.034495219690008,
+    "Gas_Share_2030": 24.018963310117385
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_1p5C_full_eff",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.8769,
+    "Gas_2030": 0.8515,
+    "Total_2030": 4.1584,
+    "Pct_Drop": 54.63263892588843,
+    "Gas_Share_2030": 20.47662562524048
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_1p5C_full_eff",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 29.7693,
+    "Gas_2030": 26.851,
+    "Total_2030": 129.1252,
+    "Pct_Drop": 9.803052137604856,
+    "Gas_Share_2030": 20.794546688020617
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_1p5C_red_eff",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 7.6895,
+    "Gas_2030": 7.6722,
+    "Total_2030": 55.5824,
+    "Pct_Drop": 0.2249821184732381,
+    "Gas_Share_2030": 13.803290250151129
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_1p5C_red_eff",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.1697,
+    "Gas_2030": 0.3669,
+    "Total_2030": 10.5899,
+    "Pct_Drop": 68.6329828161067,
+    "Gas_Share_2030": 3.464621951104354
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_1p5C_red_eff",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.3039,
+    "Gas_2030": 2.50949999999999,
+    "Total_2030": 11.4264,
+    "Pct_Drop": 60.19131014134123,
+    "Gas_Share_2030": 21.962297836588867
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_1p5C_red_eff",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 12.7293,
+    "Gas_2030": 5.04989999999999,
+    "Total_2030": 46.1979,
+    "Pct_Drop": 60.32853338361112,
+    "Gas_Share_2030": 10.931016344898774
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_1p5C_red_eff",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.8769,
+    "Gas_2030": 0.5607,
+    "Total_2030": 4.2389,
+    "Pct_Drop": 70.12627204432842,
+    "Gas_Share_2030": 13.227488263464576
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_1p5C_red_eff",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 29.7693,
+    "Gas_2030": 16.1593,
+    "Total_2030": 128.0353,
+    "Pct_Drop": 45.71823993174176,
+    "Gas_Share_2030": 12.620972497428443
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_2C_red_eff",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 7.6895,
+    "Gas_2030": 11.7189,
+    "Total_2030": 57.1598,
+    "Pct_Drop": -52.40132648416672,
+    "Gas_Share_2030": 20.50199615813911
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_2C_red_eff",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.1697,
+    "Gas_2030": 0.3673,
+    "Total_2030": 9.7178,
+    "Pct_Drop": 68.59878601350773,
+    "Gas_Share_2030": 3.7796620634299942
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_2C_red_eff",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.3039,
+    "Gas_2030": 3.9997,
+    "Total_2030": 11.3794,
+    "Pct_Drop": 36.55197576103682,
+    "Gas_Share_2030": 35.148601859500495
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_2C_red_eff",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 12.7293,
+    "Gas_2030": 11.516,
+    "Total_2030": 45.527,
+    "Pct_Drop": 9.531553188313575,
+    "Gas_Share_2030": 25.294879961341618
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_2C_red_eff",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.8769,
+    "Gas_2030": 0.8508,
+    "Total_2030": 4.1364,
+    "Pct_Drop": 54.669934466407376,
+    "Gas_Share_2030": 20.56861038584276
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - PEP_2C_red_eff",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 29.7693,
+    "Gas_2030": 28.4527,
+    "Total_2030": 127.9204,
+    "Pct_Drop": 4.422677053205823,
+    "Gas_Share_2030": 22.242503932132795
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - SMP_2C_lifesty",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 7.1857,
+    "Gas_2030": 12.215,
+    "Total_2030": 59.1952,
+    "Pct_Drop": -69.99039759522385,
+    "Gas_Share_2030": 20.63511906370787
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - SMP_2C_lifesty",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.2274,
+    "Gas_2030": 0.9221,
+    "Total_2030": 9.7276,
+    "Pct_Drop": 24.873716799739285,
+    "Gas_Share_2030": 9.479213783461493
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - SMP_2C_lifesty",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.9797,
+    "Gas_2030": 6.0039,
+    "Total_2030": 12.3696,
+    "Pct_Drop": -0.404702577052353,
+    "Gas_Share_2030": 48.53754365541327
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - SMP_2C_lifesty",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 10.7855,
+    "Gas_2030": 9.5657,
+    "Total_2030": 44.1692,
+    "Pct_Drop": 11.309628668119243,
+    "Gas_Share_2030": 21.65694646948553
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - SMP_2C_lifesty",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.9355,
+    "Gas_2030": 1.5856,
+    "Total_2030": 4.0659,
+    "Pct_Drop": 18.0780160165332,
+    "Gas_Share_2030": 38.99751592513343
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 1.7-3.0 - SMP_2C_lifesty",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 27.1138,
+    "Gas_2030": 30.2922,
+    "Total_2030": 129.5274,
+    "Pct_Drop": -11.722443921545484,
+    "Gas_Share_2030": 23.3867120007041
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP1-1p5C-fullCDR",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.7849,
+    "Gas_2030": 16.5294,
+    "Total_2030": 59.4384,
+    "Pct_Drop": -185.73354768448888,
+    "Gas_Share_2030": 27.809295001211336
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP1-1p5C-fullCDR",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.2236,
+    "Gas_2030": 0.2769,
+    "Total_2030": 8.9307,
+    "Pct_Drop": 77.37005557371691,
+    "Gas_Share_2030": 3.100540831065873
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP1-1p5C-fullCDR",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.1711,
+    "Gas_2030": 5.2952,
+    "Total_2030": 12.1781,
+    "Pct_Drop": -2.3998762352304213,
+    "Gas_Share_2030": 43.48133124214779
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP1-1p5C-fullCDR",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 10.0913,
+    "Gas_2030": 4.2761,
+    "Total_2030": 37.719,
+    "Pct_Drop": 57.625875754362674,
+    "Gas_Share_2030": 11.33672684853787
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP1-1p5C-fullCDR",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.9932,
+    "Gas_2030": 2.0695,
+    "Total_2030": 5.4156,
+    "Pct_Drop": -3.828015251856313,
+    "Gas_Share_2030": 38.21367900140336
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP1-1p5C-fullCDR",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 24.264,
+    "Gas_2030": 28.4472,
+    "Total_2030": 123.6819,
+    "Pct_Drop": -17.240356083086052,
+    "Gas_Share_2030": 23.000293494844435
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP1-1p5C-minCDR",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.7849,
+    "Gas_2030": 14.2141,
+    "Total_2030": 58.3808,
+    "Pct_Drop": -145.71038393057788,
+    "Gas_Share_2030": 24.34721689322517
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP1-1p5C-minCDR",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.2236,
+    "Gas_2030": 0.1055,
+    "Total_2030": 8.9198,
+    "Pct_Drop": 91.37790127492644,
+    "Gas_Share_2030": 1.182761945335097
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP1-1p5C-minCDR",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.1711,
+    "Gas_2030": 4.0192,
+    "Total_2030": 11.7665,
+    "Pct_Drop": 22.275724700740664,
+    "Gas_Share_2030": 34.15799090638677
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP1-1p5C-minCDR",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 10.0913,
+    "Gas_2030": 2.933,
+    "Total_2030": 38.7835,
+    "Pct_Drop": 70.93536016172347,
+    "Gas_Share_2030": 7.562494359714827
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP1-1p5C-minCDR",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.9932,
+    "Gas_2030": 1.5121,
+    "Total_2030": 5.1612,
+    "Pct_Drop": 24.137066024483246,
+    "Gas_Share_2030": 29.297450205378595
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP1-1p5C-minCDR",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 24.264,
+    "Gas_2030": 22.7839,
+    "Total_2030": 123.0118,
+    "Pct_Drop": 6.099983514671943,
+    "Gas_Share_2030": 18.52171905459476
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP2-1p5C-fullCDR",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.0082,
+    "Gas_2030": 16.5861999999999,
+    "Total_2030": 59.6813,
+    "Pct_Drop": -176.05938550647275,
+    "Gas_Share_2030": 27.79128470726995
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP2-1p5C-fullCDR",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4002,
+    "Gas_2030": 0.5969,
+    "Total_2030": 9.6205,
+    "Pct_Drop": 57.37037566061991,
+    "Gas_Share_2030": 6.204459227690869
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP2-1p5C-fullCDR",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.1349,
+    "Gas_2030": 5.2281,
+    "Total_2030": 12.5684,
+    "Pct_Drop": -1.8150304777113555,
+    "Gas_Share_2030": 41.59718022978263
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP2-1p5C-fullCDR",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.464,
+    "Gas_2030": 5.50639999999999,
+    "Total_2030": 40.8551,
+    "Pct_Drop": 51.96789951151439,
+    "Gas_Share_2030": 13.477876691037329
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP2-1p5C-fullCDR",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.0241,
+    "Gas_2030": 2.3184,
+    "Total_2030": 5.8202,
+    "Pct_Drop": -14.539795464650968,
+    "Gas_Share_2030": 39.83368269131645
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP2-1p5C-fullCDR",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 26.0313,
+    "Gas_2030": 30.2361,
+    "Total_2030": 128.5455,
+    "Pct_Drop": -16.152862131357246,
+    "Gas_Share_2030": 23.52171021155933
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP2-1p5C-minCDR",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 6.0082,
+    "Gas_2030": 9.663,
+    "Total_2030": 56.8107,
+    "Pct_Drop": -60.8301987284045,
+    "Gas_Share_2030": 17.009119760890115
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP2-1p5C-minCDR",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.4002,
+    "Gas_2030": 0.1286,
+    "Total_2030": 9.5378,
+    "Pct_Drop": 90.8155977717469,
+    "Gas_Share_2030": 1.3483193189205056
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP2-1p5C-minCDR",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.1349,
+    "Gas_2030": 3.0729,
+    "Total_2030": 11.8471,
+    "Pct_Drop": 40.15657559056651,
+    "Gas_Share_2030": 25.93799326417436
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP2-1p5C-minCDR",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 11.464,
+    "Gas_2030": 2.8212,
+    "Total_2030": 42.5444,
+    "Pct_Drop": 75.39078855547803,
+    "Gas_Share_2030": 6.631190003854796
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP2-1p5C-minCDR",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.0241,
+    "Gas_2030": 0.9652,
+    "Total_2030": 5.0488,
+    "Pct_Drop": 52.31460896200781,
+    "Gas_Share_2030": 19.11741403897956
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - CEMICS_SSP2-1p5C-minCDR",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 26.0313,
+    "Gas_2030": 16.6509,
+    "Total_2030": 125.7885,
+    "Pct_Drop": 36.03508084498277,
+    "Gas_Share_2030": 13.237219618645582
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_200f",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.3064,
+    "Gas_2030": 9.725,
+    "Total_2030": 61.9342,
+    "Pct_Drop": -125.82667657440088,
+    "Gas_Share_2030": 15.702148409118063
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_200f",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4865,
+    "Gas_2030": 0.2706,
+    "Total_2030": 10.3433,
+    "Pct_Drop": 81.79616548940464,
+    "Gas_Share_2030": 2.616186323513773
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_200f",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.4548,
+    "Gas_2030": 3.5991,
+    "Total_2030": 13.3306,
+    "Pct_Drop": 34.0195790863093,
+    "Gas_Share_2030": 26.998784750873927
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_200f",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.4993,
+    "Gas_2030": 5.683,
+    "Total_2030": 44.659,
+    "Pct_Drop": 50.57960049742158,
+    "Gas_Share_2030": 12.725318524821423
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_200f",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.3954,
+    "Gas_2030": 2.0341,
+    "Total_2030": 6.2955,
+    "Pct_Drop": 15.083075895466308,
+    "Gas_Share_2030": 32.31038043046621
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_200f",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.1426,
+    "Gas_2030": 21.3118,
+    "Total_2030": 136.5625,
+    "Pct_Drop": 15.236292189351936,
+    "Gas_Share_2030": 15.605894736842108
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_300f",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.3064,
+    "Gas_2030": 9.8352,
+    "Total_2030": 61.9776,
+    "Pct_Drop": -128.38565855470927,
+    "Gas_Share_2030": 15.86895910780669
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_300f",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4865,
+    "Gas_2030": 0.3518,
+    "Total_2030": 10.3283,
+    "Pct_Drop": 76.33366969391187,
+    "Gas_Share_2030": 3.4061752660166724
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_300f",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.4548,
+    "Gas_2030": 3.858,
+    "Total_2030": 13.3615,
+    "Pct_Drop": 29.27330057930629,
+    "Gas_Share_2030": 28.87400366725293
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_300f",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.4993,
+    "Gas_2030": 5.8354,
+    "Total_2030": 44.4812,
+    "Pct_Drop": 49.25430243580044,
+    "Gas_Share_2030": 13.11880075177828
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_300f",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.3954,
+    "Gas_2030": 2.2237,
+    "Total_2030": 6.3765,
+    "Pct_Drop": 7.167905151540451,
+    "Gas_Share_2030": 34.87336313024387
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_300f",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.1426,
+    "Gas_2030": 22.1042,
+    "Total_2030": 136.5252,
+    "Pct_Drop": 12.084669047751634,
+    "Gas_Share_2030": 16.190564086337172
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_400",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.3064,
+    "Gas_2030": 4.764,
+    "Total_2030": 62.0795,
+    "Pct_Drop": -10.626044956344051,
+    "Gas_Share_2030": 7.674030879759019
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_400",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4865,
+    "Gas_2030": 0.1331,
+    "Total_2030": 10.7851,
+    "Pct_Drop": 91.04608139926002,
+    "Gas_Share_2030": 1.2341100221602024
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_400",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.4548,
+    "Gas_2030": 0.632,
+    "Total_2030": 13.7079999999999,
+    "Pct_Drop": 88.41387401921244,
+    "Gas_Share_2030": 4.61044645462507
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_400",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.4993,
+    "Gas_2030": 1.50789999999999,
+    "Total_2030": 50.1511,
+    "Pct_Drop": 86.88702790604654,
+    "Gas_Share_2030": 3.00671371116484
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_400",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.3954,
+    "Gas_2030": 0.2321,
+    "Total_2030": 5.7518,
+    "Pct_Drop": 90.31059530767304,
+    "Gas_Share_2030": 4.0352585277652215
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_400",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.1426,
+    "Gas_2030": 7.269,
+    "Total_2030": 142.4753,
+    "Pct_Drop": 71.08890886384066,
+    "Gas_Share_2030": 5.101936967319949
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_400f",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.3064,
+    "Gas_2030": 9.9605,
+    "Total_2030": 62.1609,
+    "Pct_Drop": -131.29528144157533,
+    "Gas_Share_2030": 16.02373839503611
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_400f",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4865,
+    "Gas_2030": 0.4905,
+    "Total_2030": 10.3197,
+    "Pct_Drop": 67.00302724520687,
+    "Gas_Share_2030": 4.753045146661241
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_400f",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.4548,
+    "Gas_2030": 4.2856,
+    "Total_2030": 13.418,
+    "Pct_Drop": 21.434333064456997,
+    "Gas_Share_2030": 31.93918616783425
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_400f",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.4993,
+    "Gas_2030": 6.0555,
+    "Total_2030": 44.1503,
+    "Pct_Drop": 47.34027288617568,
+    "Gas_Share_2030": 13.715648591289302
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_400f",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.3954,
+    "Gas_2030": 2.3707,
+    "Total_2030": 6.434,
+    "Pct_Drop": 1.0311430241295887,
+    "Gas_Share_2030": 36.84644078333852
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_400f",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.1426,
+    "Gas_2030": 23.1629,
+    "Total_2030": 136.4829,
+    "Pct_Drop": 7.873887346575139,
+    "Gas_Share_2030": 16.97128358204581
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_500",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.3064,
+    "Gas_2030": 7.4899,
+    "Total_2030": 61.8722,
+    "Pct_Drop": -73.92485602823703,
+    "Gas_Share_2030": 12.105436690468418
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_500",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4865,
+    "Gas_2030": 0.1677,
+    "Total_2030": 10.4939,
+    "Pct_Drop": 88.71846619576186,
+    "Gas_Share_2030": 1.598071260446545
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_500",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.4548,
+    "Gas_2030": 1.9106,
+    "Total_2030": 13.3037,
+    "Pct_Drop": 64.97396788149887,
+    "Gas_Share_2030": 14.361418252065215
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_500",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.4993,
+    "Gas_2030": 4.0003,
+    "Total_2030": 45.8833,
+    "Pct_Drop": 65.21266511874636,
+    "Gas_Share_2030": 8.718422606917986
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_500",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.3954,
+    "Gas_2030": 1.0083,
+    "Total_2030": 6.001,
+    "Pct_Drop": 57.90682140769809,
+    "Gas_Share_2030": 16.802199633394434
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_500",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.1426,
+    "Gas_2030": 14.5768,
+    "Total_2030": 137.5541,
+    "Pct_Drop": 42.02349796759285,
+    "Gas_Share_2030": 10.597139598165375
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.3064,
+    "Gas_2030": 9.4526,
+    "Total_2030": 61.8181,
+    "Pct_Drop": -119.50120750510868,
+    "Gas_Share_2030": 15.290990826311388
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4865,
+    "Gas_2030": 0.194,
+    "Total_2030": 10.3453,
+    "Pct_Drop": 86.94920955264044,
+    "Gas_Share_2030": 1.875247697021836
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.4548,
+    "Gas_2030": 3.2651,
+    "Total_2030": 13.2928,
+    "Pct_Drop": 40.14262667742172,
+    "Gas_Share_2030": 24.562921280693303
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.4993,
+    "Gas_2030": 5.5235,
+    "Total_2030": 44.7833,
+    "Pct_Drop": 51.96664144774029,
+    "Gas_Share_2030": 12.333838730062324
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.3954,
+    "Gas_2030": 1.91639999999999,
+    "Total_2030": 6.2688,
+    "Pct_Drop": 19.996660265509316,
+    "Gas_Share_2030": 30.5704441041346
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.1426,
+    "Gas_2030": 20.3516,
+    "Total_2030": 136.5083,
+    "Pct_Drop": 19.05530852020077,
+    "Gas_Share_2030": 14.908690533835673
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600_COV",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.1378,
+    "Gas_2030": 10.3499,
+    "Total_2030": 59.8632,
+    "Pct_Drop": -150.13050413263085,
+    "Gas_Share_2030": 17.289252829785244
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600_COV",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 0.9311,
+    "Gas_2030": 0.0779,
+    "Total_2030": 9.0415,
+    "Pct_Drop": 91.6335517130276,
+    "Gas_Share_2030": 0.8615827019852901
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600_COV",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.9887,
+    "Gas_2030": 3.3321,
+    "Total_2030": 11.5951,
+    "Pct_Drop": 33.207047928318,
+    "Gas_Share_2030": 28.737138963872667
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600_COV",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 10.8014,
+    "Gas_2030": 5.5058,
+    "Total_2030": 42.7155,
+    "Pct_Drop": 49.02697798433536,
+    "Gas_Share_2030": 12.88946635296321
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600_COV",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.0345,
+    "Gas_2030": 1.7604,
+    "Total_2030": 5.6449,
+    "Pct_Drop": 13.472597689850089,
+    "Gas_Share_2030": 31.185672022533613
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600_COV",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 22.8936,
+    "Gas_2030": 21.0261,
+    "Total_2030": 128.8602,
+    "Pct_Drop": 8.157301603941711,
+    "Gas_Share_2030": 16.31698538416051
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600f_COV",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.1378,
+    "Gas_2030": 9.464,
+    "Total_2030": 60.723,
+    "Pct_Drop": -128.72057615157811,
+    "Gas_Share_2030": 15.58552772425605
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600f_COV",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 0.9311,
+    "Gas_2030": 0.451,
+    "Total_2030": 9.0843,
+    "Pct_Drop": 51.56266781226507,
+    "Gas_Share_2030": 4.964609270939973
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600f_COV",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.9887,
+    "Gas_2030": 4.4638,
+    "Total_2030": 11.7158,
+    "Pct_Drop": 10.521779221039544,
+    "Gas_Share_2030": 38.10068454565629
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600f_COV",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 10.8014,
+    "Gas_2030": 7.5177,
+    "Total_2030": 42.1765,
+    "Pct_Drop": 30.40068879960005,
+    "Gas_Share_2030": 17.824380875606085
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600f_COV",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.0345,
+    "Gas_2030": 2.0029,
+    "Total_2030": 5.7835,
+    "Pct_Drop": 1.5532071762103747,
+    "Gas_Share_2030": 34.63127863750324
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - EN_NPi2020_600f_COV",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 22.8936,
+    "Gas_2030": 23.8997,
+    "Total_2030": 129.483,
+    "Pct_Drop": -4.39467798860817,
+    "Gas_Share_2030": 18.4577898256914
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Divergent Net Zero Policies",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.9799,
+    "Gas_2030": 12.2741,
+    "Total_2030": 59.2004,
+    "Pct_Drop": -146.4728207393723,
+    "Gas_Share_2030": 20.73313693826393
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Divergent Net Zero Policies",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4772,
+    "Gas_2030": 0.1419,
+    "Total_2030": 7.4838,
+    "Pct_Drop": 90.39398862713244,
+    "Gas_Share_2030": 1.8960955664234749
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Divergent Net Zero Policies",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.2627,
+    "Gas_2030": 3.6221,
+    "Total_2030": 9.8542,
+    "Pct_Drop": 31.17411214775685,
+    "Gas_Share_2030": 36.75691583284285
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Divergent Net Zero Policies",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 10.5285,
+    "Gas_2030": 4.0618,
+    "Total_2030": 42.9052,
+    "Pct_Drop": 61.42090516217885,
+    "Gas_Share_2030": 9.466917762881888
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Divergent Net Zero Policies",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.1603,
+    "Gas_2030": 1.5064,
+    "Total_2030": 5.3304,
+    "Pct_Drop": 30.268944128130347,
+    "Gas_Share_2030": 28.260543298814344
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Divergent Net Zero Policies",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 24.4086,
+    "Gas_2030": 21.6063,
+    "Total_2030": 124.7739,
+    "Pct_Drop": 11.480789557778811,
+    "Gas_Share_2030": 17.31636183528767
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.9799,
+    "Gas_2030": 12.0396,
+    "Total_2030": 58.0383,
+    "Pct_Drop": -141.76389084118156,
+    "Gas_Share_2030": 20.744232687725177
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4772,
+    "Gas_2030": 0.1418,
+    "Total_2030": 7.3888,
+    "Pct_Drop": 90.4007581911725,
+    "Gas_Share_2030": 1.9191208315288009
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.2627,
+    "Gas_2030": 3.1243,
+    "Total_2030": 9.4656,
+    "Pct_Drop": 40.6331350827522,
+    "Gas_Share_2030": 33.00688810006761
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 10.5285,
+    "Gas_2030": 3.6033,
+    "Total_2030": 42.0299,
+    "Pct_Drop": 65.7757515315572,
+    "Gas_Share_2030": 8.573182424892755
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.1603,
+    "Gas_2030": 1.4187,
+    "Total_2030": 5.2725,
+    "Pct_Drop": 34.32856547701707,
+    "Gas_Share_2030": 26.90753911806544
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 24.4086,
+    "Gas_2030": 20.3277,
+    "Total_2030": 122.195,
+    "Pct_Drop": 16.71910719992134,
+    "Gas_Share_2030": 16.63545971602766
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050 - IPD-95th",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.9298,
+    "Gas_2030": 11.7952,
+    "Total_2030": 57.6788,
+    "Pct_Drop": -139.26325611586677,
+    "Gas_Share_2030": 20.44980131348086
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050 - IPD-95th",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4319,
+    "Gas_2030": 0.135,
+    "Total_2030": 7.4119,
+    "Pct_Drop": 90.57196731615336,
+    "Gas_Share_2030": 1.821395323736154
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050 - IPD-95th",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.2172,
+    "Gas_2030": 2.6324,
+    "Total_2030": 9.1282,
+    "Pct_Drop": 49.543816606608914,
+    "Gas_Share_2030": 28.838106088823647
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050 - IPD-95th",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 10.4681,
+    "Gas_2030": 3.5277,
+    "Total_2030": 41.8635,
+    "Pct_Drop": 66.30047477574728,
+    "Gas_Share_2030": 8.426672399584362
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050 - IPD-95th",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.158,
+    "Gas_2030": 1.3598,
+    "Total_2030": 5.2377,
+    "Pct_Drop": 36.98795180722892,
+    "Gas_Share_2030": 25.96177711590965
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050 - IPD-95th",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 24.2051,
+    "Gas_2030": 19.4502,
+    "Total_2030": 121.3201,
+    "Pct_Drop": 19.6442072125296,
+    "Gas_Share_2030": 16.03213317496441
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050 - IPD-median",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.9423,
+    "Gas_2030": 11.7978,
+    "Total_2030": 57.7775,
+    "Pct_Drop": -138.71072172874975,
+    "Gas_Share_2030": 20.41936740080481
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050 - IPD-median",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4435,
+    "Gas_2030": 0.1368,
+    "Total_2030": 7.3991,
+    "Pct_Drop": 90.52303429165222,
+    "Gas_Share_2030": 1.848873511643308
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050 - IPD-median",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.2277,
+    "Gas_2030": 2.7052,
+    "Total_2030": 9.1383,
+    "Pct_Drop": 48.252577615394905,
+    "Gas_Share_2030": 29.602880185592507
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050 - IPD-median",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 10.4914,
+    "Gas_2030": 3.4715,
+    "Total_2030": 41.8955,
+    "Pct_Drop": 66.9109937663229,
+    "Gas_Share_2030": 8.286092778460693
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050 - IPD-median",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.1578,
+    "Gas_2030": 1.3606,
+    "Total_2030": 5.2298,
+    "Pct_Drop": 36.94503661136342,
+    "Gas_Share_2030": 26.016291253967648
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - NGFS2_Net-Zero 2050 - IPD-median",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 24.2627,
+    "Gas_2030": 19.4719,
+    "Total_2030": 121.4403,
+    "Pct_Drop": 19.745535327890124,
+    "Gas_Share_2030": 16.034133644268007
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SDP-PkBudg1000",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.2969,
+    "Gas_2030": 13.3502,
+    "Total_2030": 69.0338,
+    "Pct_Drop": -210.6937559636017,
+    "Gas_Share_2030": 19.338642809754063
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SDP-PkBudg1000",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.4768,
+    "Gas_2030": 0.8202,
+    "Total_2030": 10.0451,
+    "Pct_Drop": 44.460996749729134,
+    "Gas_Share_2030": 8.16517506047725
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SDP-PkBudg1000",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.4463,
+    "Gas_2030": 7.058,
+    "Total_2030": 15.5444,
+    "Pct_Drop": -29.59256743110001,
+    "Gas_Share_2030": 45.40541931499447
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SDP-PkBudg1000",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 11.502,
+    "Gas_2030": 4.6231,
+    "Total_2030": 40.4892,
+    "Pct_Drop": 59.80612067466528,
+    "Gas_Share_2030": 11.418106556810212
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SDP-PkBudg1000",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 2.3932,
+    "Gas_2030": 2.4987,
+    "Total_2030": 6.063,
+    "Pct_Drop": -4.408323583486532,
+    "Gas_Share_2030": 41.21227115289461
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SDP-PkBudg1000",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 25.1153,
+    "Gas_2030": 28.3501,
+    "Total_2030": 141.1757,
+    "Pct_Drop": -12.87979836991794,
+    "Gas_Share_2030": 20.08143044447451
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SSP1-PkBudg900",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.2969,
+    "Gas_2030": 10.5534,
+    "Total_2030": 62.6468,
+    "Pct_Drop": -145.60497102562312,
+    "Gas_Share_2030": 16.84587241487195
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SSP1-PkBudg900",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4768,
+    "Gas_2030": 0.1659,
+    "Total_2030": 9.7535,
+    "Pct_Drop": 88.76625135427953,
+    "Gas_Share_2030": 1.700927872045932
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SSP1-PkBudg900",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.4463,
+    "Gas_2030": 4.1026,
+    "Total_2030": 13.0785,
+    "Pct_Drop": 24.67179553091089,
+    "Gas_Share_2030": 31.36904079213977
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SSP1-PkBudg900",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.502,
+    "Gas_2030": 3.8343,
+    "Total_2030": 42.6041,
+    "Pct_Drop": 66.66405842462181,
+    "Gas_Share_2030": 8.999838043756352
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SSP1-PkBudg900",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.3932,
+    "Gas_2030": 1.6332,
+    "Total_2030": 5.8965,
+    "Pct_Drop": 31.756643824168485,
+    "Gas_Share_2030": 27.697786822691427
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SSP1-PkBudg900",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.1153,
+    "Gas_2030": 20.2894,
+    "Total_2030": 133.9794,
+    "Pct_Drop": 19.2149805098884,
+    "Gas_Share_2030": 15.143671340519512
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SSP2-PkBudg900",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.2969,
+    "Gas_2030": 10.1314,
+    "Total_2030": 62.0814999999999,
+    "Pct_Drop": -135.7839372570923,
+    "Gas_Share_2030": 16.319515475624808
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SSP2-PkBudg900",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.4768,
+    "Gas_2030": 0.1815,
+    "Total_2030": 10.3363,
+    "Pct_Drop": 87.70991332611051,
+    "Gas_Share_2030": 1.7559474860443292
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SSP2-PkBudg900",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.4463,
+    "Gas_2030": 4.2771,
+    "Total_2030": 13.4439,
+    "Pct_Drop": 21.467785469034023,
+    "Gas_Share_2030": 31.814428848771563
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SSP2-PkBudg900",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.502,
+    "Gas_2030": 4.2254,
+    "Total_2030": 45.1249,
+    "Pct_Drop": 63.26378021213702,
+    "Gas_Share_2030": 9.363788063796264
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SSP2-PkBudg900",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.3932,
+    "Gas_2030": 1.7373,
+    "Total_2030": 6.1753,
+    "Pct_Drop": 27.40681932141067,
+    "Gas_Share_2030": 28.13304616779752
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.2 - SusDev_SSP2-PkBudg900",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.1153,
+    "Gas_2030": 20.5525999999999,
+    "Total_2030": 137.1622,
+    "Pct_Drop": 18.16701373266536,
+    "Gas_Share_2030": 14.98415744279393
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.3 - DeepElec_SSP2_ HighRE_Budg900",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 4.4338,
+    "Gas_2030": 10.045,
+    "Total_2030": 66.6086,
+    "Pct_Drop": -126.5550994632144,
+    "Gas_Share_2030": 15.080635233288197
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.3 - DeepElec_SSP2_ HighRE_Budg900",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.7762,
+    "Gas_2030": 0.1798,
+    "Total_2030": 9.1007,
+    "Pct_Drop": 89.87726607364037,
+    "Gas_Share_2030": 1.9756722010394805
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.3 - DeepElec_SSP2_ HighRE_Budg900",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.5697,
+    "Gas_2030": 2.248,
+    "Total_2030": 11.671,
+    "Pct_Drop": 59.63875971775858,
+    "Gas_Share_2030": 19.26141718790164
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.3 - DeepElec_SSP2_ HighRE_Budg900",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 11.7216,
+    "Gas_2030": 3.0079,
+    "Total_2030": 48.8526,
+    "Pct_Drop": 74.33882746382747,
+    "Gas_Share_2030": 6.157092969463242
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.3 - DeepElec_SSP2_ HighRE_Budg900",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.915,
+    "Gas_2030": 0.9048,
+    "Total_2030": 5.7501,
+    "Pct_Drop": 52.75195822454308,
+    "Gas_Share_2030": 15.73537851515626
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.3 - DeepElec_SSP2_ HighRE_Budg900",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 25.4163,
+    "Gas_2030": 16.3853,
+    "Total_2030": 141.9829,
+    "Pct_Drop": 35.53231587603231,
+    "Gas_Share_2030": 11.540333378174417
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.3 - DeepElec_SSP2_def_Budg900",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.4338,
+    "Gas_2030": 11.587,
+    "Total_2030": 62.342,
+    "Pct_Drop": -161.33339347737834,
+    "Gas_Share_2030": 18.58618587789933
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.3 - DeepElec_SSP2_def_Budg900",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.7762,
+    "Gas_2030": 0.1804,
+    "Total_2030": 8.2858,
+    "Pct_Drop": 89.84348609390835,
+    "Gas_Share_2030": 2.1772188563566583
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.3 - DeepElec_SSP2_def_Budg900",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.5697,
+    "Gas_2030": 3.3613,
+    "Total_2030": 10.9043,
+    "Pct_Drop": 39.65025046232292,
+    "Gas_Share_2030": 30.82545417862678
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.3 - DeepElec_SSP2_def_Budg900",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 11.7216,
+    "Gas_2030": 4.37639999999999,
+    "Total_2030": 44.2469,
+    "Pct_Drop": 62.66380016380025,
+    "Gas_Share_2030": 9.890862410699937
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.3 - DeepElec_SSP2_def_Budg900",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.915,
+    "Gas_2030": 1.142,
+    "Total_2030": 5.4477,
+    "Pct_Drop": 40.36553524804178,
+    "Gas_Share_2030": 20.962975200543347
+  },
+  {
+    "Scenario_ID": "REMIND-MAgPIE 2.1-4.3 - DeepElec_SSP2_def_Budg900",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 25.4163,
+    "Gas_2030": 20.6472,
+    "Total_2030": 131.2268,
+    "Pct_Drop": 18.763942824093192,
+    "Gas_Share_2030": 15.733981168480833
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_400f",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 3.03998821428994,
+    "Gas_2030": 2.18255632650663,
+    "Total_2030": 29.40709102652,
+    "Pct_Drop": 28.205105656423843,
+    "Gas_Share_2030": 7.421870883244963
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_400f",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.43294524445623,
+    "Gas_2030": 0.570859915379491,
+    "Total_2030": 7.65338812800822,
+    "Pct_Drop": 60.1617774588366,
+    "Gas_Share_2030": 7.4589176170274305
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_400f",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.3343851632176,
+    "Gas_2030": 3.70654007727129,
+    "Total_2030": 9.20183761466687,
+    "Pct_Drop": 30.516077038659585,
+    "Gas_Share_2030": 40.28043345780642
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_400f",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 8.72717984447896,
+    "Gas_2030": 1.31413549879593,
+    "Total_2030": 39.9463611042081,
+    "Pct_Drop": 84.94203715044,
+    "Gas_Share_2030": 3.2897502112088355
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_400f",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 3.71616042055346,
+    "Gas_2030": 1.8659307474272,
+    "Total_2030": 7.12019224157143,
+    "Pct_Drop": 49.7887460103431,
+    "Gas_Share_2030": 26.20618494726749
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_400f",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 22.2506588869962,
+    "Gas_2030": 9.64002256538055,
+    "Total_2030": 93.3288701149746,
+    "Pct_Drop": 56.67533885473207,
+    "Gas_Share_2030": 10.329089544858649
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_450",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.03998821428994,
+    "Gas_2030": 2.03045753084597,
+    "Total_2030": 28.9772622839101,
+    "Pct_Drop": 33.20837491074845,
+    "Gas_Share_2030": 7.007071651394068
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_450",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.43294524445623,
+    "Gas_2030": 0.448925827278476,
+    "Total_2030": 7.59254711745336,
+    "Pct_Drop": 68.67111084563227,
+    "Gas_Share_2030": 5.912717041248361
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_450",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 5.3343851632176,
+    "Gas_2030": 3.70810599744808,
+    "Total_2030": 9.48439828856685,
+    "Pct_Drop": 30.48672182472439,
+    "Gas_Share_2030": 39.09690298348276
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_450",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 8.72717984447896,
+    "Gas_2030": 1.15353218562086,
+    "Total_2030": 40.4070882988596,
+    "Pct_Drop": 86.78230303285643,
+    "Gas_Share_2030": 2.8547768081903984
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_450",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.71616042055346,
+    "Gas_2030": 2.77573548992999,
+    "Total_2030": 7.78211830606163,
+    "Pct_Drop": 25.30635990368278,
+    "Gas_Share_2030": 35.668122492662704
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_450",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 22.2506588869962,
+    "Gas_2030": 10.1167570311234,
+    "Total_2030": 94.2434142948516,
+    "Pct_Drop": 54.53277548991653,
+    "Gas_Share_2030": 10.734709801017964
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_450f",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 3.03998821428994,
+    "Gas_2030": 2.23171168647524,
+    "Total_2030": 29.4762758360944,
+    "Pct_Drop": 26.588146757124584,
+    "Gas_Share_2030": 7.571213198318818
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_450f",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.43294524445623,
+    "Gas_2030": 0.576567131450015,
+    "Total_2030": 7.66456570931992,
+    "Pct_Drop": 59.76349175374045,
+    "Gas_Share_2030": 7.522502295843375
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_450f",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.3343851632176,
+    "Gas_2030": 3.75461191288267,
+    "Total_2030": 9.25459193627106,
+    "Pct_Drop": 29.614907847824774,
+    "Gas_Share_2030": 40.57025894537183
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_450f",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 8.72717984447896,
+    "Gas_2030": 1.42516904823719,
+    "Total_2030": 40.1397175776056,
+    "Pct_Drop": 83.66976418918662,
+    "Gas_Share_2030": 3.5505208662262926
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_450f",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 3.71616042055346,
+    "Gas_2030": 1.84771706769477,
+    "Total_2030": 7.12437646303773,
+    "Pct_Drop": 50.278866932779415,
+    "Gas_Share_2030": 25.93514081240635
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_450f",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 22.2506588869962,
+    "Gas_2030": 9.83577684673991,
+    "Total_2030": 93.6595275223289,
+    "Pct_Drop": 55.79557038426324,
+    "Gas_Share_2030": 10.501629793503934
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_500",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 3.03998821428994,
+    "Gas_2030": 2.25224147485709,
+    "Total_2030": 29.4365964733253,
+    "Pct_Drop": 25.91282215272821,
+    "Gas_Share_2030": 7.651161291347028
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_500",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.43294524445623,
+    "Gas_2030": 0.486823915766793,
+    "Total_2030": 7.63478024953081,
+    "Pct_Drop": 66.02634206364728,
+    "Gas_Share_2030": 6.376397222391704
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_500",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.3343851632176,
+    "Gas_2030": 3.69744126194976,
+    "Total_2030": 9.20521846600269,
+    "Pct_Drop": 30.686646186614432,
+    "Gas_Share_2030": 40.1667953412012
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_500",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 8.72717984447896,
+    "Gas_2030": 1.3419511848781,
+    "Total_2030": 40.1572410861811,
+    "Pct_Drop": 84.62331235528447,
+    "Gas_Share_2030": 3.341741485671663
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_500",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 3.71616042055346,
+    "Gas_2030": 2.27039687076626,
+    "Total_2030": 7.3978031590462,
+    "Pct_Drop": 38.90476691455311,
+    "Gas_Share_2030": 30.69014979115749
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_500",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 22.2506588869962,
+    "Gas_2030": 10.048854708218,
+    "Total_2030": 93.8316394340861,
+    "Pct_Drop": 54.83794543230005,
+    "Gas_Share_2030": 10.70945234339321
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_500f",
+    "Region": "Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 3.03998821428994,
+    "Gas_2030": 2.28383359980034,
+    "Total_2030": 29.5548434240314,
+    "Pct_Drop": 24.87360348751278,
+    "Gas_Share_2030": 7.727442730903888
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_500f",
+    "Region": "Latin America",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 1.43294524445623,
+    "Gas_2030": 0.620924079336586,
+    "Total_2030": 7.69996397615506,
+    "Pct_Drop": 56.66798283194607,
+    "Gas_Share_2030": 8.063986809021948
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_500f",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 5.3343851632176,
+    "Gas_2030": 3.83276141396701,
+    "Total_2030": 9.36544470084863,
+    "Pct_Drop": 28.149893629818784,
+    "Gas_Share_2030": 40.92449997189895
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_500f",
+    "Region": "OECD Countries",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 8.72717984447896,
+    "Gas_2030": 1.59265087490156,
+    "Total_2030": 40.3923802134697,
+    "Pct_Drop": 81.75068116753532,
+    "Gas_Share_2030": 3.942948809861065
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_500f",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 3.71616042055346,
+    "Gas_2030": 1.83167340699361,
+    "Total_2030": 7.1261717015182,
+    "Pct_Drop": 50.7105937390934,
+    "Gas_Share_2030": 25.703470021686115
+  },
+  {
+    "Scenario_ID": "WITCH 5.0 - EN_NPi2020_500f",
+    "Region": "World",
+    "Scenario_Type": "Low-BECCS",
+    "Gas_2020": 22.2506588869962,
+    "Gas_2030": 10.1618433749991,
+    "Total_2030": 94.1388040160231,
+    "Pct_Drop": 54.33014623698215,
+    "Gas_Share_2030": 10.794532054252018
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 3.1 - SSP1-19",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.27965778216246,
+    "Gas_2030": 0.063547738325103,
+    "Total_2030": 38.6706418687927,
+    "Pct_Drop": 98.06236679111068,
+    "Gas_Share_2030": 0.1643307047778438
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 3.1 - SSP1-19",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.22073646006974,
+    "Gas_2030": 0.029918249378841,
+    "Total_2030": 8.21125361668683,
+    "Pct_Drop": 97.54916393853496,
+    "Gas_Share_2030": 0.3643566594757397
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 3.1 - SSP1-19",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.4412846255405,
+    "Gas_2030": 0.094780876520895,
+    "Total_2030": 11.4078169961801,
+    "Pct_Drop": 96.11758188581102,
+    "Gas_Share_2030": 0.8308414883639201
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 3.1 - SSP1-19",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.37559323226725,
+    "Gas_2030": 0.003849886059604,
+    "Total_2030": 45.9660693212217,
+    "Pct_Drop": 99.93961524960343,
+    "Gas_Share_2030": 0.0083754954827659
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 3.1 - SSP1-19",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.43422776587576,
+    "Gas_2030": 7.2e-11,
+    "Total_2030": 10.9010880901586,
+    "Pct_Drop": 99.99999999704218,
+    "Gas_Share_2030": 6.604845259896664e-10
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 3.1 - SSP1-19",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 15.7514998659157,
+    "Gas_2030": 0.192096750356445,
+    "Total_2030": 115.15686989304,
+    "Pct_Drop": 98.7804542298088,
+    "Gas_Share_2030": 0.166813105058229
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 3.1 - SSP4-19",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.410643552167,
+    "Gas_2030": 0.070957789778938,
+    "Total_2030": 40.2682208905939,
+    "Pct_Drop": 97.91951903816351,
+    "Gas_Share_2030": 0.1762128750900757
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 3.1 - SSP4-19",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.36866208487121,
+    "Gas_2030": 7.2e-11,
+    "Total_2030": 8.45471199352196,
+    "Pct_Drop": 99.9999999947394,
+    "Gas_Share_2030": 8.515961283502824e-10
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 3.1 - SSP4-19",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.68562586774854,
+    "Gas_2030": 0.125677048982098,
+    "Total_2030": 12.156642807857,
+    "Pct_Drop": 95.32038134978728,
+    "Gas_Share_2030": 1.0338137836942225
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 3.1 - SSP4-19",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 6.69527885105884,
+    "Gas_2030": 0.007136217550821,
+    "Total_2030": 47.4515319566266,
+    "Pct_Drop": 99.89341418468788,
+    "Gas_Share_2030": 0.0150389613497492
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 3.1 - SSP4-19",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 2.64041495108759,
+    "Gas_2030": 7.2e-11,
+    "Total_2030": 11.9551884024543,
+    "Pct_Drop": 99.99999999727316,
+    "Gas_Share_2030": 6.022489782362526e-10
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 3.1 - SSP4-19",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 16.8006253069332,
+    "Gas_2030": 0.203771056455858,
+    "Total_2030": 120.286296051054,
+    "Pct_Drop": 98.78712218900706,
+    "Gas_Share_2030": 0.1694050470798186
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 4.4 - CD-LINKS_NPi2020_1000",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.40811764500478,
+    "Gas_2030": 2.19399352695828,
+    "Total_2030": 28.8051693901063,
+    "Pct_Drop": 35.6244779233493,
+    "Gas_Share_2030": 7.6166659436894335
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 4.4 - CD-LINKS_NPi2020_1000",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.31783035638089,
+    "Gas_2030": 0.576622836107847,
+    "Total_2030": 6.9699313720815,
+    "Pct_Drop": 56.24453228627958,
+    "Gas_Share_2030": 8.273005935432108
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 4.4 - CD-LINKS_NPi2020_1000",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.33450730210592,
+    "Gas_2030": 2.57363583111702,
+    "Total_2030": 8.21701099612165,
+    "Pct_Drop": 22.818107805862923,
+    "Gas_Share_2030": 31.320827394921967
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 4.4 - CD-LINKS_NPi2020_1000",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.64721183141928,
+    "Gas_2030": 1.50610438366156,
+    "Total_2030": 24.034180550022,
+    "Pct_Drop": 67.5912259157425,
+    "Gas_Share_2030": 6.266510233319277
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 4.4 - CD-LINKS_NPi2020_1000",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.07069704079964,
+    "Gas_2030": 1.54830690482415,
+    "Total_2030": 9.7399343281972,
+    "Pct_Drop": 49.57799860252722,
+    "Gas_Share_2030": 15.89648197464522
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 4.4 - CD-LINKS_NPi2020_1000",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 17.4582942401287,
+    "Gas_2030": 8.8495394283272,
+    "Total_2030": 92.7732169301591,
+    "Pct_Drop": 49.31040050873858,
+    "Gas_Share_2030": 9.538894652094742
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 4.4 - CD-LINKS_NPi2020_400",
+    "Region": "Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.40811764500478,
+    "Gas_2030": 1.12015371348248,
+    "Total_2030": 28.4648590591936,
+    "Pct_Drop": 67.13277444737655,
+    "Gas_Share_2030": 3.9352160892596864
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 4.4 - CD-LINKS_NPi2020_400",
+    "Region": "Latin America",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 1.31783035638089,
+    "Gas_2030": 0.412020912422015,
+    "Total_2030": 7.13695722785798,
+    "Pct_Drop": 68.73490503333576,
+    "Gas_Share_2030": 5.773061253803745
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 4.4 - CD-LINKS_NPi2020_400",
+    "Region": "Middle East and Africa",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.33450730210592,
+    "Gas_2030": 2.31941706244578,
+    "Total_2030": 8.08261616626674,
+    "Pct_Drop": 30.441985807590108,
+    "Gas_Share_2030": 28.69636531951127
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 4.4 - CD-LINKS_NPi2020_400",
+    "Region": "OECD Countries",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 4.64721183141928,
+    "Gas_2030": 0.810017083255685,
+    "Total_2030": 25.5595306045795,
+    "Pct_Drop": 82.56982654030853,
+    "Gas_Share_2030": 3.1691391199122974
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 4.4 - CD-LINKS_NPi2020_400",
+    "Region": "Russia and Central Asia",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 3.07069704079964,
+    "Gas_2030": 0.422591231717694,
+    "Total_2030": 10.441090535756,
+    "Pct_Drop": 86.23793796317831,
+    "Gas_Share_2030": 4.047385953320783
+  },
+  {
+    "Scenario_ID": "WITCH-GLOBIOM 4.4 - CD-LINKS_NPi2020_400",
+    "Region": "World",
+    "Scenario_Type": "High-BECCS",
+    "Gas_2020": 17.4582942401287,
+    "Gas_2030": 5.43520976956261,
+    "Total_2030": 95.399907476961,
+    "Pct_Drop": 68.8674638266233,
+    "Gas_Share_2030": 5.697290399233571
+  }
+]

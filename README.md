@@ -17,6 +17,7 @@ This project analyzes global least-cost 1.5°C-compatible scenarios to assess th
 - [Folder Structure](#folder-structure)
 - [Backend: Data Processing, Cleaning & Harmonization](#backend-data-processing-cleaning--harmonization)
   - [Scripts Used](#scripts-used)
+  - [Final Dashboard Inputs Generated](#final-dashboard-inputs-generated)
   - [Scenario Filtering and Harmonization](#scenario-filtering-and-harmonization)
   - [Reproduce our experiment](#reproduce-our-experiment)
 - [Frontend: Dashboard and Visualization](#frontend-dashboard-and-visualization)
@@ -63,14 +64,14 @@ Each step is modular and reproducible. Intermediate outputs are saved to CSVs fo
 
 ### Scripts Used
 ---
-| Step | Script                          | Inputs                                                   | Outputs                                                                                 | Purpose                                                   |
-|------|----------------------------------|----------------------------------------------------------|------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| 1    | `step1_filter_beccs.py`         | `backend/data/scenario_data.xlsx`                        | `step1_scenario_type.csv`                                                               | Tag scenarios as Low-/High-BECCS                          |
-| 2    | `step2_clean_electricity.py`    | `backend/data/scenario_data.xlsx`                        | `step2_electricity_long.csv`                                                            | Reshape electricity & gas to long format                  |
-| 3    | `step3_standardize_timeseries.py`| `step2_electricity_long.csv`                             | `step3_standardized.csv`, `step3_modified_scenarios.csv`                                | Ensure all scenarios have complete 2010–2100 data using linear interpolation |
-| 4    | `step4_calculate_indicators.py` | `step3_standardized.csv`, `step1_scenario_type.csv`      | `step4_metrics.csv`, `step4_skipped_exit_years.csv`                                     | Calculate gas share, % drop, and gas phase-out year       |
-| 5    | `step5_aggregate_outputs.py`    | `step4_metrics.csv`                                      | `step5_region_summary.json`, `step5_benchmark_stats.json`                               | Compute regional summaries and benchmarks                 |
-| 6    | `step6_export_json.py`          | All `.csv`/`.json` from above                            | `step6_scenario_timeseries.json`, `step6_scenario_table.json`, `step6_map_data.json`, `step6_country_region_map.json` | Export dashboard-ready JSONs                             |
+| Step | Script                          | Inputs                                                                 | Outputs                                                                                                     | Purpose                                                   |
+|------|----------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| 1    | `step1_filter_beccs.py`         | `backend/data/scenario_data.xlsx`                                     | `step1_scenario_type.csv`                                                                                   | Tag scenarios as Low-/High-BECCS                          |
+| 2    | `step2_clean_electricity.py`    | `backend/data/scenario_data.xlsx`                                     | `step2_electricity_long.csv`                                                                                | Reshape electricity & gas to long format                  |
+| 3    | `step3_standardize_timeseries.py`| `step2_electricity_long.csv`                                          | `step3_standardized.csv`, `step3_modified_scenarios.csv`                                                    | Ensure all scenarios have complete 2010–2100 data using linear interpolation |
+| 4    | `step4_calculate_indicators.py` | `step3_standardized.csv`                                              | `step4_metrics.csv`                                                                                          | Calculate summary indicators like gas share and trend     |
+| 5    | `step5_aggregate_outputs.py`    | `step4_metrics.csv`                                                   | `step5_region_summary.json`, `step5_benchmark_stats.json`, `step5_scenario_gas_stats.csv`                   | Compute regional summaries and benchmarks                 |
+| 6    | `step6_export_json.py`          | All `.csv`/`.json` from above, `country_region_map.csv`                        | `step6_scenario_timeseries.json`, `step6_scenario_table.json`, `step6_map_data.json`, `step6_country_region_map.json` | Export dashboard-ready JSONs                             |
 
 <div align="right">
   <a href="#table-of-contents">
@@ -78,6 +79,23 @@ Each step is modular and reproducible. Intermediate outputs are saved to CSVs fo
   </a>
 </div>
 
+### Final Dashboard Inputs Generated
+---
+| File                          | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| `scenario_timeseries.json`    | Time series of gas share and gen by scenario/region                         |
+| `region_summary.json`         | Avg % drop and gas share by region                                          |
+| `benchmark_stats.json`        | 2030 gas share and exit year benchmarks                                     |
+| `scenario_table.json`         | Scenario-wise comparison table                                              |
+| `map_data.json`               | Regional reductions for maps                                                |
+| `country_region_map.json`     | Country-to-region mapping (from `country_region_map.csv`) for visualizations |
+
+
+<div align="right">
+  <a href="#table-of-contents">
+    <img src="https://img.shields.io/badge/↑ Back to TOC-blue?style=for-the-badge" alt="Back to TOC">
+  </a>
+</div>
 
 ### Scenario Filtering and harmonization
 ---

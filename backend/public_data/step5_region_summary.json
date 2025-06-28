@@ -1,0 +1,62 @@
+{
+  "Asia": {
+    "High-BECCS": {
+      "pct_drop": -20.28,
+      "gas_share_2030": 12.49
+    },
+    "Low-BECCS": {
+      "pct_drop": 9.57,
+      "gas_share_2030": 10.11
+    }
+  },
+  "Latin America": {
+    "High-BECCS": {
+      "pct_drop": 72.93,
+      "gas_share_2030": 3.91
+    },
+    "Low-BECCS": {
+      "pct_drop": 89.52,
+      "gas_share_2030": 2.18
+    }
+  },
+  "Middle East and Africa": {
+    "High-BECCS": {
+      "pct_drop": 33.61,
+      "gas_share_2030": 31.34
+    },
+    "Low-BECCS": {
+      "pct_drop": 29.61,
+      "gas_share_2030": 34.16
+    }
+  },
+  "OECD Countries": {
+    "High-BECCS": {
+      "pct_drop": 49.67,
+      "gas_share_2030": 12.92
+    },
+    "Low-BECCS": {
+      "pct_drop": 70.94,
+      "gas_share_2030": 7.56
+    }
+  },
+  "Russia and Central Asia": {
+    "High-BECCS": {
+      "pct_drop": 36.95,
+      "gas_share_2030": 26.02
+    },
+    "Low-BECCS": {
+      "pct_drop": 50.28,
+      "gas_share_2030": 19.12
+    }
+  },
+  "World": {
+    "High-BECCS": {
+      "pct_drop": 17.86,
+      "gas_share_2030": 15.67
+    },
+    "Low-BECCS": {
+      "pct_drop": 35.78,
+      "gas_share_2030": 12.39
+    }
+  }
+}
