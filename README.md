@@ -1,9 +1,14 @@
-# Phasing Out Fossil Gas in 1.5°C Pathways
+# Phasing Out Fossil Gas in 1.5°C Pathways - Climate Analytics Case Study
 
 [![AWS Amplify Deploy Status](https://img.shields.io/badge/deployed-AWS%20Amplify-4CAF50?logo=amazon-aws&logoColor=white)](https://main.d1n7nou6rui1bo.amplifyapp.com/)
 
-> <a href="https://main.d1n7nou6rui1bo.amplifyapp.com/" target="_blank">View Live Dashboard →</a>
+<div align="center">
+  <a href="https://main.d1n7nou6rui1bo.amplifyapp.com/" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Live%20Dashboard-Click%20Here-007BFF?style=for-the-badge&logo=internet-explorer&logoColor=white" alt="View Live Dashboard">
+  </a>
+</div>
 
+<br>
 This project analyzes global least-cost 1.5°C-compatible scenarios to assess the role of fossil gas in the power sector. Outputs inform a joint NGO position on halting new gas-fired power investments, supported by a fully reproducible backend and interactive public dashboard.
 
 ### Table of Contents
