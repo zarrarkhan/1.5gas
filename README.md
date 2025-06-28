@@ -1,4 +1,4 @@
-# Phasing Out Fossil Gas in 1.5°C Pathways - Climate Analytics Case Study
+# Phasing Out Fossil Gas in 1.5°C Pathways
 
 [![AWS Amplify Deploy Status](https://img.shields.io/badge/deployed-AWS%20Amplify-4CAF50?logo=amazon-aws&logoColor=white)](https://main.d1n7nou6rui1bo.amplifyapp.com/)
 
