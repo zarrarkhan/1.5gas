@@ -35,7 +35,7 @@ export default function Hero() {
         >
           <div className="flex items-baseline justify-center gap-4 mb-2">
             <h1 className="text-5xl sm:text-5xl md:text-5xl lg:text-6xl font-logo font-bold text-sand flex flex-col md:flex-row md:items-baseline md:whitespace-nowrap md:tracking-tight leading-tight">
-              <span>ESS Index 2025</span>
+              <span>Phasing Out Fossil Gas in 1.5°C Pathways</span>
             </h1>
           </div>
         </motion.div>
@@ -46,7 +46,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
         >
-          AI-Powered Insights for Environmental & Social Standards
+          A Case Study for Climate Analytics - by Zarrar Khan
         </motion.p>
 
         {/* Minimal change applied below */}
@@ -56,8 +56,8 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.4 }}
         >
           {/* 2. Replaced <a> with <Link> and updated the href */}
-          <Link
-            href="/dashboard"
+          <a
+            href="#insights"
             className="inline-flex flex-col items-center text-sand hover:text-white transition-colors group"
           >
             <span className="font-tagline text-sm tracking-wider">EXPLORE</span>
@@ -71,7 +71,7 @@ export default function Hero() {
             >
               <HiChevronDown className="h-8 w-8" />
             </motion.div>
-          </Link>
+          </a>
         </motion.div>
       </div>
     </div>
