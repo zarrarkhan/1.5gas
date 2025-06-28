@@ -1,5 +1,9 @@
 # 📊 Phasing Out Fossil Gas in 1.5°C Pathways
 
+[![AWS Amplify Deploy Status](https://img.shields.io/badge/deployed-AWS%20Amplify-4CAF50?logo=amazon-aws&logoColor=white)](https://main.d1n7nou6rui1bo.amplifyapp.com/)
+
+> 🌐 **[View Live Dashboard →](https://main.d1n7nou6rui1bo.amplifyapp.com/)**
+
 This project analyzes global least-cost 1.5°C-compatible scenarios to assess the role of fossil gas in the power sector. Outputs inform a joint NGO position on halting new gas-fired power investments, supported by a fully reproducible backend and interactive public dashboard.
 
 ---
@@ -14,7 +18,7 @@ This project analyzes global least-cost 1.5°C-compatible scenarios to assess th
 │   ├── outputs/               → (Optional) intermediate CSVs for inspection
 │   └── public_data/           → Final JSONs (auto-copied to frontend)
 │
-├── frontend/                  → Next.js dashboard
+├── frontend/                  → Next.js dashboard (deployed via AWS Amplify)
 │   ├── public/data/           → Final data for dashboard (auto-synced)
 │   └── src/                   → Pages, components, loaders
 │
