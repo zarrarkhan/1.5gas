@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+/* === ADB ESS Index Palette - Semantic Naming === */
+:root {
+  /* Role-based color tokens */
+  --color-background-nav-dark: rgba(26, 32, 44, 0.9); /* A dark, semi-transparent color based on your text color */
+  --color-primary: #005A9C;         /* Main brand blue for actions & highlights */
+  --color-primary-dark: #004C80;    /* Darker blue for primary hover states */
+  --color-secondary: #4DB6AC;      /* Accent teal for secondary info */
+  --color-text-base: #1A202C;       /* Main, dark text for readability */
+  --color-text-muted: #718096;      /* Lighter gray text for subtitles */
+  --color-background: #F7FAFC;     /* Light gray page background */
+  --color-surface: #FFFFFF;         /* White for cards, pop-outs, etc. */
+
+  /* Global page variables */
+  --background: var(--color-background);
+  --foreground: var(--color-text-base);
+
+  /* Font variables (can be updated later) */
+  --font-logo: 'EB Garamond', serif;
+  --font-tagline: 'Lato', sans-serif;
+}
+
+
+/* Base styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: contain;
+  height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-tagline), sans-serif;
+  padding-bottom: env(safe-area-inset-bottom, 0px); /* 👈 added */
+}
+
+/* Custom utility classes with new semantic names */
+.font-logo {
+  font-family: var(--font-logo);
+}
+.font-tagline {
+  font-family: var(--font-tagline);
+}
+
+.text-primary { color: var(--color-primary); }
+.text-primary-dark { color: var(--color-primary-dark); }
+.text-secondary { color: var(--color-secondary); }
+.text-base { color: var(--color-text-base); }
+.text-muted { color: var(--color-text-muted); }
+
+.bg-primary { background-color: var(--color-primary); }
+.bg-primary-dark { background-color: var(--color-primary-dark); }
+.bg-secondary { background-color: var(--color-secondary); }
+.bg-background { background-color: var(--color-background); }
+.bg-surface { background-color: var(--color-surface); }
+
+
+/* Hover states for new custom color utilities */
+.hover\:text-primary:hover { color: var(--color-primary); }
+.hover\:text-primary-dark:hover { color: var(--color-primary-dark); }
+
+.hover\:bg-primary-dark:hover { background-color: var(--color-primary-dark); }
+
+.hover\:border-primary:hover { border-color: var(--color-primary); }
+
+.hover\:shadow-md:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.transition-fade {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.bg-nav-dark {
+  background-color: var(--color-background-nav-dark);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); /* For Safari support */
+}
+
+/* Target the main content box of the popup */
+.mapboxgl-popup-content {
+  font-family: var(--font-tagline);
+  background-color: rgba(26, 32, 44, 0.85) !important; /* Dark color from your text-base, with transparency */
+  border: 1px solid rgba(113, 128, 150, 0.4); /* Muted gray at 40% opacity for a subtle border */
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  padding: 0 !important; /* Remove default padding so we can control it inside our component */
+}
+
+/* Hide the default white "tail" or "tip" of the popup */
+.mapboxgl-popup-tip {
+  display: none !important;
+}
+
+/* === Custom Map Legend Styling === */
+.map-selector {
+  background-color: rgba(26, 32, 44, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.532);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-family: var(--font-tagline);
+  font-size: 0.875rem;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  /* ▼ Chevron ▼ */
+  background-image: url("data:image/svg+xml,%3Csvg fill='white' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+  padding-right: 2.25rem; /* extra space for the icon */
+}
+
+.map-selector:focus,
+.map-selector:hover,
+.map-selector:active {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.map-legend {
+  background-color: rgba(26, 32, 44, 0.85); /* Dark theme color */
+  border: 1px solid rgba(113, 128, 150, 0.4);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  z-index: 10;
+  color: white;
+  font-family: var(--font-tagline);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  width: 300px;
+  text-align: center;
+}
+
+.legend-title {
+  font-family: var(--font-logo);
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.legend-gradient {
+  height: 10px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.legend-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #a0aec0; /* text-gray-400 */
+}
+
+:root {
+  --vh: 100vh;
+}

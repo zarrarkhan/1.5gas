@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+.next/
+out/
+dist/
+
+# Local env files
+.env*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Amplify backend stuff (generated files)
+amplify/#current-cloud-backend
+amplify/backend/.temp/
+amplify/backend/awscloudformation/
+amplify/.config/local-*
+
+# VS Code and IDE files
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# Dependency lock files (optional based on your team)
+yarn.lock
+pnpm-lock.yaml
