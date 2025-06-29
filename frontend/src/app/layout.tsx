@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 // 1. Replaced fonts with a more modern, professional combination
 import { Montserrat, Inter } from "next/font/google";
 import "./globals.css";
+import 'mapbox-gl/dist/mapbox-gl.css'; // Add this line
 
 const montserrat = Montserrat({
   variable: "--font-logo",

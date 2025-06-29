@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback } from 'react';
 import MapGL, { Source, Layer, MapEvent } from 'react-map-gl/mapbox';
 import type { AnyLayer } from 'mapbox-gl';
 import { FeatureCollection, Feature } from 'geojson';
-import { LEGEND_COLORS } from '@/lib/colors';
+import { LEGEND_COLORS, MAPBOX_COLOR_BUCKETS } from '@/lib/colors';
 import MapLegend from '@/components/MapLegend';
 
 
@@ -15,25 +15,28 @@ import {
 
 const GEOJSON_URL = 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson';
 
-const getColorLayer = (indexKey: string): any => ({
+const getColorLayer = (scenario: "Low-BECCS" | "High-BECCS"): AnyLayer => ({
   id: 'region-layer',
   type: 'fill',
   source: 'countries-data',
   paint: {
-    'fill-color': [
-      'case',
-      ['has', indexKey],
-      [
-        'step',
-        ['get', indexKey],
-        LEGEND_COLORS.buckets[0].color,
-        ...LEGEND_COLORS.buckets.slice(1).flatMap(bucket => [bucket.value, bucket.color])
-      ],
-      LEGEND_COLORS.noDataColor
-    ],
+    'fill-color': ['get', scenario === 'Low-BECCS' ? 'fill_low' : 'fill_high'],
     'fill-opacity': 0.85
   }
 });
+
+// Simulate how Mapbox evaluates 'step' expressions
+const simulateMapboxStepColor = (value: number | null): string => {
+  const buckets = MAPBOX_COLOR_BUCKETS.buckets;
+  if (value === null || value === undefined) return MAPBOX_COLOR_BUCKETS.noDataColor;
+
+  // Mimic Mapbox 'step' behavior
+  if (value < buckets[0].value) return buckets[0].color;
+  for (let i = 1; i < buckets.length; i++) {
+    if (value < buckets[i].value) return buckets[i - 1].color;
+  }
+  return buckets[buckets.length - 1].color;
+};
 
 const getColorForValue = (value: number | null): string => {
   if (value === null || value === undefined) return LEGEND_COLORS.noDataColor;
@@ -41,6 +44,25 @@ const getColorForValue = (value: number | null): string => {
     if (value <= bucket.value) return bucket.color;
   }
   return LEGEND_COLORS.noDataColor;
+};
+
+const getStepColorExpressionForMapbox = (indexKey: string): any[] => {
+  const buckets = MAPBOX_COLOR_BUCKETS.buckets;
+
+  const expression: any[] = [
+    'step',
+    ['to-number', ['coalesce', ['get', indexKey], -999]],
+    buckets[0].color // for values < first threshold
+  ];
+
+  // Start from 1 since we already pushed default color
+  for (let i = 1; i < buckets.length; i++) {
+    const threshold = buckets[i].value;
+    const color = buckets[i].color;
+    expression.push(threshold, color);
+  }
+
+  return expression;
 };
 
 // Define colors for the bar chart
@@ -67,6 +89,7 @@ export default function RegionalDifferences() {
       const geoJson = await geoRes.json();
       const regionData = await regionRes.json();
       const regionMap = await mapRes.json();
+
 
       // Build name → ISO_A3 lookup for patching bad ISO codes
       const nameToIsoMap: Record<string, string> = {};
@@ -108,9 +131,36 @@ export default function RegionalDifferences() {
 
       // Build ISO_A3 → pct_drop map based on region assignment
       const isoToPctDrop: Record<string, { Low: number | null, High: number | null }> = {};
+      // Normalize key to match what’s in regionData
+      const normalizeRegionName = (r: string) =>
+        r.replace(/[^\w\s]/gi, '').replace(/\s+/g, ' ').trim().toLowerCase();
+
+      const regionKeyMap = Object.fromEntries(
+        Object.keys(regionData).map(k => [normalizeRegionName(k), k])
+      );
+
       regionMap.forEach(({ ISO_A3, Region }: any) => {
-        const low = valuesByRegion["Low-BECCS"][Region];
-        const high = valuesByRegion["High-BECCS"][Region];
+        const normalized = normalizeRegionName(Region);
+        let regionKey = regionKeyMap[normalized];
+
+        // Manual fallback patching if needed
+        if (!regionKey) {
+          if (Region.includes("OECD")) regionKey = "OECD Countries";
+          else if (Region.includes("Latin America")) regionKey = "Latin America";
+          else if (Region.includes("Asia")) regionKey = "Asia";
+          else if (Region.includes("Russia")) regionKey = "Russia and Central Asia";
+          else if (Region.includes("Middle East") || Region.includes("Africa"))
+            regionKey = "Middle East and Africa";
+          else if (Region.includes("World")) regionKey = "World";
+        }
+
+        if (!regionKey) {
+          return; // Skip unknown regions
+        }
+
+        const low = valuesByRegion["Low-BECCS"][regionKey];
+        const high = valuesByRegion["High-BECCS"][regionKey];
+
         if (low !== undefined || high !== undefined) {
           isoToPctDrop[ISO_A3] = {
             Low: low ?? null,
@@ -118,7 +168,6 @@ export default function RegionalDifferences() {
           };
         }
       });
-
 
       // Enrich geojson features with new values
       const enriched = geoJson.features.map((f: Feature) => {
@@ -130,12 +179,22 @@ export default function RegionalDifferences() {
         }
         const regionValues = isoToPctDrop[iso];
         if (regionValues) {
-          f.properties = {
-            ...f.properties,
-            "Low-BECCS Reduction": regionValues.Low,
-            "High-BECCS Reduction": regionValues.High
-          };
+          const props: any = { ...f.properties };
+
+          props["Low-BECCS Reduction"] = typeof regionValues.Low === 'number' ? regionValues.Low : undefined;
+          props["High-BECCS Reduction"] = typeof regionValues.High === 'number' ? regionValues.High : undefined;
+
+          const lowValue = props["Low-BECCS Reduction"];
+          const highValue = props["High-BECCS Reduction"];
+
+          props['fill_low'] = getColorForValue(lowValue);
+          props['fill_high'] = getColorForValue(highValue);
+
+          f.properties = props;
+        } else {
+          console.log("NO REGION VALUE FOR:", iso, f.properties?.name);
         }
+
         return f;
       });
 
@@ -299,15 +358,15 @@ export default function RegionalDifferences() {
             <MapGL
               initialViewState={{ longitude: 10, latitude: 20, zoom: 1.5 }}
               style={{ width: '100%', height: '100%' }}
-              mapStyle="mapbox://styles/mapbox/dark-v11" // Ensure dark map style
+              mapStyle="mapbox://styles/mapbox/dark-v11"
               mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
               interactiveLayerIds={['region-layer']}
               projection={{ name: 'mercator' }}
               onLoad={onMapLoad}
             >
               {geoJsonData && (
-                <Source type="geojson" data={geoJsonData}>
-                  <Layer {...getColorLayer(indexKey)} beforeId={firstSymbolLayerId} />
+                <Source key={indexKey} type="geojson" data={geoJsonData}>
+                  <Layer key={scenario} {...getColorLayer(scenario)} beforeId={firstSymbolLayerId} />
                 </Source>
               )}
             </MapGL>

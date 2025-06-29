@@ -9,3 +9,14 @@ export const LEGEND_COLORS = {
   ],
   noDataColor: '#333333'
 };
+
+export const MAPBOX_COLOR_BUCKETS = {
+  buckets: [
+    { value: 0, color: '#001524' },      // < 0
+    { value: 10, color: '#15616d' },     // 0 - <10
+    { value: 40, color: '#ffecd1' },     // 10 - <40
+    { value: 70, color: '#ff7d00' },     // 40 - <70
+    { value: 999, color: '#78290f' }     // ≥ 70
+  ],
+  noDataColor: '#333333'
+};
