@@ -2,61 +2,109 @@
   "Asia": {
     "High-BECCS": {
       "pct_drop": -20.28,
-      "gas_share_2030": 12.49
+      "gas_share_2030": 12.49,
+      "gas_phaseout_years": {
+        "effective_2.5pct": 2042,
+        "total_1pct": 2045
+      }
     },
     "Low-BECCS": {
       "pct_drop": 9.57,
-      "gas_share_2030": 10.11
+      "gas_share_2030": 10.11,
+      "gas_phaseout_years": {
+        "effective_2.5pct": 2040,
+        "total_1pct": 2040
+      }
     }
   },
   "Latin America": {
     "High-BECCS": {
       "pct_drop": 72.93,
-      "gas_share_2030": 3.91
+      "gas_share_2030": 3.91,
+      "gas_phaseout_years": {
+        "effective_2.5pct": 2035,
+        "total_1pct": 2035
+      }
     },
     "Low-BECCS": {
       "pct_drop": 89.52,
-      "gas_share_2030": 2.18
+      "gas_share_2030": 2.18,
+      "gas_phaseout_years": {
+        "effective_2.5pct": 2030,
+        "total_1pct": 2035
+      }
     }
   },
   "Middle East and Africa": {
     "High-BECCS": {
       "pct_drop": 33.61,
-      "gas_share_2030": 31.34
+      "gas_share_2030": 31.34,
+      "gas_phaseout_years": {
+        "effective_2.5pct": 2040,
+        "total_1pct": 2045
+      }
     },
     "Low-BECCS": {
       "pct_drop": 29.61,
-      "gas_share_2030": 34.16
+      "gas_share_2030": 34.16,
+      "gas_phaseout_years": {
+        "effective_2.5pct": 2040,
+        "total_1pct": 2050
+      }
     }
   },
   "OECD Countries": {
     "High-BECCS": {
       "pct_drop": 49.67,
-      "gas_share_2030": 12.92
+      "gas_share_2030": 12.92,
+      "gas_phaseout_years": {
+        "effective_2.5pct": 2040,
+        "total_1pct": 2045
+      }
     },
     "Low-BECCS": {
       "pct_drop": 70.94,
-      "gas_share_2030": 7.56
+      "gas_share_2030": 7.56,
+      "gas_phaseout_years": {
+        "effective_2.5pct": 2035,
+        "total_1pct": 2040
+      }
     }
   },
   "Russia and Central Asia": {
     "High-BECCS": {
       "pct_drop": 36.95,
-      "gas_share_2030": 26.02
+      "gas_share_2030": 26.02,
+      "gas_phaseout_years": {
+        "effective_2.5pct": 2040,
+        "total_1pct": 2045
+      }
     },
     "Low-BECCS": {
       "pct_drop": 50.28,
-      "gas_share_2030": 19.12
+      "gas_share_2030": 19.12,
+      "gas_phaseout_years": {
+        "effective_2.5pct": 2040,
+        "total_1pct": 2040
+      }
     }
   },
   "World": {
     "High-BECCS": {
       "pct_drop": 17.86,
-      "gas_share_2030": 15.67
+      "gas_share_2030": 15.67,
+      "gas_phaseout_years": {
+        "effective_2.5pct": 2045,
+        "total_1pct": 2045
+      }
     },
     "Low-BECCS": {
       "pct_drop": 35.78,
-      "gas_share_2030": 12.39
+      "gas_share_2030": 12.39,
+      "gas_phaseout_years": {
+        "effective_2.5pct": 2040,
+        "total_1pct": 2045
+      }
     }
   }
 }

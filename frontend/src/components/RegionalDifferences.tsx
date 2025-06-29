@@ -199,14 +199,33 @@ export default function RegionalDifferences() {
 
         {/* Dynamic Paragraph - full width, consistent tone */}
         <div className="mb-10 text-center max-w-4xl mx-auto">
-          <p className="text-lg text-muted leading-relaxed font-tagline">
+          <p className="text-lg leading-relaxed font-tagline text-muted">
             {scenario === "Low-BECCS" ? (
               <>
-                Under <strong>Low-BECCS</strong>, <strong>Latin America</strong> and <strong>OECD countries</strong> must reduce gas use by over <strong>70%</strong> by 2030. <strong>Russia and Central Asia</strong>: <strong>50%</strong>, <strong>Middle East and Africa</strong>: <strong>~30%</strong>, and <strong>Asia</strong>: <strong>9.6%</strong>.
+                Under <strong>Low-BECCS</strong>,{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>Latin America</span> and{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>OECD countries</span> must reduce gas use by over{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>70%</span> by 2030 — reflecting their already low gas reliance and high renewable capacity.{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>Russia and Central Asia</span>:{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>50%</span>,{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>Middle East and Africa</span>:{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>~30%</span>, and{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>Asia</span>:{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>9.6%</span>.
               </>
             ) : (
               <>
-                Under <strong>High-BECCS</strong>, <strong>Latin America</strong> still faces the largest reduction at <strong>73%</strong>. <strong>OECD countries</strong>: <strong>49.7%</strong>, <strong>Russia and Central Asia</strong>: <strong>37%</strong>, <strong>Middle East and Africa</strong>: <strong>33.6%</strong>, and <strong>Asia</strong>: <strong>20.3%</strong>.
+                Under <strong>High-BECCS</strong>,{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>Latin America</span> still sees the largest cut at{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>73%</span>, while{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>OECD countries</span> reduce by{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>49.7%</span>.{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>Russia and Central Asia</span>:{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>37%</span>,{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>Middle East and Africa</span>:{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>33.6%</span>,{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>Asia</span>:{" "}
+                <span style={{ color: "#ffffff", fontWeight: 600 }}>20.3%</span>. Delayed reductions here reflect higher BECCS use, but fossil gas must still decline sharply after 2030.
               </>
             )}
           </p>
@@ -228,7 +247,7 @@ export default function RegionalDifferences() {
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart
                     data={regionChartData}
-                    margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+                    margin={{ top: 20, right: 30, left: 20, bottom: 60 }}
                   >
                     <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#4a5568" /> {/* Darker grid lines */}
                     <XAxis
@@ -293,6 +312,18 @@ export default function RegionalDifferences() {
               )}
             </MapGL>
           </div>
+        </div>
+
+        {/* Full Regional Diagnostic Chart */}
+        <div className="mt-12">
+          <h3 className="text-lg font-semibold text-white mb-4 text-center">
+            Fossil Gas Share & Phase-Out by Region - A deeper dive
+          </h3>
+          <img
+            src="/data/step5_diagnostic1_gas_share_timeseries_all_regions.png"
+            alt="Gas Share Timeseries by Region"
+            className="w-full rounded-lg shadow-lg"
+          />
         </div>
 
 

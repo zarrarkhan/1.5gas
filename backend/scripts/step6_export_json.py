@@ -28,12 +28,17 @@ def main():
     files_to_copy = [
         "step6_scenario_table.json",
         "step6_country_region_map.json",
+        "step5_benchmark_stats.json",
         "step5_scenario_gas_stats.csv",
         "step5_region_summary.json",
         "step5_gas_share_paths.json",
         "step5_gas_share_summary.json",
         "step5_gas_timeseries_summary.json",
-        "step3_standardized.csv"
+        "step3_standardized.csv",
+        "step5_diagnostic1_gas_share_timeseries_all_regions.png",
+        "step3_diagnostics1_timeseries_by_variable.png",
+        "step3_diagnostics2_timeline_heatmap.png",
+        "step3_diagnostics3_model_scenario_histogram.png" 
     ]
 
     for fname in files_to_copy:

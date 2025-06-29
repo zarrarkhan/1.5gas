@@ -27,7 +27,7 @@ export default function MethodologyPage() {
             <div>
               <h2 className="text-xl font-bold text-white mb-2">📁 Backend Folder Structure</h2>
               <pre className="bg-[#1a1f2b] p-4 rounded text-sm overflow-auto">
-{`backend/
+                {`backend/
 ├── data/            # Input Excel and mapping files
 ├── scripts/         # step1_... to step6_... processing scripts
 ├── public_data/     # Output CSVs, JSONs, diagnostics
@@ -137,6 +137,34 @@ export default function MethodologyPage() {
                   </div>
                 ))}
               </div>
+            </div>
+
+            {/* Limitations Section */}
+            <div>
+              <h2 className="text-xl font-bold text-white mb-2">⚠️ Limitations</h2>
+              <ul className="list-disc pl-5 space-y-3 text-gray-300 text-sm">
+                <li className="text-gray-100">
+                  <strong>Overreliance on fossil fuels post-2030:</strong> Some IAM pathways depict continued fossil gas use—especially with CCS—well beyond what bottom-up decarbonization studies suggest is feasible or necessary.
+                </li>
+                <li className="text-gray-100">
+                  <strong>Unrealistic reliance on carbon removal:</strong> Even filtered scenarios often rely on high levels of BECCS by 2050, which may exceed sustainable deployment levels or current feasibility.
+                </li>
+                <li className="text-gray-100">
+                  <strong>Underestimation of demand-side shifts:</strong> Many models embed limited assumptions on energy demand reduction or behavioral change, possibly understating how quickly gas demand could fall.
+                </li>
+                <li className="text-gray-100">
+                  <strong>Tech innovation and cost trends lag:</strong> IAMs may not fully reflect recent trends in renewable cost declines and deployment speed, potentially delaying fossil phase-out timelines.
+                </li>
+                <li className="text-gray-100">
+                  <strong>Non-CO₂ gases underrepresented:</strong> Key sources of methane and N₂O in the power sector and upstream gas value chain are often not fully captured in IAM outputs.
+                </li>
+                <li className="text-gray-100">
+                  <strong>Global-to-regional data limitations:</strong> Scenario outputs are reported for broad regions and may miss national or sub-regional dynamics, especially in high-growth or fossil-dependent economies.
+                </li>
+              </ul>
+              <p className="text-gray-400 mt-4 text-sm">
+                Future work can include scenario downscaling, stakeholder validation, integration of national energy plans, and exploration of sensitivities to fossil phase-out timing and renewable ramp-up speed.
+              </p>
             </div>
 
           </div>

@@ -35,6 +35,46 @@ def main():
     merged["Pct_Drop"] = 100 * (merged["Gas_2020"] - merged["Gas_2030"]) / merged["Gas_2020"]
     merged["Gas_Share_2030"] = 100 * merged["Gas_2030"] / merged["Total_2030"]
 
+    # Prepare data for time series, still retaining ALL Regions
+    df_filtered = df[df["Variable_standardized"].isin(["Electricity", "Electricity|Gas"])]
+    df_pivot = df_filtered.pivot_table(
+        index=["Scenario_ID", "Region", "Year", "Scenario_Type"],
+        columns="Variable_standardized", # This pivots 'Variable_standardized' values to columns
+        values="Value"
+    ).reset_index()
+    df_pivot = df_pivot[df_pivot["Electricity"] > 0]
+    # Ensure 'Electricity|Gas' column exists before creating 'Gas_Share'
+    if 'Electricity|Gas' in df_pivot.columns:
+        df_pivot["Gas_Share"] = 100 * df_pivot["Electricity|Gas"] / df_pivot["Electricity"]
+    else:
+        # Handle cases where 'Electricity|Gas' might not be present for some Scenario_ID/Region combinations
+        df_pivot["Gas_Share"] = float('nan') # Set to NaN if 'Electricity|Gas' column is missing
+
+    df_pivot = df_pivot[df_pivot["Gas_Share"].notna()]
+    
+    # Compute gas phase-out years using thresholds: 2.5% (effective), 1.0% (total)
+    thresholds = {"effective": 2.5, "total": 1.0}
+    exit_years_by_scenario = {th: {} for th in thresholds}    # threshold → scenario_type → region → sid → year
+    exit_years_summary = {th: {} for th in thresholds}        # threshold → scenario_type → region → median year
+
+    for th_name, th_val in thresholds.items():
+        for stype in ["Low-BECCS", "High-BECCS"]:
+            if stype not in exit_years_by_scenario[th_name]:
+                exit_years_by_scenario[th_name][stype] = {}
+                exit_years_summary[th_name][stype] = {}
+            stype_df = df_pivot[df_pivot["Scenario_Type"] == stype]
+
+            for region, region_df in stype_df.groupby("Region"):
+                sid_years = {}
+                for sid, group in region_df.groupby("Scenario_ID"):
+                    sorted_group = group.sort_values("Year")
+                    below = sorted_group[sorted_group["Gas_Share"] <= th_val]
+                    if not below.empty:
+                        sid_years[sid] = int(below["Year"].iloc[0])  # first year below threshold
+                exit_years_by_scenario[th_name][stype][region] = sid_years
+                exit_years_summary[th_name][stype][region] = int(pd.Series(sid_years.values()).median()) if sid_years else None
+
+
     # --- Benchmark stats JSON (step5_benchmark_stats.json) ---
     # Group by Scenario_Type AND Region, then summarize
     def summarize_by_group(group, col):
@@ -53,14 +93,31 @@ def main():
         result_by_region[scenario_type][region] = {
             "gas_2030_ej": summarize_by_group(group, "Gas_2030"),
             "pct_drop_2020_2030": summarize_by_group(group, "Pct_Drop"),
-            "gas_share_2030_pct": summarize_by_group(group, "Gas_Share_2030")
+            "gas_share_2030_pct": summarize_by_group(group, "Gas_Share_2030"),
+            "gas_phaseout_years": {
+                "effective_2.5pct": exit_years_summary["effective"][scenario_type].get(region),
+                "total_1pct": exit_years_summary["total"][scenario_type].get(region)
+            }
         }
 
     with open(f"{path}step5_benchmark_stats.json", "w") as f:
         json.dump(result_by_region, f, indent=2)
 
     # This part is already good: merged_out retains Region column
-    merged_out = merged[[ "Scenario_ID", "Region", "Scenario_Type", "Gas_2020", "Gas_2030", "Total_2030", "Pct_Drop", "Gas_Share_2030" ]]
+    merged_out = merged[[ "Scenario_ID", "Region", "Scenario_Type", "Gas_2020", "Gas_2030", "Total_2030", "Pct_Drop", "Gas_Share_2030" ]].copy()
+
+    # Add gas phaseout years
+    def get_phaseout(threshold):
+        def inner(row):
+            return exit_years_by_scenario[threshold] \
+                .get(row["Scenario_Type"], {}) \
+                .get(row["Region"], {}) \
+                .get(row["Scenario_ID"], None)
+        return inner
+
+    merged_out["Effective_Phaseout_Year"] = merged_out.apply(get_phaseout("effective"), axis=1)
+    merged_out["Total_Phaseout_Year"] = merged_out.apply(get_phaseout("total"), axis=1)
+    
     merged_out.to_csv(f"{path}step5_scenario_gas_stats.csv", index=False)
 
     # This part is already good: map_summary explicitly groups by Region
@@ -78,30 +135,16 @@ def main():
             region_data[region] = {}
         region_data[region][scenario_type] = {
             "pct_drop": round(row["Pct_Drop"], 2),
-            "gas_share_2030": round(row["Gas_Share_2030"], 2)
+            "gas_share_2030": round(row["Gas_Share_2030"], 2),
+            "gas_phaseout_years": {
+                "effective_2.5pct": exit_years_summary["effective"][scenario_type].get(region),
+                "total_1pct": exit_years_summary["total"][scenario_type].get(region)
+            }
         }
 
     # Export to JSON
     with open(f"{path}step5_region_summary.json", "w") as f:
         json.dump(region_data, f, indent=2)
-
-    # Prepare data for time series, still retaining ALL Regions
-    df_filtered = df[df["Variable_standardized"].isin(["Electricity", "Electricity|Gas"])]
-    df_pivot = df_filtered.pivot_table(
-        index=["Scenario_ID", "Region", "Year", "Scenario_Type"],
-        columns="Variable_standardized", # This pivots 'Variable_standardized' values to columns
-        values="Value"
-    ).reset_index()
-    df_pivot = df_pivot[df_pivot["Electricity"] > 0]
-    # Ensure 'Electricity|Gas' column exists before creating 'Gas_Share'
-    if 'Electricity|Gas' in df_pivot.columns:
-        df_pivot["Gas_Share"] = 100 * df_pivot["Electricity|Gas"] / df_pivot["Electricity"]
-    else:
-        # Handle cases where 'Electricity|Gas' might not be present for some Scenario_ID/Region combinations
-        df_pivot["Gas_Share"] = float('nan') # Set to NaN if 'Electricity|Gas' column is missing
-
-    df_pivot = df_pivot[df_pivot["Gas_Share"].notna()]
-
 
     # --- Absolute Gas EJ Time Series (step5_gas_timeseries_summary.json) ---
     ej_result = {}
@@ -195,6 +238,10 @@ def main():
     with open(f"{path}step5_gas_share_paths.json", "w") as f:
         json.dump(raw_paths, f, indent=2)
 
+    
+    with open(f"{path}step5_gas_phaseout_paths.json", "w") as f:
+        json.dump(exit_years_by_scenario, f, indent=2)
+
     # --- Time series plotting for ALL Regions (Multiple Plots) ---
 
     all_regions = sorted(df_pivot["Region"].unique())
@@ -271,11 +318,38 @@ def main():
                     arrowprops=dict(arrowstyle="->", lw=1.2, color=colors[scenario_type]),
                     fontsize=8,
                     color=colors[scenario_type],
-                    bbox=dict(boxstyle="round,pad=0.2", fc="white", alpha=0.8, edgecolor=colors[scenario_type])
+                    bbox=dict(boxstyle="round,pad=0.2", fc="white", alpha=0.8, edgecolor=colors[scenario_type]),
+                    zorder=10
                 )
 
         # Benchmark lines - using current region's medians
         ax.axvline(2030, color="black", linestyle="--", linewidth=1.5, zorder=0) # Make it thinner
+
+        # Phase-out year lines: effective (2.5%) and total (1.0%) in consistent stacked order
+        phaseout_annotation_order = [
+            ("Low-BECCS", "effective", "-", "Eff", 0),
+            ("Low-BECCS", "total", ":", "Tot", 1),
+            ("High-BECCS", "effective", "-", "Eff", 2),
+            ("High-BECCS", "total", ":", "Tot", 3),
+        ]
+
+        for scenario_type, phase_type, linestyle, label_suffix, stack_idx in phaseout_annotation_order:
+            color = colors[scenario_type]
+            year = exit_years_summary[phase_type][scenario_type].get(region_to_plot)
+            if year is not None and x_min_global <= year <= x_max_global:
+                ax.axvline(year, color=color, linestyle=linestyle, linewidth=1.0, alpha=0.8, zorder=0)
+                vertical_offset = y_max_global - 5 - (stack_idx * 8)  # 8 units apart
+                ax.annotate(
+                    f"{label_suffix}: {year}",
+                    xy=(year, vertical_offset),
+                    xytext=(year + 2, vertical_offset),
+                    textcoords="data",
+                    fontsize=7,
+                    color=color,
+                    arrowprops=dict(arrowstyle="->", lw=0.8, color=color),
+                    bbox=dict(boxstyle="round,pad=0.2", fc="white", edgecolor=color, alpha=0.9),
+                    zorder=10
+                )
         
         # Collect benchmark line handles/labels only once for the overall legend
         if low_beccs_median_region is not None:

@@ -10,6 +10,15 @@ import { motion } from "framer-motion";
 export default function GasReduction() {
   const [summary, setSummary] = useState<any>(null);
   const [scenario, setScenario] = useState<"Low-BECCS" | "High-BECCS">("Low-BECCS");
+  const selectedData = summary?.[scenario]?.World ?? {};
+  const chartData = selectedData.yearly ?? [];
+  const value2020 = selectedData.ref_2020 ?? 0;
+  const value2030 = selectedData.benchmark ?? 0;
+  const reductionPct = selectedData.reduction_pct ?? 0;
+  const [benchmarks, setBenchmarks] = useState<any>(null);
+  const benchmarkWorld = benchmarks?.[scenario]?.World;
+  const effYear = benchmarkWorld?.gas_phaseout_years?.["effective_2.5pct"];
+  const totYear = benchmarkWorld?.gas_phaseout_years?.total_1pct;
 
   useEffect(() => {
     fetch('/data/step5_gas_timeseries_summary.json')
@@ -18,20 +27,20 @@ export default function GasReduction() {
       .catch(err => console.error("Failed to load EJ gas summary:", err));
   }, []);
 
-  if (!summary) return null;
+  useEffect(() => {
+    fetch('/data/step5_benchmark_stats.json')
+      .then(res => res.json())
+      .then(data => setBenchmarks(data))
+      .catch(err => console.error("Failed to load gas benchmarks:", err));
+  }, []);
 
-  const selectedData = summary[scenario]["World"];
-  const chartData = selectedData.yearly;
-  const value2020 = selectedData.ref_2020;
-  const value2030 = selectedData.benchmark;
-  const reductionPct = selectedData.reduction_pct;
 
   return (
     <section
       id="insights"
       className="scroll-mt-12 w-full py-20 px-6 md:px-12 bg-gradient-to-b from-[#0b0c10] via-[#1a1f2b] to-[#0b0c10] text-white"
     >
-      <h2 className="text-3xl font-bold mb-8 font-logo text-center">Gas Reduction by 2030</h2>
+      <h2 className="text-3xl font-bold mb-8 font-logo text-center">Global Gas Reduction by 2030</h2>
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
         {/* Buttons */}
@@ -128,6 +137,38 @@ export default function GasReduction() {
                 }}
               />
 
+              {/* Effective Phase-Out Line */}
+              {effYear && (
+                <ReferenceLine
+                  x={effYear}
+                  stroke="#3b82f6"
+                  strokeDasharray="4 4"
+                  label={{
+                    value: `Effective (${effYear})`,
+                    position: "insideTop",
+                    fill: "#3b82f6",
+                    fontSize: 12,
+                    dy: 10, // adjust vertical position
+                  }}
+                />
+              )}
+
+              {/* Total Phase-Out Line */}
+              {totYear && (
+                <ReferenceLine
+                  x={totYear}
+                  stroke="#ef4444"
+                  strokeDasharray="4 4"
+                  label={{
+                    value: `Total (${totYear})`,
+                    position: "insideTop",
+                    fill: "#ef4444",
+                    fontSize: 12,
+                    dy: 25, // stacked below the effective label
+                  }}
+                />
+              )}
+
               {/* Dots at intersections */}
               <ReferenceDot
                 x={2020}
@@ -166,13 +207,26 @@ export default function GasReduction() {
         </motion.div>
 
         {/* Text Section */}
-        <div>
+        <div className="space-y-4">
           <p className="text-lg text-muted leading-relaxed font-tagline">
             Global gas power generation must fall from{" "}
             <strong style={{ color: "#facc15" }}>{value2020} EJ</strong> in 2020 to{" "}
             <strong style={{ color: "#4ade80" }}>{value2030} EJ</strong> in 2030 — a reduction of{" "}
             <strong style={{ color: "#fb7185" }}>{reductionPct}%</strong> — to align with 1.5°C pathways that limit CCS deployment.
           </p>
+          {(effYear || totYear) && (
+            <p className="text-md text-muted font-tagline">
+              Under the <strong>{scenario}</strong> scenario, gas power is expected to reach{" "}
+              <span style={{ color: "#3b82f6", fontWeight: 600 }}>
+                effective phase-out (&lt;2.5%) by {effYear ?? "–"}
+              </span>{" "}
+              and{" "}
+              <span style={{ color: "#ef4444", fontWeight: 600 }}>
+                total phase-out (&lt;1%) by {totYear ?? "–"}
+              </span>
+              .
+            </p>
+          )}
         </div>
       </div>
     </section>
