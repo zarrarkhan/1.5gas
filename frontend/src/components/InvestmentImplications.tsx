@@ -19,7 +19,7 @@ export default function InvestmentImplications() {
         </ul>
 
         <p className="text-lg text-gray-300 leading-relaxed font-tagline mt-8 max-w-4xl">
-          <strong>The takeaway:</strong> Renewables, storage, and electrification aren’t just cleaner—they’re smarter bets.
+          <strong>The takeaway:</strong> Renewables, storage, and electrification are cleaner, safer bets that support new jobs, energy security, and avoid the risk of stranded assets.
         </p>
       </div>
     </section>
