@@ -40,14 +40,19 @@ export default function Hero() {
           </div>
         </motion.div>
 
-        <motion.p
-          className="max-w-2xl text-lg md:text-2xl mb-13 text-clay font-tagline"
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
+          className="text-center mb-8"
         >
-          A Case Study for Climate Analytics - by Zarrar Khan
-        </motion.p>
+          <p className="text-clay font-tagline text-lg md:text-2xl">
+            A Case Study for Climate Analytics
+          </p>
+          <p className="text-gray-300 text-sm mt-2 mb-10 font-tagline tracking-wide">
+            by Zarrar Khan
+          </p>
+        </motion.div>
 
         {/* Minimal change applied below */}
         <motion.div

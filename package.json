@@ -1,6 +1,10 @@
 {
   "dependencies": {
     "framer-motion": "^12.19.2",
+    "papaparse": "^5.5.3",
     "recharts": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.16"
   }
 }

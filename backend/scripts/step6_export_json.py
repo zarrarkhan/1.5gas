@@ -32,7 +32,8 @@ def main():
         "step5_region_summary.json",
         "step5_gas_share_paths.json",
         "step5_gas_share_summary.json",
-        "step5_gas_timeseries_summary.json"
+        "step5_gas_timeseries_summary.json",
+        "step3_standardized.csv"
     ]
 
     for fname in files_to_copy:
