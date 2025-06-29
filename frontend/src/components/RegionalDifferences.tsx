@@ -68,6 +68,14 @@ export default function RegionalDifferences() {
       const regionData = await regionRes.json();
       const regionMap = await mapRes.json();
 
+      // Build name → ISO_A3 lookup for patching bad ISO codes
+      const nameToIsoMap: Record<string, string> = {};
+      regionMap.forEach((entry: any) => {
+        if (entry.Country && entry.ISO_A3) {
+          nameToIsoMap[entry.Country] = entry.ISO_A3;
+        }
+      });
+
       // Build region → value map for each BECCS type
       const valuesByRegion: Record<"Low-BECCS" | "High-BECCS", Record<string, number | null>> = {
         "Low-BECCS": {},
@@ -111,9 +119,15 @@ export default function RegionalDifferences() {
         }
       });
 
+
       // Enrich geojson features with new values
       const enriched = geoJson.features.map((f: Feature) => {
-        const iso = f.properties?.['ISO3166-1-Alpha-3'];
+        let iso = f.properties?.['ISO3166-1-Alpha-3'];
+
+        // Patch invalid ISO using name → ISO_A3 map
+        if ((iso === '-99' || !iso) && f.properties?.name && nameToIsoMap[f.properties.name]) {
+          iso = nameToIsoMap[f.properties.name];
+        }
         const regionValues = isoToPctDrop[iso];
         if (regionValues) {
           f.properties = {

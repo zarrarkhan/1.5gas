@@ -1015,6 +1015,61 @@
     "ISO_A3": "SRB"
   },
   {
+    "Country": "Albania",
+    "Region": "OECD Countries",
+    "ISO_A3": "ALB"
+  },
+  {
+    "Country": "Bulgaria",
+    "Region": "OECD Countries",
+    "ISO_A3": "BGR"
+  },
+  {
+    "Country": "Croatia",
+    "Region": "OECD Countries",
+    "ISO_A3": "HRV"
+  },
+  {
+    "Country": "Moldova",
+    "Region": "OECD Countries",
+    "ISO_A3": "MDA"
+  },
+  {
+    "Country": "Romania",
+    "Region": "OECD Countries",
+    "ISO_A3": "ROU"
+  },
+  {
+    "Country": "Ukraine",
+    "Region": "OECD Countries",
+    "ISO_A3": "UKR"
+  },
+  {
+    "Country": "Belarus",
+    "Region": "OECD Countries",
+    "ISO_A3": "BLR"
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "Region": "OECD Countries",
+    "ISO_A3": "BIH"
+  },
+  {
+    "Country": "Kosovo",
+    "Region": "OECD Countries",
+    "ISO_A3": "XKX"
+  },
+  {
+    "Country": "Montenegro",
+    "Region": "OECD Countries",
+    "ISO_A3": "MNE"
+  },
+  {
+    "Country": "North Macedonia",
+    "Region": "OECD Countries",
+    "ISO_A3": "MKD"
+  },
+  {
     "Country": "Kazakhstan",
     "Region": "Russia and Central Asia",
     "ISO_A3": "KAZ"

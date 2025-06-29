@@ -14,19 +14,11 @@ export default function MethodologyPage() {
       <div className="relative z-10 min-h-screen flex flex-col">
         <Navbar />
 
-        <section className="flex-1 pt-40 px-6 md:px-12 max-w-6xl mx-auto w-full pb-24">
+        <section className="flex-1 pt-30 px-6 md:px-12 max-w-6xl mx-auto w-full pb-24">
           {/* Header */}
           <div className="mb-10 text-center">
             <h1 className="text-3xl font-bold font-logo">Methods & Reproducibility</h1>
             <p className="text-gray-400 text-sm mt-2">Overview of the backend processing pipeline for harmonized IAM scenario data.</p>
-            <a
-              href="https://github.com/zarrarkhan/1.5gas"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-4 px-5 py-2 bg-[#bfa76f] hover:bg-[#d4bd87] text-black font-semibold rounded-md transition"
-            >
-              View on GitHub
-            </a>
           </div>
 
           {/* Content */}

@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Globe, LayoutDashboard, Table2, FileText, Info } from 'lucide-react';
+import { Menu, X, Globe, LayoutDashboard, Table2, FileText, Info, Github } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react'; // Import useEffect
 
@@ -70,14 +70,23 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className={`flex items-center gap-1 transition-colors duration-200 ${hoverColor} ${
-                pathname === link.href ? activeClass : ''
-              }`}
+              className={`flex items-center gap-1 transition-colors duration-200 ${hoverColor} ${pathname === link.href ? activeClass : ''
+                }`}
             >
               {link.icon}
               <span>{link.name}</span>
             </Link>
           ))}
+          <a
+            href="https://github.com/zarrarkhan/1.5gas"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`flex items-center gap-1 transition-colors duration-200 ${hoverColor}`}
+            title="View on GitHub"
+          >
+            <Github className="w-4 h-4 text-white" />
+            <span className="hidden sm:inline">GitHub</span>
+          </a>
         </div>
 
         {/* Mobile Menu Toggle Button */}
@@ -102,17 +111,15 @@ export default function Navbar() {
             exit={{ height: 0, opacity: 0 }}
           >
             <div
-              className={`flex flex-col space-y-4 rounded-lg p-4 font-tagline ${
-                scrolled || !isHomePage ? 'bg-black/70 backdrop-blur-md' : 'bg-black/90 backdrop-blur-sm' // Changed to bg-black/90 for 90% opaque
-              }`}
+              className={`flex flex-col space-y-4 rounded-lg p-4 font-tagline ${scrolled || !isHomePage ? 'bg-black/70 backdrop-blur-md' : 'bg-black/90 backdrop-blur-sm' // Changed to bg-black/90 for 90% opaque
+                }`}
             >
               {links.map((link) => (
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={`flex items-center gap-2 transition-colors duration-200 ${linkColor} ${hoverColor} ${
-                    pathname === link.href ? activeClass : ''
-                  }`}
+                  className={`flex items-center gap-2 transition-colors duration-200 ${linkColor} ${hoverColor} ${pathname === link.href ? activeClass : ''
+                    }`}
                   onClick={() => setMenuOpen(false)}
                 >
                   {link.icon}

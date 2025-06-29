@@ -51,7 +51,7 @@ export default function DataPage() {
             <div className="relative z-10 min-h-screen flex flex-col">
                 <Navbar />
 
-                <section className="flex-1 pt-40 px-6 md:px-12">
+                <section className="flex-1 pt-30 px-6 md:px-12">
                     <div className="text-center mb-8">
                         <h1 className="text-3xl font-bold font-logo">Explore the Data</h1>
                         <p className="text-gray-400 text-sm mt-2">

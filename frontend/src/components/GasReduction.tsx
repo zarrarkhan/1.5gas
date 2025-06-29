@@ -29,7 +29,7 @@ export default function GasReduction() {
   return (
     <section
       id="insights"
-      className="scroll-mt-24 w-full py-20 px-6 md:px-12 bg-gradient-to-b from-[#0b0c10] via-[#1a1f2b] to-[#0b0c10] text-white"
+      className="scroll-mt-12 w-full py-20 px-6 md:px-12 bg-gradient-to-b from-[#0b0c10] via-[#1a1f2b] to-[#0b0c10] text-white"
     >
       <h2 className="text-3xl font-bold mb-8 font-logo text-center">Gas Reduction by 2030</h2>
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
