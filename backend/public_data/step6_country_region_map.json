@@ -1,838 +1,1047 @@
 [
   {
     "Country": "Afghanistan",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "AFG"
   },
   {
     "Country": "Armenia",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "ARM"
   },
   {
     "Country": "Azerbaijan",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "AZE"
   },
   {
     "Country": "Bangladesh",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "BGD"
   },
   {
     "Country": "Bhutan",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "BTN"
   },
   {
     "Country": "Brunei Darussalam",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "BRN"
   },
   {
     "Country": "Cambodia",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "KHM"
   },
   {
     "Country": "China",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "CHN"
   },
   {
     "Country": "Fiji",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "FJI"
   },
   {
     "Country": "Georgia",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "GEO"
   },
   {
     "Country": "Hong Kong SAR, China",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "HKG"
   },
   {
     "Country": "India",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "IND"
   },
   {
     "Country": "Indonesia",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "IDN"
   },
   {
     "Country": "Japan",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "JPN"
   },
   {
     "Country": "Kiribati",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "KIR"
   },
   {
     "Country": "Korea, Dem. People\u2019s Rep.",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "PRK"
   },
   {
     "Country": "Korea, Rep.",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "KOR"
   },
   {
     "Country": "Lao PDR",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "LAO"
   },
   {
     "Country": "Macao SAR, China",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "MAC"
   },
   {
     "Country": "Malaysia",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "MYS"
   },
   {
     "Country": "Maldives",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "MDV"
   },
   {
     "Country": "Marshall Islands",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "MHL"
   },
   {
     "Country": "Micronesia, Fed. Sts.",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "FSM"
   },
   {
     "Country": "Mongolia",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "MNG"
   },
   {
     "Country": "Myanmar",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "MMR"
   },
   {
     "Country": "Nauru",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "NRU"
   },
   {
     "Country": "Nepal",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "NPL"
   },
   {
     "Country": "Northern Mariana Islands",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "Not Available"
   },
   {
     "Country": "Pakistan",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "PAK"
   },
   {
     "Country": "Palau",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "PLW"
   },
   {
     "Country": "Papua New Guinea",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "PNG"
   },
   {
     "Country": "Philippines",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "PHL"
   },
   {
     "Country": "Samoa",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "WSM"
   },
   {
     "Country": "Singapore",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "SGP"
   },
   {
     "Country": "Solomon Islands",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "SLB"
   },
   {
     "Country": "Sri Lanka",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "LKA"
   },
   {
     "Country": "Thailand",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "THA"
   },
   {
     "Country": "Timor-Leste",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "TLS"
   },
   {
     "Country": "Tonga",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "TON"
   },
   {
     "Country": "Tuvalu",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "TUV"
   },
   {
     "Country": "Vanuatu",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "VUT"
   },
   {
     "Country": "Vietnam",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "VNM"
   },
   {
     "Country": "Antigua and Barbuda",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "ATG"
   },
   {
     "Country": "Argentina",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "ARG"
   },
   {
     "Country": "Aruba",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "ABW"
   },
   {
     "Country": "Bahamas, The",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "BHS"
   },
   {
     "Country": "Barbados",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "BRB"
   },
   {
     "Country": "Belize",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "BLZ"
   },
   {
     "Country": "Bermuda",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "BMU"
   },
   {
     "Country": "Bolivia",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "BOL"
   },
   {
     "Country": "Brazil",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "BRA"
   },
   {
     "Country": "British Virgin Islands",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "Not Available"
   },
   {
     "Country": "Cayman Islands",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "CYM"
   },
   {
     "Country": "Colombia",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "COL"
   },
   {
     "Country": "Costa Rica",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "CRI"
   },
   {
     "Country": "Cuba",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "CUB"
   },
   {
     "Country": "Curacao",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "CUW"
   },
   {
     "Country": "Dominica",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "DMA"
   },
   {
     "Country": "Dominican Republic",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "DOM"
   },
   {
     "Country": "Ecuador",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "ECU"
   },
   {
     "Country": "El Salvador",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "SLV"
   },
   {
     "Country": "French Polynesia",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "Not Available"
   },
   {
     "Country": "Grenada",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "GRD"
   },
   {
     "Country": "Guatemala",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "GTM"
   },
   {
     "Country": "Guyana",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "GUY"
   },
   {
     "Country": "Haiti",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "HTI"
   },
   {
     "Country": "Honduras",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "HND"
   },
   {
     "Country": "Jamaica",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "JAM"
   },
   {
     "Country": "Nicaragua",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "NIC"
   },
   {
     "Country": "Panama",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "PAN"
   },
   {
     "Country": "Paraguay",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "PRY"
   },
   {
     "Country": "Peru",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "PER"
   },
   {
     "Country": "Puerto Rico",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "Not Available"
   },
   {
     "Country": "St. Kitts and Nevis",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "KNA"
   },
   {
     "Country": "St. Lucia",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "LCA"
   },
   {
     "Country": "St. Martin (French part)",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "MAF"
   },
   {
     "Country": "St. Vincent and the Grenadines",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "VCT"
   },
   {
     "Country": "Sint Maarten (Dutch part)",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "SXM"
   },
   {
     "Country": "Suriname",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "SUR"
   },
   {
     "Country": "Trinidad and Tobago",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "TTO"
   },
   {
     "Country": "Turks and Caicos Islands",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "TCA"
   },
   {
     "Country": "Uruguay",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "URY"
   },
   {
     "Country": "Venezuela, RB",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "VEN"
   },
   {
     "Country": "Virgin Islands (U.S.)",
-    "Region": "Latin America"
+    "Region": "Latin America",
+    "ISO_A3": "VIR"
   },
   {
     "Country": "Guam",
-    "Region": "Asia"
+    "Region": "Asia",
+    "ISO_A3": "GUM"
   },
   {
     "Country": "Algeria",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "DZA"
   },
   {
     "Country": "Angola",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "AGO"
   },
   {
     "Country": "Bahrain",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "BHR"
   },
   {
     "Country": "Benin",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "BEN"
   },
   {
     "Country": "Botswana",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "BWA"
   },
   {
     "Country": "Burkina Faso",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "BFA"
   },
   {
     "Country": "Burundi",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "BDI"
   },
   {
     "Country": "Cabo Verde",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "CPV"
   },
   {
     "Country": "Cameroon",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "CMR"
   },
   {
     "Country": "Central African Republic",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "CAF"
   },
   {
     "Country": "Chad",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "TCD"
   },
   {
     "Country": "Comoros",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "COM"
   },
   {
     "Country": "Congo, Dem. Rep.",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "COD"
   },
   {
     "Country": "Congo, Rep.",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "COG"
   },
   {
     "Country": "Cote d'Ivoire",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "CIV"
   },
   {
     "Country": "Djibouti",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "DJI"
   },
   {
     "Country": "Egypt, Arab Rep.",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "EGY"
   },
   {
     "Country": "Equatorial Guinea",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "GNQ"
   },
   {
     "Country": "Eritrea",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "ERI"
   },
   {
     "Country": "Eswatini",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "SWZ"
   },
   {
     "Country": "Ethiopia",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "ETH"
   },
   {
     "Country": "Gabon",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "GAB"
   },
   {
     "Country": "Gambia, The",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "GMB"
   },
   {
     "Country": "Ghana",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "GHA"
   },
   {
     "Country": "Guinea",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "GIN"
   },
   {
     "Country": "Guinea-Bissau",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "GNB"
   },
   {
     "Country": "Iran, Islamic Rep.",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "IRN"
   },
   {
     "Country": "Iraq",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "IRQ"
   },
   {
     "Country": "Jordan",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "JOR"
   },
   {
     "Country": "Kenya",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "KEN"
   },
   {
     "Country": "Kuwait",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "KWT"
   },
   {
     "Country": "Lebanon",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "LBN"
   },
   {
     "Country": "Lesotho",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "LSO"
   },
   {
     "Country": "Liberia",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "LBR"
   },
   {
     "Country": "Libya",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "LBY"
   },
   {
     "Country": "Madagascar",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "MDG"
   },
   {
     "Country": "Malawi",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "MWI"
   },
   {
     "Country": "Mali",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "MLI"
   },
   {
     "Country": "Mauritania",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "MRT"
   },
   {
     "Country": "Mauritius",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "MUS"
   },
   {
     "Country": "Morocco",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "MAR"
   },
   {
     "Country": "Mozambique",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "MOZ"
   },
   {
     "Country": "Namibia",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "NAM"
   },
   {
     "Country": "Niger",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "NER"
   },
   {
     "Country": "Nigeria",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "NGA"
   },
   {
     "Country": "Oman",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "OMN"
   },
   {
     "Country": "Qatar",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "QAT"
   },
   {
     "Country": "Rwanda",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "RWA"
   },
   {
     "Country": "Saudi Arabia",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "SAU"
   },
   {
     "Country": "Senegal",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "SEN"
   },
   {
     "Country": "Seychelles",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "SYC"
   },
   {
     "Country": "Sierra Leone",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "SLE"
   },
   {
     "Country": "Somalia",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "SOM"
   },
   {
     "Country": "Sudan",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "SDN"
   },
   {
     "Country": "South Africa",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "ZAF"
   },
   {
     "Country": "South Sudan",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "SSD"
   },
   {
     "Country": "Syrian Arab Republic",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "SYR"
   },
   {
     "Country": "Tanzania",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "TZA"
   },
   {
     "Country": "Togo",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "TGO"
   },
   {
     "Country": "Tunisia",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "TUN"
   },
   {
     "Country": "Uganda",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "UGA"
   },
   {
     "Country": "United Arab Emirates",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "ARE"
   },
   {
     "Country": "West Bank and Gaza",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "PSX"
   },
   {
     "Country": "Yemen, Rep.",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "YEM"
   },
   {
     "Country": "Zambia",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "ZMB"
   },
   {
     "Country": "Zimbabwe",
-    "Region": "Middle East and Africa"
+    "Region": "Middle East and Africa",
+    "ISO_A3": "ZWE"
   },
   {
     "Country": "Australia",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "AUS"
   },
   {
     "Country": "Austria",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "AUT"
   },
   {
     "Country": "Belgium",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "BEL"
   },
   {
     "Country": "Canada",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "CAN"
   },
   {
     "Country": "Chile",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "CHL"
   },
   {
     "Country": "Colombia",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "COL"
   },
   {
     "Country": "Costa Rica",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "CRI"
   },
   {
     "Country": "Czech Republic",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "CZE"
   },
   {
     "Country": "Denmark",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "DNK"
   },
   {
     "Country": "Estonia",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "EST"
   },
   {
     "Country": "Finland",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "FIN"
   },
   {
     "Country": "France",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "FRA"
   },
   {
     "Country": "Germany",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "DEU"
   },
   {
     "Country": "Greece",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "GRC"
   },
   {
     "Country": "Hungary",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "HUN"
   },
   {
     "Country": "Iceland",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "ISL"
   },
   {
     "Country": "Ireland",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "IRL"
   },
   {
     "Country": "Israel",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "ISR"
   },
   {
     "Country": "Italy",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "ITA"
   },
   {
     "Country": "Japan",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "JPN"
   },
   {
     "Country": "Korea, Rep.",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "KOR"
   },
   {
     "Country": "Latvia",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "LVA"
   },
   {
     "Country": "Lithuania",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "LTU"
   },
   {
     "Country": "Luxembourg",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "LUX"
   },
   {
     "Country": "Mexico",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "MEX"
   },
   {
     "Country": "Netherlands",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "NLD"
   },
   {
     "Country": "New Zealand",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "NZL"
   },
   {
     "Country": "Norway",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "NOR"
   },
   {
     "Country": "Poland",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "POL"
   },
   {
     "Country": "Portugal",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "PRT"
   },
   {
     "Country": "Slovak Republic",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "SVK"
   },
   {
     "Country": "Slovenia",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "SVN"
   },
   {
     "Country": "Spain",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "ESP"
   },
   {
     "Country": "Sweden",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "SWE"
   },
   {
     "Country": "Switzerland",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "CHE"
   },
   {
     "Country": "Turkey",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "TUR"
   },
   {
     "Country": "United Kingdom",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "GBR"
   },
   {
     "Country": "United States",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "USA"
   },
   {
     "Country": "Andorra",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "AND"
   },
   {
     "Country": "Channel Islands",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "CHI"
   },
   {
     "Country": "Cyprus",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "CYP"
   },
   {
     "Country": "Gibraltar",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "GIB"
   },
   {
     "Country": "Greenland",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "GRL"
   },
   {
     "Country": "Isle of Man",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "IMN"
   },
   {
     "Country": "Kosovo",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "XKX"
   },
   {
     "Country": "Liechtenstein",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "LIE"
   },
   {
     "Country": "Malta",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "MLT"
   },
   {
     "Country": "Monaco",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "MCO"
   },
   {
     "Country": "Montenegro",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "MNE"
   },
   {
     "Country": "North Macedonia",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "MKD"
   },
   {
     "Country": "San Marino",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "SMR"
   },
   {
     "Country": "Serbia",
-    "Region": "OECD Countries"
+    "Region": "OECD Countries",
+    "ISO_A3": "SRB"
   },
   {
     "Country": "Kazakhstan",
-    "Region": "Russia and Central Asia"
+    "Region": "Russia and Central Asia",
+    "ISO_A3": "KAZ"
   },
   {
     "Country": "Kyrgyz Republic",
-    "Region": "Russia and Central Asia"
+    "Region": "Russia and Central Asia",
+    "ISO_A3": "KGZ"
   },
   {
     "Country": "Russian Federation",
-    "Region": "Russia and Central Asia"
+    "Region": "Russia and Central Asia",
+    "ISO_A3": "RUS"
   },
   {
     "Country": "Tajikistan",
-    "Region": "Russia and Central Asia"
+    "Region": "Russia and Central Asia",
+    "ISO_A3": "TJK"
   },
   {
     "Country": "Turkmenistan",
-    "Region": "Russia and Central Asia"
+    "Region": "Russia and Central Asia",
+    "ISO_A3": "TKM"
   },
   {
     "Country": "Uzbekistan",
-    "Region": "Russia and Central Asia"
+    "Region": "Russia and Central Asia",
+    "ISO_A3": "UZB"
   }
 ]

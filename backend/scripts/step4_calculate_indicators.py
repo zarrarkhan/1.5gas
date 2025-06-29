@@ -13,8 +13,9 @@ def main():
     # Filter to ensure Variable_standardized exists
     df = df[df["Variable_standardized"].notna()]
 
-    # Calculate metrics by Scenario and Variable
-    grouped = df.groupby(["Scenario_ID", "Variable_standardized"])
+    # Calculate metrics by Scenario, Variable, and REGION
+    # By including 'Region' in the groupby, metrics will be calculated for each region separately.
+    grouped = df.groupby(["Scenario_ID", "Region", "Variable_standardized"])
 
     summary = grouped.agg(
         Start_Year=("Year", "min"),
@@ -30,3 +31,6 @@ def main():
     summary.to_csv(output_metrics, index=False)
 
     print("✅ Step 4 complete: Indicators calculated and saved.")
+
+if __name__ == "__main__":
+    main()

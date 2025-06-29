@@ -66,7 +66,10 @@ def main():
         step5_outs = [
             "backend/public_data/step5_region_summary.json",
             "backend/public_data/step5_benchmark_stats.json",
-            "backend/public_data/step5_scenario_gas_stats.csv"
+            "backend/public_data/step5_scenario_gas_stats.csv",
+            "backend/public_data/step5_gas_share_summary.json",
+            "backend/public_data/step5_gas_share_paths.json",
+            "backend/public_data/step5_gas_timeseries_summary.json"
         ]
         if any(file_missing(p) for p in step5_outs):
             print("▶️ Step 5: Aggregating Outputs...")

@@ -1,210 +1,210 @@
-Region,Country
-Asia,Afghanistan
-Asia,Armenia
-Asia,Azerbaijan
-Asia,Bangladesh
-Asia,Bhutan
-Asia,"Brunei Darussalam"
-Asia,Cambodia
-Asia,China
-Asia,Fiji
-Asia,Georgia
-Asia,"Hong Kong SAR, China"
-Asia,India
-Asia,Indonesia
-Asia,Japan
-Asia,Kiribati
-Asia,"Korea, Dem. People’s Rep."
-Asia,"Korea, Rep."
-Asia,"Lao PDR"
-Asia,"Macao SAR, China"
-Asia,Malaysia
-Asia,Maldives
-Asia,"Marshall Islands"
-Asia,"Micronesia, Fed. Sts."
-Asia,Mongolia
-Asia,Myanmar
-Asia,Nauru
-Asia,Nepal
-Asia,"Northern Mariana Islands"
-Asia,Pakistan
-Asia,Palau
-Asia,"Papua New Guinea"
-Asia,Philippines
-Asia,Samoa
-Asia,Singapore
-Asia,"Solomon Islands"
-Asia,"Sri Lanka"
-Asia,Thailand
-Asia,"Timor-Leste"
-Asia,Tonga
-Asia,Tuvalu
-Asia,Vanuatu
-Asia,Vietnam
-Latin America,"Antigua and Barbuda"
-Latin America,Argentina
-Latin America,Aruba
-Latin America,"Bahamas, The"
-Latin America,Barbados
-Latin America,Belize
-Latin America,Bermuda
-Latin America,Bolivia
-Latin America,Brazil
-Latin America,"British Virgin Islands"
-Latin America,"Cayman Islands"
-Latin America,Colombia
-Latin America,"Costa Rica"
-Latin America,Cuba
-Latin America,Curacao
-Latin America,Dominica
-Latin America,"Dominican Republic"
-Latin America,Ecuador
-Latin America,"El Salvador"
-Latin America,"French Polynesia"
-Latin America,Grenada
-Latin America,Guatemala
-Latin America,Guyana
-Latin America,Haiti
-Latin America,Honduras
-Latin America,Jamaica
-Latin America,Nicaragua
-Latin America,Panama
-Latin America,Paraguay
-Latin America,Peru
-Latin America,"Puerto Rico"
-Latin America,"St. Kitts and Nevis"
-Latin America,"St. Lucia"
-Latin America,"St. Martin (French part)"
-Latin America,"St. Vincent and the Grenadines"
-Latin America,"Sint Maarten (Dutch part)"
-Latin America,Suriname
-Latin America,"Trinidad and Tobago"
-Latin America,"Turks and Caicos Islands"
-Latin America,Uruguay
-Latin America,"Venezuela, RB"
-Latin America,"Virgin Islands (U.S.)"
-Asia,Guam
-"Middle East and Africa",Algeria
-"Middle East and Africa",Angola
-"Middle East and Africa",Bahrain
-"Middle East and Africa",Benin
-"Middle East and Africa",Botswana
-"Middle East and Africa","Burkina Faso"
-"Middle East and Africa",Burundi
-"Middle East and Africa","Cabo Verde"
-"Middle East and Africa",Cameroon
-"Middle East and Africa","Central African Republic"
-"Middle East and Africa",Chad
-"Middle East and Africa",Comoros
-"Middle East and Africa","Congo, Dem. Rep."
-"Middle East and Africa","Congo, Rep."
-"Middle East and Africa","Cote d'Ivoire"
-"Middle East and Africa",Djibouti
-"Middle East and Africa","Egypt, Arab Rep."
-"Middle East and Africa","Equatorial Guinea"
-"Middle East and Africa",Eritrea
-"Middle East and Africa",Eswatini
-"Middle East and Africa",Ethiopia
-"Middle East and Africa",Gabon
-"Middle East and Africa","Gambia, The"
-"Middle East and Africa",Ghana
-"Middle East and Africa",Guinea
-"Middle East and Africa","Guinea-Bissau"
-"Middle East and Africa","Iran, Islamic Rep."
-"Middle East and Africa",Iraq
-"Middle East and Africa",Jordan
-"Middle East and Africa",Kenya
-"Middle East and Africa",Kuwait
-"Middle East and Africa",Lebanon
-"Middle East and Africa",Lesotho
-"Middle East and Africa",Liberia
-"Middle East and Africa",Libya
-"Middle East and Africa",Madagascar
-"Middle East and Africa",Malawi
-"Middle East and Africa",Mali
-"Middle East and Africa",Mauritania
-"Middle East and Africa",Mauritius
-"Middle East and Africa",Morocco
-"Middle East and Africa",Mozambique
-"Middle East and Africa",Namibia
-"Middle East and Africa",Niger
-"Middle East and Africa",Nigeria
-"Middle East and Africa",Oman
-"Middle East and Africa",Qatar
-"Middle East and Africa",Rwanda
-"Middle East and Africa","Saudi Arabia"
-"Middle East and Africa",Senegal
-"Middle East and Africa",Seychelles
-"Middle East and Africa","Sierra Leone"
-"Middle East and Africa",Somalia
-"Middle East and Africa",Sudan
-"Middle East and Africa","South Africa"
-"Middle East and Africa","South Sudan"
-"Middle East and Africa","Syrian Arab Republic"
-"Middle East and Africa",Tanzania
-"Middle East and Africa",Togo
-"Middle East and Africa",Tunisia
-"Middle East and Africa",Uganda
-"Middle East and Africa","United Arab Emirates"
-"Middle East and Africa","West Bank and Gaza"
-"Middle East and Africa","Yemen, Rep."
-"Middle East and Africa",Zambia
-"Middle East and Africa",Zimbabwe
-"OECD Countries",Australia
-"OECD Countries",Austria
-"OECD Countries",Belgium
-"OECD Countries",Canada
-"OECD Countries",Chile
-"OECD Countries",Colombia
-"OECD Countries","Costa Rica"
-"OECD Countries","Czech Republic"
-"OECD Countries",Denmark
-"OECD Countries",Estonia
-"OECD Countries",Finland
-"OECD Countries",France
-"OECD Countries",Germany
-"OECD Countries",Greece
-"OECD Countries",Hungary
-"OECD Countries",Iceland
-"OECD Countries",Ireland
-"OECD Countries",Israel
-"OECD Countries",Italy
-"OECD Countries",Japan
-"OECD Countries","Korea, Rep."
-"OECD Countries",Latvia
-"OECD Countries",Lithuania
-"OECD Countries",Luxembourg
-"OECD Countries",Mexico
-"OECD Countries",Netherlands
-"OECD Countries","New Zealand"
-"OECD Countries",Norway
-"OECD Countries",Poland
-"OECD Countries",Portugal
-"OECD Countries","Slovak Republic"
-"OECD Countries",Slovenia
-"OECD Countries",Spain
-"OECD Countries",Sweden
-"OECD Countries",Switzerland
-"OECD Countries",Turkey
-"OECD Countries","United Kingdom"
-"OECD Countries","United States"
-"OECD Countries",Andorra
-"OECD Countries","Channel Islands"
-"OECD Countries",Cyprus
-"OECD Countries",Gibraltar
-"OECD Countries",Greenland
-"OECD Countries","Isle of Man"
-"OECD Countries",Kosovo
-"OECD Countries",Liechtenstein
-"OECD Countries",Malta
-"OECD Countries",Monaco
-"OECD Countries",Montenegro
-"OECD Countries","North Macedonia"
-"OECD Countries","San Marino"
-"OECD Countries",Serbia
-"Russia and Central Asia",Kazakhstan
-"Russia and Central Asia","Kyrgyz Republic"
-"Russia and Central Asia","Russian Federation"
-"Russia and Central Asia",Tajikistan
-"Russia and Central Asia",Turkmenistan
-"Russia and Central Asia",Uzbekistan
+Region,Country,ISO_A3
+Asia,Afghanistan,AFG
+Asia,Armenia,ARM
+Asia,Azerbaijan,AZE
+Asia,Bangladesh,BGD
+Asia,Bhutan,BTN
+Asia,Brunei Darussalam,BRN
+Asia,Cambodia,KHM
+Asia,China,CHN
+Asia,Fiji,FJI
+Asia,Georgia,GEO
+Asia,"Hong Kong SAR, China",HKG
+Asia,India,IND
+Asia,Indonesia,IDN
+Asia,Japan,JPN
+Asia,Kiribati,KIR
+Asia,"Korea, Dem. People’s Rep.",PRK
+Asia,"Korea, Rep.",KOR
+Asia,"Lao PDR",LAO
+Asia,"Macao SAR, China",MAC
+Asia,Malaysia,MYS
+Asia,Maldives,MDV
+Asia,"Marshall Islands",MHL
+Asia,"Micronesia, Fed. Sts.",FSM
+Asia,Mongolia,MNG
+Asia,Myanmar,MMR
+Asia,Nauru,NRU
+Asia,Nepal,NPL
+Asia,"Northern Mariana Islands",Not Available
+Asia,Pakistan,PAK
+Asia,Palau,PLW
+Asia,"Papua New Guinea",PNG
+Asia,Philippines,PHL
+Asia,Samoa,WSM
+Asia,Singapore,SGP
+Asia,"Solomon Islands",SLB
+Asia,"Sri Lanka",LKA
+Asia,Thailand,THA
+Asia,"Timor-Leste",TLS
+Asia,Tonga,TON
+Asia,Tuvalu,TUV
+Asia,Vanuatu,VUT
+Asia,Vietnam,VNM
+Latin America,"Antigua and Barbuda",ATG
+Latin America,Argentina,ARG
+Latin America,Aruba,ABW
+Latin America,"Bahamas, The",BHS
+Latin America,Barbados,BRB
+Latin America,Belize,BLZ
+Latin America,Bermuda,BMU
+Latin America,Bolivia,BOL
+Latin America,Brazil,BRA
+Latin America,"British Virgin Islands",Not Available
+Latin America,"Cayman Islands",CYM
+Latin America,Colombia,COL
+Latin America,"Costa Rica",CRI
+Latin America,Cuba,CUB
+Latin America,Curacao,CUW
+Latin America,Dominica,DMA
+Latin America,"Dominican Republic",DOM
+Latin America,Ecuador,ECU
+Latin America,"El Salvador",SLV
+Latin America,"French Polynesia",Not Available
+Latin America,Grenada,GRD
+Latin America,Guatemala,GTM
+Latin America,Guyana,GUY
+Latin America,Haiti,HTI
+Latin America,Honduras,HND
+Latin America,Jamaica,JAM
+Latin America,Nicaragua,NIC
+Latin America,Panama,PAN
+Latin America,Paraguay,PRY
+Latin America,Peru,PER
+Latin America,"Puerto Rico",Not Available
+Latin America,"St. Kitts and Nevis",KNA
+Latin America,"St. Lucia",LCA
+Latin America,"St. Martin (French part)",MAF
+Latin America,"St. Vincent and the Grenadines",VCT
+Latin America,"Sint Maarten (Dutch part)",SXM
+Latin America,Suriname,SUR
+Latin America,"Trinidad and Tobago",TTO
+Latin America,"Turks and Caicos Islands",TCA
+Latin America,Uruguay,URY
+Latin America,"Venezuela, RB",VEN
+Latin America,"Virgin Islands (U.S.)",VIR
+Asia,Guam,GUM
+"Middle East and Africa",Algeria,DZA
+"Middle East and Africa",Angola,AGO
+"Middle East and Africa",Bahrain,BHR
+"Middle East and Africa",Benin,BEN
+"Middle East and Africa",Botswana,BWA
+"Middle East and Africa","Burkina Faso",BFA
+"Middle East and Africa",Burundi,BDI
+"Middle East and Africa","Cabo Verde",CPV
+"Middle East and Africa",Cameroon,CMR
+"Middle East and Africa","Central African Republic",CAF
+"Middle East and Africa",Chad,TCD
+"Middle East and Africa",Comoros,COM
+"Middle East and Africa","Congo, Dem. Rep.",COD
+"Middle East and Africa","Congo, Rep.",COG
+"Middle East and Africa","Cote d'Ivoire",CIV
+"Middle East and Africa",Djibouti,DJI
+"Middle East and Africa","Egypt, Arab Rep.",EGY
+"Middle East and Africa","Equatorial Guinea",GNQ
+"Middle East and Africa",Eritrea,ERI
+"Middle East and Africa",Eswatini,SWZ
+"Middle East and Africa",Ethiopia,ETH
+"Middle East and Africa",Gabon,GAB
+"Middle East and Africa","Gambia, The",GMB
+"Middle East and Africa",Ghana,GHA
+"Middle East and Africa",Guinea,GIN
+"Middle East and Africa","Guinea-Bissau",GNB
+"Middle East and Africa","Iran, Islamic Rep.",IRN
+"Middle East and Africa",Iraq,IRQ
+"Middle East and Africa",Jordan,JOR
+"Middle East and Africa",Kenya,KEN
+"Middle East and Africa",Kuwait,KWT
+"Middle East and Africa",Lebanon,LBN
+"Middle East and Africa",Lesotho,LSO
+"Middle East and Africa",Liberia,LBR
+"Middle East and Africa",Libya,LBY
+"Middle East and Africa",Madagascar,MDG
+"Middle East and Africa",Malawi,MWI
+"Middle East and Africa",Mali,MLI
+"Middle East and Africa",Mauritania,MRT
+"Middle East and Africa",Mauritius,MUS
+"Middle East and Africa",Morocco,MAR
+"Middle East and Africa",Mozambique,MOZ
+"Middle East and Africa",Namibia,NAM
+"Middle East and Africa",Niger,NER
+"Middle East and Africa",Nigeria,NGA
+"Middle East and Africa",Oman,OMN
+"Middle East and Africa",Qatar,QAT
+"Middle East and Africa",Rwanda,RWA
+"Middle East and Africa","Saudi Arabia",SAU
+"Middle East and Africa",Senegal,SEN
+"Middle East and Africa",Seychelles,SYC
+"Middle East and Africa","Sierra Leone",SLE
+"Middle East and Africa",Somalia,SOM
+"Middle East and Africa",Sudan,SDN
+"Middle East and Africa","South Africa",ZAF
+"Middle East and Africa","South Sudan",SSD
+"Middle East and Africa","Syrian Arab Republic",SYR
+"Middle East and Africa",Tanzania,TZA
+"Middle East and Africa",Togo,TGO
+"Middle East and Africa",Tunisia,TUN
+"Middle East and Africa",Uganda,UGA
+"Middle East and Africa","United Arab Emirates",ARE
+"Middle East and Africa","West Bank and Gaza",PSX
+"Middle East and Africa","Yemen, Rep.",YEM
+"Middle East and Africa",Zambia,ZMB
+"Middle East and Africa",Zimbabwe,ZWE
+"OECD Countries",Australia,AUS
+"OECD Countries",Austria,AUT
+"OECD Countries",Belgium,BEL
+"OECD Countries",Canada,CAN
+"OECD Countries",Chile,CHL
+"OECD Countries",Colombia,COL
+"OECD Countries","Costa Rica",CRI
+"OECD Countries","Czech Republic",CZE
+"OECD Countries",Denmark,DNK
+"OECD Countries",Estonia,EST
+"OECD Countries",Finland,FIN
+"OECD Countries",France,FRA
+"OECD Countries",Germany,DEU
+"OECD Countries",Greece,GRC
+"OECD Countries",Hungary,HUN
+"OECD Countries",Iceland,ISL
+"OECD Countries",Ireland,IRL
+"OECD Countries",Israel,ISR
+"OECD Countries",Italy,ITA
+"OECD Countries",Japan,JPN
+"OECD Countries","Korea, Rep.",KOR
+"OECD Countries",Latvia,LVA
+"OECD Countries",Lithuania,LTU
+"OECD Countries",Luxembourg,LUX
+"OECD Countries",Mexico,MEX
+"OECD Countries",Netherlands,NLD
+"OECD Countries","New Zealand",NZL
+"OECD Countries",Norway,NOR
+"OECD Countries",Poland,POL
+"OECD Countries",Portugal,PRT
+"OECD Countries","Slovak Republic",SVK
+"OECD Countries",Slovenia,SVN
+"OECD Countries",Spain,ESP
+"OECD Countries",Sweden,SWE
+"OECD Countries",Switzerland,CHE
+"OECD Countries",Turkey,TUR
+"OECD Countries","United Kingdom",GBR
+"OECD Countries","United States",USA
+"OECD Countries",Andorra,AND
+"OECD Countries","Channel Islands",CHI
+"OECD Countries",Cyprus,CYP
+"OECD Countries",Gibraltar,GIB
+"OECD Countries",Greenland,GRL
+"OECD Countries","Isle of Man",IMN
+"OECD Countries",Kosovo,XKX
+"OECD Countries",Liechtenstein,LIE
+"OECD Countries",Malta,MLT
+"OECD Countries",Monaco,MCO
+"OECD Countries",Montenegro,MNE
+"OECD Countries","North Macedonia",MKD
+"OECD Countries","San Marino",SMR
+"OECD Countries",Serbia,SRB
+"Russia and Central Asia",Kazakhstan,KAZ
+"Russia and Central Asia","Kyrgyz Republic",KGZ
+"Russia and Central Asia","Russian Federation",RUS
+"Russia and Central Asia",Tajikistan,TJK
+"Russia and Central Asia",Turkmenistan,TKM
+"Russia and Central Asia",Uzbekistan,UZB

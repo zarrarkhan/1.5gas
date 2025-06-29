@@ -71,7 +71,7 @@ Each step is modular and reproducible. Intermediate outputs are saved to CSVs fo
 | 3    | `step3_standardize_timeseries.py`| `step2_electricity_long.csv`                                          | `step3_standardized.csv`, `step3_modified_scenarios.csv`                                                    | Ensure all scenarios have complete 2010–2100 data using linear interpolation |
 | 4    | `step4_calculate_indicators.py` | `step3_standardized.csv`                                              | `step4_metrics.csv`                                                                                          | Calculate summary indicators like gas share and trend     |
 | 5    | `step5_aggregate_outputs.py`    | `step4_metrics.csv`                                                   | `step5_region_summary.json`, `step5_benchmark_stats.json`, `step5_scenario_gas_stats.csv`                   | Compute regional summaries and benchmarks                 |
-| 6    | `step6_export_json.py`          | All `.csv`/`.json` from above, `country_region_map.csv`                        | `step6_scenario_timeseries.json`, `step6_scenario_table.json`, `step6_map_data.json`, `step6_country_region_map.json` | Export dashboard-ready JSONs                             |
+| 6 | `step6_export_json.py` | Uses outputs from Step 5 | `step6_scenario_table.json`, `step6_country_region_map.json` | Export dashboard-ready JSONs                             |
 
 <div align="right">
   <a href="#table-of-contents">
@@ -81,14 +81,16 @@ Each step is modular and reproducible. Intermediate outputs are saved to CSVs fo
 
 ### Final Dashboard Inputs Generated
 ---
-| File                          | Description                                                                 |
-|-------------------------------|-----------------------------------------------------------------------------|
-| `scenario_timeseries.json`    | Time series of gas share and gen by scenario/region                         |
-| `region_summary.json`         | Avg % drop and gas share by region                                          |
-| `benchmark_stats.json`        | 2030 gas share and exit year benchmarks                                     |
-| `scenario_table.json`         | Scenario-wise comparison table                                              |
-| `map_data.json`               | Regional reductions for maps                                                |
-| `country_region_map.json`     | Country-to-region mapping (from `country_region_map.csv`) for visualizations |
+| File                              | Description                                                                 |
+|-----------------------------------|-----------------------------------------------------------------------------|
+| `step5_scenario_gas_stats.csv`    | Scenario-by-region indicators: gas in 2020/2030, % drop, 2030 gas share     |
+| `step5_region_summary.json`       | Median % drop and gas share by region and scenario type                     |
+| `step5_benchmark_stats.json`      | Min/median/max gas share and drop stats by region and type                  |
+| `step5_gas_share_summary.json`    | Median + IQR gas share trajectories over time (by region and type)          |
+| `step5_gas_share_paths.json`      | Gas share time series per model/scenario/region/type                        |
+| `step5_gas_timeseries_summary.json`| Absolute gas generation (EJ) medians and reduction % over time              |
+| `step6_scenario_table.json`       | Flat table version of key metrics for frontend download or display          |
+| `step6_country_region_map.json`   | Mapping from country → region (for map overlays)                            |
 
 
 <div align="right">

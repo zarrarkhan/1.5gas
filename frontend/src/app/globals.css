@@ -3,6 +3,8 @@
 /* === ADB ESS Index Palette - Semantic Naming === */
 :root {
   /* Role-based color tokens */
+  --color-gold-muted: #bfa76f;       /* A soft bronze/goldenrod tone */
+  --color-gold-muted-hover: #d4bd87; /* Slightly brighter for hover/active */
   --color-background-nav-dark: rgba(26, 32, 44, 0.9); /* A dark, semi-transparent color based on your text color */
   --color-primary: #005A9C;         /* Main brand blue for actions & highlights */
   --color-primary-dark: #004C80;    /* Darker blue for primary hover states */

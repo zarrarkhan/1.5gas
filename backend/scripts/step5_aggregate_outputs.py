@@ -4,10 +4,15 @@ import json
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.offsetbox import AnchoredText
+import math # For ceil and sqrt
 
 def main():
-    # Load data
+    # Paths
     path = "backend/public_data/"
+    # IMPORTANT: Changed output filename to reflect multiple regions
+    output_plot_path = f"{path}step5_diagnostic1_gas_share_timeseries_all_regions.png"
+
+    # Load data
     df = pd.read_csv(f"{path}step3_standardized.csv")
     df_type = pd.read_csv(f"{path}step1_scenario_type.csv")
     df_type.rename(columns={"BECCS_Type": "Scenario_Type"}, inplace=True)
@@ -18,7 +23,7 @@ def main():
     gas = df[df["Variable_standardized"] == "Electricity|Gas"]
     total = df[df["Variable_standardized"] == "Electricity"]
 
-    # 2020 & 2030 data
+    # 2020 & 2030 data (Region column is correctly maintained here)
     gas_2020 = gas[gas["Year"] == 2020][["Scenario_ID", "Region", "Value"]].rename(columns={"Value": "Gas_2020"})
     gas_2030 = gas[gas["Year"] == 2030][["Scenario_ID", "Region", "Value", "Scenario_Type"]].rename(columns={"Value": "Gas_2030"})
     total_2030 = total[total["Year"] == 2030][["Scenario_ID", "Region", "Value"]].rename(columns={"Value": "Total_2030"})
@@ -30,7 +35,9 @@ def main():
     merged["Pct_Drop"] = 100 * (merged["Gas_2020"] - merged["Gas_2030"]) / merged["Gas_2020"]
     merged["Gas_Share_2030"] = 100 * merged["Gas_2030"] / merged["Total_2030"]
 
-    def summarize(group, col):
+    # --- Benchmark stats JSON (step5_benchmark_stats.json) ---
+    # Group by Scenario_Type AND Region, then summarize
+    def summarize_by_group(group, col):
         return {
             "min": group[col].min(),
             "mean": group[col].mean(),
@@ -38,21 +45,25 @@ def main():
             "max": group[col].max()
         }
 
-    result = {}
-    for scenario_type, group in merged.groupby("Scenario_Type"):
-        result[scenario_type] = {
-            "gas_2030_ej": summarize(group, "Gas_2030"),
-            "pct_drop_2020_2030": summarize(group, "Pct_Drop"),
-            "gas_share_2030_pct": summarize(group, "Gas_Share_2030")
+    # Initialize a nested dictionary for scenario_type -> region -> metrics
+    result_by_region = {}
+    for (scenario_type, region), group in merged.groupby(["Scenario_Type", "Region"]):
+        if scenario_type not in result_by_region:
+            result_by_region[scenario_type] = {}
+        result_by_region[scenario_type][region] = {
+            "gas_2030_ej": summarize_by_group(group, "Gas_2030"),
+            "pct_drop_2020_2030": summarize_by_group(group, "Pct_Drop"),
+            "gas_share_2030_pct": summarize_by_group(group, "Gas_Share_2030")
         }
 
     with open(f"{path}step5_benchmark_stats.json", "w") as f:
-        json.dump(result, f, indent=2)
+        json.dump(result_by_region, f, indent=2)
 
+    # This part is already good: merged_out retains Region column
     merged_out = merged[[ "Scenario_ID", "Region", "Scenario_Type", "Gas_2020", "Gas_2030", "Total_2030", "Pct_Drop", "Gas_Share_2030" ]]
     merged_out.to_csv(f"{path}step5_scenario_gas_stats.csv", index=False)
 
-    # Region-level summary for map (Low/High-BECCS comparison)
+    # This part is already good: map_summary explicitly groups by Region
     map_summary = merged.groupby(["Region", "Scenario_Type"]).agg({
         "Pct_Drop": "median",             # Median % drop from 2020 to 2030
         "Gas_Share_2030": "median"        # Median gas share in 2030
@@ -74,85 +85,249 @@ def main():
     with open(f"{path}step5_region_summary.json", "w") as f:
         json.dump(region_data, f, indent=2)
 
-    # Time series plotting
+    # Prepare data for time series, still retaining ALL Regions
     df_filtered = df[df["Variable_standardized"].isin(["Electricity", "Electricity|Gas"])]
     df_pivot = df_filtered.pivot_table(
         index=["Scenario_ID", "Region", "Year", "Scenario_Type"],
-        columns="Variable_standardized",
+        columns="Variable_standardized", # This pivots 'Variable_standardized' values to columns
         values="Value"
     ).reset_index()
     df_pivot = df_pivot[df_pivot["Electricity"] > 0]
-    df_pivot["Gas_Share"] = 100 * df_pivot["Electricity|Gas"] / df_pivot["Electricity"]
+    # Ensure 'Electricity|Gas' column exists before creating 'Gas_Share'
+    if 'Electricity|Gas' in df_pivot.columns:
+        df_pivot["Gas_Share"] = 100 * df_pivot["Electricity|Gas"] / df_pivot["Electricity"]
+    else:
+        # Handle cases where 'Electricity|Gas' might not be present for some Scenario_ID/Region combinations
+        df_pivot["Gas_Share"] = float('nan') # Set to NaN if 'Electricity|Gas' column is missing
+
     df_pivot = df_pivot[df_pivot["Gas_Share"].notna()]
 
-    # Medians at 2030
-    gas_share_2030 = df_pivot[df_pivot["Year"] == 2030]
-    low_beccs_median = gas_share_2030[gas_share_2030["Scenario_Type"] == "Low-BECCS"]["Gas_Share"].median()
-    high_beccs_median = gas_share_2030[gas_share_2030["Scenario_Type"] == "High-BECCS"]["Gas_Share"].median()
 
-    plt.figure(figsize=(14, 7))
-    colors = {"Low-BECCS": "blue", "High-BECCS": "red"}
+    # --- Absolute Gas EJ Time Series (step5_gas_timeseries_summary.json) ---
+    ej_result = {}
+    gas_data_all_regions = df_pivot.copy() # Contains 'Electricity|Gas' column directly
 
     for scenario_type in ["Low-BECCS", "High-BECCS"]:
-        subset = df_pivot[df_pivot["Scenario_Type"] == scenario_type]
+        ej_result[scenario_type] = {} # Nested dictionary for regions
+        subset_stype = gas_data_all_regions[gas_data_all_regions["Scenario_Type"] == scenario_type]
 
-        # Faint scenario lines
-        for (sid, region), group in subset.groupby(["Scenario_ID", "Region"]):
-            plt.plot(group["Year"], group["Gas_Share"], color=colors[scenario_type], alpha=0.05, linewidth=0.5)
+        for region_val, group_region in subset_stype.groupby("Region"): # Group by region first
+            grouped = group_region.groupby("Year")["Electricity|Gas"] # Use the pivoted column name
+            median = grouped.median()
+            q25 = grouped.quantile(0.25)
+            q75 = grouped.quantile(0.75)
 
-        grouped = subset.groupby("Year")["Gas_Share"]
-        median = grouped.median()
-        q25 = grouped.quantile(0.25)
-        q75 = grouped.quantile(0.75)
+            ej_result[scenario_type][region_val] = { # Store under region key
+                "yearly": [
+                    {
+                        "year": int(year),
+                        "q25": round(q25[year], 2),
+                        "median": round(median[year], 2),
+                        "q75": round(q75[year], 2),
+                    }
+                    for year in median.index
+                ],
+                "benchmark": round(median.loc[2030], 2) if 2030 in median.index else None,
+                "ref_2020": round(median.loc[2020], 2) if 2020 in median.index else None,
+                "reduction_pct": (
+                    round(100 * (median.loc[2020] - median.loc[2030]) / median.loc[2020], 1)
+                    if 2020 in median.index and 2030 in median.index and median.loc[2020] != 0
+                    else None
+                )
+            }
 
-        # Shaded band
-        plt.fill_between(median.index, q25, q75, color=colors[scenario_type], alpha=0.2)
+    with open(f"{path}step5_gas_timeseries_summary.json", "w") as f:
+        json.dump(ej_result, f, indent=2)
 
-        # Median line
-        plt.plot(median.index, median.values, color=colors[scenario_type], linewidth=2.5, label=f"{scenario_type} Median")
+    # --- Gas Share Summary (step5_gas_share_summary.json) ---
+    result_json = {}
+    for scenario_type in ["Low-BECCS", "High-BECCS"]:
+        result_json[scenario_type] = {} # Nested dictionary for regions
+        subset_stype = df_pivot[df_pivot["Scenario_Type"] == scenario_type]
 
-        # Annotate cross point
-        cross_val = low_beccs_median if scenario_type == "Low-BECCS" else high_beccs_median
-        cross_year = median[median <= cross_val].index.min()
-        if pd.notna(cross_year):
-        # High-BECCS should be higher (smaller offset)
-            y_offset = 7 if scenario_type == "High-BECCS" else -7
-            plt.annotate(
-                f"{scenario_type} crosses 2030 median ({cross_val:.1f}%)",
-                xy=(cross_year, median.loc[cross_year]),
-                xytext=(cross_year + 4, median.loc[cross_year] + y_offset),
-                arrowprops=dict(arrowstyle="->", lw=1.2, color=colors[scenario_type]),
-                fontsize=9,
-                color=colors[scenario_type],
-                bbox=dict(boxstyle="round,pad=0.3", fc="white", alpha=0.8, edgecolor=colors[scenario_type])
-            )
+        for region_val, group_region in subset_stype.groupby("Region"): # Group by region first
+            grouped = group_region.groupby("Year")["Gas_Share"] # This is correct as Gas_Share is a new column
+            median = grouped.median()
+            q25 = grouped.quantile(0.25)
+            q75 = grouped.quantile(0.75)
 
-    # Benchmark lines
-    plt.axvline(2030, color="black", linestyle="--", linewidth=2)
-    plt.axhline(low_beccs_median, color="blue", linestyle="--", linewidth=1.2, label=f"Low-BECCS 2030 Median ({low_beccs_median:.1f}%)")
-    plt.axhline(high_beccs_median, color="red", linestyle="--", linewidth=1.2, label=f"High-BECCS 2030 Median ({high_beccs_median:.1f}%)")
+            cross_val = median.loc[2030] if 2030 in median.index else None
+            cross_year = median[median <= cross_val].index.min() if cross_val is not None else None
 
-    # Legend and IQR explanation
-    plt.legend(loc="upper right")
+            result_json[scenario_type][region_val] = { # Store under region key
+                "yearly": [
+                    {
+                        "year": int(y),
+                        "q25": round(q25[y], 2),
+                        "median": round(median[y], 2),
+                        "q75": round(q75[y], 2),
+                    }
+                    for y in median.index
+                ],
+                "benchmark": round(cross_val, 2) if cross_val is not None else None,
+                "crossYear": int(cross_year) if pd.notna(cross_year) and cross_year is not None else None
+            }
 
-    # Add IQR annotation manually at ~70% height and aligned right
-    plt.gca().text(
-        0.99, 0.8,  # x=1.0 aligns with right edge; y=0.72 is ~70% up
-        "Shaded area = Interquartile Range (25th–75th percentile)\nacross scenario pathways",
+    # Save to JSON
+    with open(f"{path}step5_gas_share_summary.json", "w") as f:
+        json.dump(result_json, f, indent=2)
+
+    # This part (raw_paths) is already good, it explicitly includes Region
+    raw_paths = []
+    for (sid, region, stype), group in df_pivot.groupby(["Scenario_ID", "Region", "Scenario_Type"]):
+    # Attempt to split Scenario_ID into model and scenario parts
+        if " - " in sid:
+            model, scenario_name = sid.split(" - ", 1)
+        else:
+            model = "Unknown"
+            scenario_name = sid
+
+        raw_paths.append({
+            "model": model,
+            "scenario": scenario_name,
+            "region": region,
+            "type": stype,
+            "values": [
+                {"year": int(row["Year"]), "value": round(row["Gas_Share"], 2)}
+                for _, row in group.iterrows()
+            ]
+        })
+    with open(f"{path}step5_gas_share_paths.json", "w") as f:
+        json.dump(raw_paths, f, indent=2)
+
+    # --- Time series plotting for ALL Regions (Multiple Plots) ---
+
+    all_regions = sorted(df_pivot["Region"].unique())
+    if "World" in all_regions:
+        all_regions.remove("World")
+        all_regions.insert(0, "World")
+    num_regions = len(all_regions)
+
+    # Determine grid size for subplots
+    cols = 3 # Let's aim for 3 columns per row
+    rows = math.ceil(num_regions / cols)
+
+    # Determine consistent Y-axis limits across all regions
+    # Using a fixed range (0-80%) as per previous discussions to ensure comparability.
+    y_min_global = 0
+    y_max_global = 80
+
+    # Determine consistent X-axis limits
+    x_min_global = df_pivot["Year"].min()
+    x_max_global = df_pivot["Year"].max()
+
+    fig, axs = plt.subplots(rows, cols, figsize=(cols * 6, rows * 5), sharex=True, sharey=True) # sharex/sharey ensures consistent scales
+    axs = axs.flatten() # Flatten the 2D array of axes for easy iteration
+
+    colors = {"Low-BECCS": "blue", "High-BECCS": "red"}
+
+    # Use this to extract handles and labels just once for a single legend
+    legend_handles, legend_labels = [], []
+    collected_labels = set()
+
+    for i, region_to_plot in enumerate(all_regions):
+        ax = axs[i] # Get the current subplot axis
+
+        # Filter data for the current region
+        df_region_plot = df_pivot[df_pivot["Region"] == region_to_plot].copy()
+
+        # Medians at 2030 for the CURRENT region
+        gas_share_2030_region = df_region_plot[df_region_plot["Year"] == 2030]
+        low_beccs_median_region = gas_share_2030_region[gas_share_2030_region["Scenario_Type"] == "Low-BECCS"]["Gas_Share"].median()
+        high_beccs_median_region = gas_share_2030_region[gas_share_2030_region["Scenario_Type"] == "High-BECCS"]["Gas_Share"].median()
+
+        for scenario_type in ["Low-BECCS", "High-BECCS"]:
+            subset_plot_stype = df_region_plot[df_region_plot["Scenario_Type"] == scenario_type].copy()
+
+            # Faint scenario lines for the current region
+            for sid_val in subset_plot_stype["Scenario_ID"].unique():
+                 scenario_group = subset_plot_stype[subset_plot_stype["Scenario_ID"] == sid_val]
+                 ax.plot(scenario_group["Year"], scenario_group["Gas_Share"],
+                         color=colors[scenario_type], alpha=0.05, linewidth=0.5, zorder=1) # zorder to keep lines behind median
+
+            # Group by year for median/IQR bands for the current region
+            grouped_region_plot = subset_plot_stype.groupby("Year")["Gas_Share"]
+            median_region_plot = grouped_region_plot.median()
+            q25_region_plot = grouped_region_plot.quantile(0.25)
+            q75_region_plot = grouped_region_plot.quantile(0.75)
+
+            # Shaded band
+            ax.fill_between(median_region_plot.index, q25_region_plot, q75_region_plot,
+                            color=colors[scenario_type], alpha=0.2, zorder=2)
+
+            # Median line - collect handles for the main legend
+            line, = ax.plot(median_region_plot.index, median_region_plot.values,
+                color=colors[scenario_type], linewidth=2.5, zorder=3)
+
+            # Annotate cross point (using current region's median)
+            cross_val = low_beccs_median_region if scenario_type == "Low-BECCS" else high_beccs_median_region
+
+            if pd.notna(cross_val) and 2030 in median_region_plot.index:
+                y_offset = 7 if scenario_type == "High-BECCS" else -7
+                ax.annotate(
+                    f"{cross_val:.1f}%",
+                    xy=(2030, cross_val),
+                    xytext=(2030 + 4, cross_val + y_offset),
+                    arrowprops=dict(arrowstyle="->", lw=1.2, color=colors[scenario_type]),
+                    fontsize=8,
+                    color=colors[scenario_type],
+                    bbox=dict(boxstyle="round,pad=0.2", fc="white", alpha=0.8, edgecolor=colors[scenario_type])
+                )
+
+        # Benchmark lines - using current region's medians
+        ax.axvline(2030, color="black", linestyle="--", linewidth=1.5, zorder=0) # Make it thinner
+        
+        # Collect benchmark line handles/labels only once for the overall legend
+        if low_beccs_median_region is not None:
+            label_text = f"Low-BECCS 2030 Median ({low_beccs_median_region:.1f}%)"
+            if label_text not in collected_labels:
+                collected_labels.add(label_text)
+            ax.axhline(low_beccs_median_region, color="blue", linestyle="--", linewidth=1.2, zorder=0)
+
+        if high_beccs_median_region is not None:
+            label_text = f"High-BECCS 2030 Median ({high_beccs_median_region:.1f}%)"
+            if label_text not in collected_labels:
+                collected_labels.add(label_text)
+            ax.axhline(high_beccs_median_region, color="red", linestyle="--", linewidth=1.2, zorder=0)
+
+
+        ax.set_title(f"{region_to_plot}", fontsize=12)
+        ax.set_xlabel("Year", fontsize=10)
+        ax.set_ylabel("Gas Share (%)", fontsize=10)
+        ax.grid(True, linestyle=':', alpha=0.7)
+        ax.set_ylim(y_min_global, y_max_global) # Apply consistent Y limits
+        ax.set_xlim(x_min_global, x_max_global) # Apply consistent X limits
+
+
+    # Hide any unused subplots if the number of regions doesn't perfectly fill the grid
+    for j in range(i + 1, len(axs)):
+        fig.delaxes(axs[j])
+
+    # Define dummy lines just once for legend
+    from matplotlib.lines import Line2D
+
+    legend_handles = [
+        Line2D([0], [0], color="blue", linewidth=2.5, label="Low-BECCS Median"),
+        Line2D([0], [0], color="red", linewidth=2.5, label="High-BECCS Median")
+    ]
+    legend_labels = ["Low-BECCS Median", "High-BECCS Median"]   
+
+    # Add a single overall legend at the bottom
+    fig.legend(
+        handles=legend_handles,
+        loc="lower center",
+        bbox_to_anchor=(0.5, 0.01),  # Moved up from -0.05 to be visible
+        ncol=2,                      # Only 2 labels now
+        title="Scenario Type",
         fontsize=9,
-        ha="right",
-        va="top",
-        transform=plt.gca().transAxes,  # <- THIS is key for axes alignment
-        bbox=dict(boxstyle="round,pad=0.4", facecolor="white", edgecolor="gray", alpha=0.85)
+        title_fontsize=10
     )
 
-    plt.title("Gas Share in Electricity Over Time by Scenario Type", fontsize=14)
-    plt.xlabel("Year")
-    plt.ylabel("Gas Share (%)")
-    plt.ylim(0, 80)
-    plt.grid(True)
-    plt.tight_layout()
-    plt.savefig(f"{path}step5_diagnostic1_gas_share_timeseries.png", dpi=150)
+    # Add overall title
+    plt.suptitle("Gas Share in Electricity Over Time by Scenario Type Across Regions", fontsize=16, y=0.98) # Adjust y for suptitle
+
+    plt.tight_layout(rect=[0, 0.08, 1, 0.95]) # Adjust rect to make space for the overall legend and title
+    plt.savefig(output_plot_path, dpi=150)
     plt.close()
 
 if __name__ == "__main__":
